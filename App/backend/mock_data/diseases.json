@@ -64,5 +64,2095 @@
         "causes": "Vi khuẩn liên cầu,Virus,Thay đổi thời tiết,Hít khói bụi,Trào ngược dạ dày",
         "diagnosis": "Khám họng,Cấy dịch họng,Test nhanh liên cầu,Xét nghiệm máu",
         "treatment": "Kháng sinh nếu do vi khuẩn,Thuốc giảm đau,Súc họng,Nghỉ ngơi"
+    },
+    {
+        "name": "Viêm phế quản",
+        "group_name": "Hô hấp",
+        "risk_level": "medium",
+        "icon": "🫁",
+        "description": "Viêm niêm mạc phế quản cấp hoặc mạn tính, gây ho và khạc đờm kéo dài",
+        "symptoms": "Ho có đờm,Khó thở,Sốt nhẹ,Đau ngực,Mệt mỏi,Thở khò khè",
+        "causes": "Virus,Vi khuẩn,Khói thuốc,Ô nhiễm không khí,Trào ngược dạ dày",
+        "diagnosis": "Nghe phổi,X-quang phổi,Cấy đờm,CT ngực",
+        "treatment": "Thuốc giãn phế quản,Thuốc long đờm,Kháng sinh nếu nhiễm khuẩn,Vật lý trị liệu hô hấp"
+    },
+    {
+        "name": "Viêm phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Nhiễm trùng nhu mô phổi do vi khuẩn, virus hoặc nấm, có thể đe dọa tính mạng",
+        "symptoms": "Sốt cao,Ho có đờm,Khó thở,Đau ngực,Ớn lạnh,Mệt lả",
+        "causes": "Phế cầu khuẩn,Virus cúm,Nấm,Hít sặc,COVID-19,Suy giảm miễn dịch",
+        "diagnosis": "X-quang phổi,CT ngực,Cấy đờm,Xét nghiệm máu,PCR",
+        "treatment": "Kháng sinh,Thuốc kháng virus,Thở oxy,Thuốc hạ sốt,Nghỉ ngơi tuyệt đối"
+    },
+    {
+        "name": "Viêm xoang",
+        "group_name": "Hô hấp",
+        "risk_level": "low",
+        "icon": "😤",
+        "description": "Viêm niêm mạc các xoang cạnh mũi do nhiễm trùng hoặc dị ứng, gây đau nhức vùng mặt",
+        "symptoms": "Nghẹt mũi,Chảy mũi,Đau nhức vùng mặt,Nhức đầu,Sốt nhẹ,Giảm khứu giác",
+        "causes": "Nhiễm virus,Vi khuẩn,Dị ứng,Vẹo vách ngăn,Polyp mũi",
+        "diagnosis": "Nội soi mũi xoang,CT scan xoang,X-quang xoang,Cấy dịch mũi",
+        "treatment": "Thuốc xịt mũi corticosteroid,Thuốc kháng histamin,Kháng sinh,Rửa xoang,Phẫu thuật nội soi"
+    },
+    {
+        "name": "Viêm amidan",
+        "group_name": "Hô hấp",
+        "risk_level": "low",
+        "icon": "👄",
+        "description": "Viêm nhiễm amidan khẩu cái do virus hoặc vi khuẩn, thường gặp ở trẻ em",
+        "symptoms": "Đau họng,Amidan sưng đỏ,Sốt cao,Khó nuốt,Hôi miệng,Giọng mũi",
+        "causes": "Liên cầu khuẩn nhóm A,Virus Epstein-Barr,Virus cúm,Suy giảm miễn dịch",
+        "diagnosis": "Khám họng,Test nhanh liên cầu,Cấy dịch họng,Công thức máu",
+        "treatment": "Kháng sinh,Thuốc giảm đau,Chống viêm,Cắt amidan nếu tái phát nhiều"
+    },
+    {
+        "name": "Lao phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm trùng phổi mạn tính do trực khuẩn Mycobacterium tuberculosis gây ra",
+        "symptoms": "Ho kéo dài trên 3 tuần,Sốt về chiều,Ra mồ hôi đêm,Giảm cân,Ho ra máu,Đau ngực",
+        "causes": "Mycobacterium tuberculosis,Lây qua không khí,Sống trong môi trường đông đúc,Suy giảm miễn dịch",
+        "diagnosis": "X-quang phổi,AFB soi đờm,MTB PCR,Cấy đờm,Mantoux",
+        "treatment": "Phác đồ kháng lao 6 tháng (RIPE),Tuân thủ điều trị nghiêm ngặt,Cách ly giai đoạn đầu"
+    },
+    {
+        "name": "Trào ngược dạ dày thực quản",
+        "group_name": "Hô hấp",
+        "risk_level": "medium",
+        "icon": "🔥",
+        "description": "Dịch dạ dày trào ngược lên thực quản gây tổn thương niêm mạc và triệu chứng hô hấp",
+        "symptoms": "Ợ nóng,Ho mạn tính,Đau rát sau xương ức,Khàn tiếng,Nuốt nghẹn,Viêm họng",
+        "causes": "Yếu cơ thắt thực quản dưới,Thoát vị hoành,Béo phì,Thai kỳ,Thức ăn cay nóng",
+        "diagnosis": "Nội soi thực quản,Đo pH thực quản 24h,Chụp X-quang thực quản cản quang",
+        "treatment": "Thuốc ức chế bơm proton,Thuốc kháng acid,Thay đổi chế độ ăn,Nâng cao đầu giường"
+    },
+    {
+        "name": "Viêm thanh quản",
+        "group_name": "Hô hấp",
+        "risk_level": "low",
+        "icon": "🗣️",
+        "description": "Viêm niêm mạc thanh quản do nhiễm trùng, lạm dụng giọng nói hoặc tác nhân kích thích",
+        "symptoms": "Khàn tiếng,Mất giọng,Ho khan,Đau họng,Khó nuốt,Sốt nhẹ",
+        "causes": "Virus cúm,Nói nhiều,Hét to,Khói thuốc,Trào ngược dạ dày,Dị ứng",
+        "diagnosis": "Nội soi thanh quản,Khám lâm sàng,Xét nghiệm máu",
+        "treatment": "Nghỉ giọng nói,Uống nhiều nước ấm,Thuốc chống viêm,Xông hơi"
+    },
+    {
+        "name": "Giãn phế quản",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Giãn nở bất thường vĩnh viễn của phế quản do tổn thương thành phế quản mạn tính",
+        "symptoms": "Ho có đờm nhiều,Đờm mủ hôi,Khó thở,Ho ra máu,Nhiễm trùng tái phát,Mệt mỏi",
+        "causes": "Nhiễm trùng phổi nặng,Xơ nang,Suy giảm miễn dịch,Tắc phế quản,Dị vật đường thở",
+        "diagnosis": "CT ngực độ phân giải cao,X-quang phổi,Cấy đờm,Đo chức năng hô hấp",
+        "treatment": "Vật lý trị liệu hô hấp,Kháng sinh đợt nhiễm trùng,Thuốc giãn phế quản,Phẫu thuật cắt bỏ"
+    },
+    {
+        "name": "COPD",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Bệnh phổi tắc nghẽn mạn tính gây hạn chế luồng khí không hồi phục hoàn toàn",
+        "symptoms": "Khó thở khi gắng sức,Ho mạn tính,Đờm nhiều,Khò khè,Mệt mỏi,Sụt cân",
+        "causes": "Hút thuốc lá,Khói bụi nghề nghiệp,Ô nhiễm không khí,Thiếu alpha-1 antitrypsin",
+        "diagnosis": "Đo chức năng hô hấp (FEV1/FVC < 0.7),X-quang phổi,CT ngực,Khí máu động mạch",
+        "treatment": "Cai thuốc lá,Thuốc giãn phế quản,Corticoid hít,Liệu pháp oxy,Phục hồi chức năng phổi"
+    },
+    {
+        "name": "Viêm tiểu phế quản",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Viêm các tiểu phế quản nhỏ, thường gặp ở trẻ em dưới 2 tuổi do virus hợp bào hô hấp",
+        "symptoms": "Ho,Thở nhanh,Khó thở,Thở khò khè,Bú kém,Sốt nhẹ,Tím tái",
+        "causes": "Virus hợp bào hô hấp (RSV),Virus cúm,Virus á cúm,Môi trường ô nhiễm,Trẻ sinh non",
+        "diagnosis": "Khám lâm sàng,Test RSV,X-quang phổi,Đo bão hòa oxy",
+        "treatment": "Hỗ trợ hô hấp,Vật lý trị liệu hô hấp,Thuốc giãn phế quản,Dịch truyền,Nằm đầu cao"
+    },
+    {
+        "name": "Ngưng thở khi ngủ",
+        "group_name": "Hô hấp",
+        "risk_level": "medium",
+        "icon": "😴",
+        "description": "Rối loạn hô hấp liên quan đến giấc ngủ với các cơn ngưng thở lặp đi lặp lại",
+        "symptoms": "Ngủ ngáy to,Ngưng thở khi ngủ,Mệt mỏi ban ngày,Nhức đầu sáng,Giảm tập trung,Khô miệng",
+        "causes": "Béo phì,Cấu trúc hầu họng hẹp,Amidan lớn,Di truyền,Nam giới,Tuổi cao",
+        "diagnosis": "Đa ký giấc ngủ (Polysomnography),Chỉ số AHI,Đo SpO2 ban đêm",
+        "treatment": "CPAP,BIPAP,Giảm cân,Ngủ nghiêng,Dụng cụ miệng,Phẫu thuật hầu họng"
+    },
+    {
+        "name": "Tăng áp phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Tăng áp lực động mạch phổi bất thường gây suy tim phải và hạn chế khả năng gắng sức",
+        "symptoms": "Khó thở tiến triển,Mệt mỏi,Đau ngực,Ngất,Phù chân,Đánh trống ngực",
+        "causes": "Bệnh mô liên kết,Shunt tim bẩm sinh,Tăng áp phổi vô căn,Bệnh phổi mạn,HIV",
+        "diagnosis": "Siêu âm tim,Thông tim phải,X-quang phổi,CT ngực,Xét nghiệm máu",
+        "treatment": "Thuốc giãn mạch phổi,Oxy liệu pháp,Lợi tiểu,Thuốc chống đông,Ghép phổi"
+    },
+    {
+        "name": "Thuyên tắc phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Cục máu đông từ tĩnh mạch sâu di chuyển lên và bít động mạch phổi, cấp cứu đe dọa tính mạng",
+        "symptoms": "Khó thở đột ngột,Đau ngực dữ dội,Ho ra máu,Ngất,Nhịp tim nhanh,Tím môi",
+        "causes": "Huyết khối tĩnh mạch sâu,Phẫu thuật,Đột quỵ,Béo phì,Thai kỳ,Bất động lâu,Thuốc tránh thai",
+        "diagnosis": "CT mạch phổi,D-dimer,Siêu âm tim,Xạ thông khí tưới máu phổi",
+        "treatment": "Thuốc chống đông,Tiêu sợi huyết,Đặt filter tĩnh mạch chủ,Hỗ trợ hô hấp"
+    },
+    {
+        "name": "Tràn dịch màng phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Tích tụ dịch trong khoang màng phổi, chèn ép phổi gây khó thở",
+        "symptoms": "Khó thở tiến triển,Đau ngực kiểu màng phổi,Ho khan,Sốt,Giảm tiếng rì rào phế nang",
+        "causes": "Viêm phổi,Ung thư phổi,Suy tim,Lao,Suy dinh dưỡng,Thuyên tắc phổi",
+        "diagnosis": "X-quang phổi,Siêu âm màng phổi,Chọc dò màng phổi,CT ngực",
+        "treatment": "Chọc dẫn lưu dịch,Điều trị nguyên nhân,Thuốc lợi tiểu,Liệu pháp làm dính màng phổi"
+    },
+    {
+        "name": "Xẹp phổi",
+        "group_name": "Hô hấp",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Mất thể tích phổi do phế nang bị xẹp một phần hoặc hoàn toàn, giảm trao đổi khí",
+        "symptoms": "Khó thở,Ho,Đau ngực,Tím tái,Nhịp thở nhanh,Giảm cử động lồng ngực",
+        "causes": "Tắc phế quản,Dị vật,U phế quản,Tràn dịch màng phổi,Sau phẫu thuật,Chấn thương",
+        "diagnosis": "X-quang phổi,CT ngực,Nội soi phế quản,Đo bão hòa oxy",
+        "treatment": "Vật lý trị liệu hô hấp,Nội soi hút đờm,Thở sâu,Làm thông đường thở,Phẫu thuật cắt bỏ"
+    },
+    {
+        "name": "Đau thắt ngực",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Đau ngực do thiếu máu cơ tim tạm thời, thường xảy ra khi gắng sức hoặc stress",
+        "symptoms": "Đau thắt sau xương ức,Đau lan lên vai trái,Đau lan lên hàm,Khó thở,Đổ mồ hôi,Buồn nôn",
+        "causes": "Xơ vữa động mạch vành,Co thắt động mạch vành,Thiếu máu,Phì đại thất trái",
+        "diagnosis": "Điện tâm đồ (ECG),Nghiệm pháp gắng sức,MRI tim,Chụp mạch vành,Siêu âm tim",
+        "treatment": "Nitroglycerin,Thuốc chẹn beta,Stent mạch vành,Thay đổi lối sống,Bypass động mạch vành"
+    },
+    {
+        "name": "Nhồi máu cơ tim",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️‍🩹",
+        "description": "Hoại tử cơ tim do tắc hoàn toàn động mạch vành, cần cấp cứu kịp thời để giảm tỷ lệ tử vong",
+        "symptoms": "Đau ngực dữ dội kéo dài,Khó thở,Đau lan lên vai và hàm,Vã mồ hôi,Choáng váng,Ngất",
+        "causes": "Mảng xơ vữa vỡ,Cục huyết khối,Hút thuốc,Cao huyết áp,Rối loạn lipid máu,Di truyền",
+        "diagnosis": "Điện tâm đồ (ST chênh),Troponin cao,Siêu âm tim,Chụp mạch vành cấp",
+        "treatment": "Can thiệp mạch vành qua da (PCI),Thuốc tiêu sợi huyết,Thuốc chống kết tập tiểu cầu,Aspirin,Statin"
+    },
+    {
+        "name": "Suy tim",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "💔",
+        "description": "Tim không bơm đủ máu đáp ứng nhu cầu cơ thể, gây ứ dịch ở phổi và tuần hoàn ngoại biên",
+        "symptoms": "Khó thở khi nằm,Phù mắt cá chân,Mệt mỏi,Tim đập nhanh,Ho về đêm,Tăng cân nhanh",
+        "causes": "Bệnh mạch vành,Cao huyết áp,Đái tháo đường,Bệnh van tim,Rượu,Viêm cơ tim",
+        "diagnosis": "Siêu âm tim (EF giảm),BNP/NT-proBNP,X-quang phổi,Điện tâm đồ,Thông tim phải",
+        "treatment": "Thuốc lợi tiểu,Thuốc ức chế men chuyển,Thuốc chẹn beta,Thuốc đối kháng aldosterone,Máy tái đồng bộ tim"
+    },
+    {
+        "name": "Rối loạn nhịp tim",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "💓",
+        "description": "Bất thường về tần số hoặc nhịp tim do rối loạn dẫn truyền xung điện trong tim",
+        "symptoms": "Hồi hộp,Đánh trống ngực,Chóng mặt,Ngất,Đau ngực,Khó thở,Mệt mỏi",
+        "causes": "Bệnh mạch vành,Cao huyết áp,Bệnh van tim,Rối loạn điện giải,Caffeine,Rượu,Stress",
+        "diagnosis": "Điện tâm đồ,Holter 24h,Thăm dò điện sinh lý,Siêu âm tim,Nghiệm pháp bàn nghiêng",
+        "treatment": "Thuốc chống loạn nhịp,Thuốc chẹn beta,Cắt đốt điện tim (RF ablation),Máy tạo nhịp tim"
+    },
+    {
+        "name": "Xơ vữa động mạch",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Mảng bám cholesterol lắng đọng trong lòng động mạch, gây hẹp và cứng động mạch",
+        "symptoms": "Đau ngực,Khó thở,Đau chân khi đi,Đột quỵ,Yếu liệt nửa người,Rối loạn thị lực",
+        "causes": "Cholesterol cao,Hút thuốc,Đái tháo đường,Cao huyết áp,Béo phì,Ít vận động",
+        "diagnosis": "Siêu âm Doppler động mạch,CT mạch máu,MRI,Mỡ máu,Chụp mạch vành",
+        "treatment": "Statin,Thuốc kháng kết tập tiểu cầu,Chế độ ăn ít chất béo,Tập thể dục,Bỏ thuốc lá"
+    },
+    {
+        "name": "Bệnh van tim",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "❤️",
+        "description": "Tổn thương van tim gây hẹp hoặc hở van, ảnh hưởng đến dòng máu qua tim",
+        "symptoms": "Khó thở,Mệt mỏi,Phù chân,Đau ngực,Đánh trống ngực,Ngất",
+        "causes": "Sốt thấp khớp,Thoái hóa van tim,Dị tật bẩm sinh,Viêm nội tâm mạc nhiễm khuẩn",
+        "diagnosis": "Siêu âm tim,Siêu âm tim qua thực quản,Điện tâm đồ,Chụp mạch vành",
+        "treatment": "Thuốc lợi tiểu,Thuốc trợ tim,Phẫu thuật sửa van,Thay van tim nhân tạo"
+    },
+    {
+        "name": "Thiếu máu cơ tim",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Giảm tưới máu cơ tim do hẹp động mạch vành, giảm cung cấp oxy cho cơ tim",
+        "symptoms": "Đau thắt ngực khi gắng sức,Khó thở,Mệt mỏi,Đau lan cánh tay trái,Đổ mồ hôi",
+        "causes": "Xơ vữa động mạch vành,Co thắt động mạch vành,Cục máu đông,Huyết áp thấp",
+        "diagnosis": "Điện tâm đồ,Nghiệm pháp gắng sức,Chụp mạch vành,Siêu âm tim gắng sức,MRI tim",
+        "treatment": "Nitroglycerin,Thuốc chẹn beta,Statin,Can thiệp mạch vành qua da,Phẫu thuật bắc cầu"
+    },
+    {
+        "name": "Viêm cơ tim",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Viêm cơ tim do nhiễm trùng hoặc tự miễn, gây suy giảm chức năng bơm máu của tim",
+        "symptoms": "Đau ngực,Sốt,Khó thở,Mệt mỏi,Phù chân,Đánh trống ngực,Nhịp tim nhanh",
+        "causes": "Virus Coxsackie,Virus cúm,COVID-19,Bệnh tự miễn,Rượu,Thuốc độc với tim",
+        "diagnosis": "Troponin cao,Siêu âm tim,MRI tim,Sinh thiết cơ tim,Điện tâm đồ",
+        "treatment": "Nghỉ ngơi tuyệt đối,Thuốc trợ tim,Thuốc ức chế men chuyển,Thuốc chống loạn nhịp,Điều trị nguyên nhân"
+    },
+    {
+        "name": "Viêm màng ngoài tim",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "❤️",
+        "description": "Viêm bao màng ngoài của tim, thường cấp tính với triệu chứng đau ngực điển hình",
+        "symptoms": "Đau ngực nhói,Sốt,Khó thở,Khi ngả người về trước đau giảm,Ho,Ớn lạnh",
+        "causes": "Nhiễm virus,Lao,Uremia,Sau nhồi máu cơ tim,Bệnh tự miễn,Ung thư di căn",
+        "diagnosis": "Điện tâm đồ,Siêu âm tim,CT tim,X-quang ngực,Xét nghiệm máu viêm",
+        "treatment": "NSAID liều cao,Colchicine,Corticosteroid,Điều trị nguyên nhân,Chọc dò màng tim"
+    },
+    {
+        "name": "Hội chứng mạch vành cấp",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "💔",
+        "description": "Tập hợp các triệu chứng thiếu máu cơ tim cấp, bao gồm nhồi máu cơ tim và đau thắt ngực không ổn định",
+        "symptoms": "Đau ngực dữ dội,Đau lan vai trái,Khó thở,Vã mồ hôi,Buồn nôn,Ngất",
+        "causes": "Mảng xơ vữa vỡ,Cục huyết khối,Co thắt mạch vành,Stress,Thuốc kích thích",
+        "diagnosis": "Điện tâm đồ (ST chênh),Troponin,Siêu âm tim,Chụp mạch vành cấp cứu",
+        "treatment": "Aspirin,Can thiệp mạch vành khẩn cấp,Thuốc chống kết tập tiểu cầu,Heparin,Stent"
+    },
+    {
+        "name": "Bệnh cơ tim giãn",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Bệnh cơ tim với giãn nở thất trái và suy giảm chức năng tâm thu, thường dẫn đến suy tim",
+        "symptoms": "Khó thở tiến triển,Mệt mỏi,Phù chân,Đánh trống ngực,Ngất,Ho về đêm",
+        "causes": "Di truyền,Viêm cơ tim,Rượu mạn tính,Bệnh tự miễn,Thai kỳ,Hóa trị liệu",
+        "diagnosis": "Siêu âm tim (EF giảm, thất giãn),MRI tim,Sinh thiết cơ tim,Xét nghiệm gen",
+        "treatment": "Thuốc trợ tim,Thuốc ức chế men chuyển,Chẹn beta,Máy phá rung cấy được (ICD),Ghép tim"
+    },
+    {
+        "name": "Bệnh cơ tim phì đại",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Bệnh cơ tim di truyền với phì đại thất trái bất thường, nguy cơ đột tử do tim",
+        "symptoms": "Khó thở,Đau ngực,Ngất khi gắng sức,Đánh trống ngực,Mệt mỏi,Đột tử",
+        "causes": "Đột biến gen (sarcomere),Di truyền trội nhiễm sắc thể thường,Cao huyết áp mạn tính",
+        "diagnosis": "Siêu âm tim (phì đại thất trái),Điện tâm đồ,MRI tim,Xét nghiệm gen",
+        "treatment": "Thuốc chẹn beta,Thuốc chẹn kênh canxi,ICD ngừa đột tử,Phẫu thuật cắt cơ vách liên thất"
+    },
+    {
+        "name": "Hẹp van hai lá",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "❤️",
+        "description": "Hẹp lỗ van hai lá cản trở dòng máu từ nhĩ trái xuống thất trái, tăng áp lực nhĩ trái",
+        "symptoms": "Khó thở khi gắng sức,Mệt mỏi,Ho ra máu,Hồi hộp,Phù phổi cấp,Rung nhĩ",
+        "causes": "Sốt thấp khớp (Rheumatic fever),Canxi hóa van,Vôi hóa van bẩm sinh,Lupus",
+        "diagnosis": "Siêu âm tim,Siêu âm tim qua thực quản,Điện tâm đồ,Chụp mạch vành",
+        "treatment": "Thuốc lợi tiểu,Thuốc chẹn beta,Nong van hai lá qua da (PTMC),Phẫu thuật sửa/thay van"
+    },
+    {
+        "name": "Hở van hai lá",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "❤️",
+        "description": "Hở van hai lá khiến máu phụt ngược từ thất trái lên nhĩ trái trong thời kỳ tâm thu",
+        "symptoms": "Khó thở,Mệt mỏi,Đánh trống ngực,Phù chân,Ho về đêm,Rung nhĩ",
+        "causes": "Sa van hai lá,Sốt thấp khớp,Thiếu máu cơ tim,Bệnh cơ tim giãn,Viêm nội tâm mạc",
+        "diagnosis": "Siêu âu tim,Siêu âm tim qua thực quản,Điện tâm đồ,Chụp mạch vành",
+        "treatment": "Thuốc hạ áp,Thuốc lợi tiểu,Phẫu thuật sửa van hai lá,Thay van hai lá"
+    },
+    {
+        "name": "Hẹp động mạch chủ",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Hẹp van động mạch chủ gây cản trở máu từ thất trái lên động mạch chủ, tăng hậu tải thất trái",
+        "symptoms": "Đau thắt ngực,Ngất khi gắng sức,Khó thở,Mệt mỏi,Chóng mặt,Suy tim",
+        "causes": "Van động mạch chủ hai mảnh bẩm sinh,Thoái hóa canxi hóa,Sốt thấp khớp",
+        "diagnosis": "Siêu âm tim (diện tích van < 1cm2),Điện tâm đồ,Thông tim phải,CT mạch vành",
+        "treatment": "Thay van động mạch chủ qua catheter (TAVI),Phẫu thuật thay van,Nong van bằng bóng"
+    },
+    {
+        "name": "Phình động mạch chủ",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Giãn nở bất thường thành động mạch chủ nguy cơ vỡ gây tử vong đột ngột",
+        "symptoms": "Đau ngực hoặc đau lưng dữ dội,Khó thở,Đau bụng,Khàn tiếng,Mạch bất đối xứng,Khó nuốt",
+        "causes": "Xơ vữa động mạch,Cao huyết áp mạn tính,Hội chứng Marfan,Giang mai,Chấn thương",
+        "diagnosis": "Siêu âm tim qua thành ngực,CT scan động mạch chủ,MRI mạch máu,X-quang ngực",
+        "treatment": "Thuốc chẹn beta,Kiểm soát huyết áp,Phẫu thuật thay đoạn phình,Stent graft nội mạch"
+    },
+    {
+        "name": "Viêm tĩnh mạch huyết khối",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "🩸",
+        "description": "Viêm thành tĩnh mạch kèm hình thành cục máu đông trong lòng tĩnh mạch",
+        "symptoms": "Đau dọc tĩnh mạch,Sưng đỏ vùng tĩnh mạch,Sốt nhẹ,Phù chân,Nóng đỏ,Nổi tĩnh mạch ngoằn ngoèo",
+        "causes": "Đặt catheter tĩnh mạch,Bất động lâu,Chấn thương,Viêm tắc tĩnh mạch,Rối loạn đông máu",
+        "diagnosis": "Siêu âm Doppler tĩnh mạch,D-dimer,Venography,Siêu âm nén",
+        "treatment": "Thuốc chống viêm,Thuốc chống đông,Băng ép,Chống chỉ định bất động,Kê cao chân"
+    },
+    {
+        "name": "Bệnh động mạch ngoại biên",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "🩸",
+        "description": "Xơ vữa hẹp động mạch chi dưới gây giảm tưới máu và đau cách hồi",
+        "symptoms": "Đau chân khi đi (cách hồi),Tê lạnh chân,Đau chân khi nghỉ,Vết thương chân không lành,Teo cơ,Chân nhợt nhạt",
+        "causes": "Hút thuốc,Đái tháo đường,Rối loạn lipid,Cao huyết áp,Béo phì,Tuổi cao",
+        "diagnosis": "Siêu âm Doppler mạch,Chỉ số ABI (huyết áp gót chân),CT mạch chi,Chụp mạch cản quang",
+        "treatment": "Cai thuốc lá,Tập đi có kiểm soát,Thuốc chống kết tập tiểu cầu,Statin,Phẫu thuật bắc cầu ngoại biên"
+    },
+    {
+        "name": "Block nhĩ thất",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "❤️",
+        "description": "Rối loạn dẫn truyền xung động giữa nhĩ và thất, có thể gây chậm nhịp tim và ngất",
+        "symptoms": "Mệt mỏi,Chóng mặt,Ngất,Nhịp tim chậm,Khó thở,Đau ngực",
+        "causes": "Thoái hóa hệ thống dẫn truyền,Thiếu máu cơ tim,Viêm cơ tim,Thuốc chẹn beta quá liều,Tăng kali máu",
+        "diagnosis": "Điện tâm đồ (PR kéo dài, mất sóng P),Holter 24h,Nghiệm pháp atropine",
+        "treatment": "Máy tạo nhịp vĩnh viễn,Thuốc tăng nhịp tạm thời (Isoproterenol),Ngừng thuốc gây block"
+    },
+    {
+        "name": "Rung nhĩ",
+        "group_name": "Tim mạch",
+        "risk_level": "high",
+        "icon": "💓",
+        "description": "Rối loạn nhịp tim trên thất gây nhịp tim hỗn loạn, tăng nguy cơ đột quỵ và suy tim",
+        "symptoms": "Hồi hộp,Đánh trống ngực,Mệt mỏi,Khó thở,Chóng mặt,Đau ngực,Ngất",
+        "causes": "Cao huyết áp,Bệnh van tim,Suy tim,COPD,Streess,Rượu,Caffeine,Cường giáp",
+        "diagnosis": "Điện tâm đồ (sóng f thay sóng P),Holter 24h,Siêu âm tim,Siêu âm tim qua thực quản",
+        "treatment": "Thuốc chống loạn nhịp,Thuốc chống đông (Warfarin/NOAC),Sốc điện chuyển nhịp,Cắt đốt điện AF ablation"
+    },
+    {
+        "name": "Cuồng nhĩ",
+        "group_name": "Tim mạch",
+        "risk_level": "medium",
+        "icon": "💓",
+        "description": "Rối loạn nhịp nhĩ đều với tần số nhĩ 250-350 lần/phút, thường do vòng vào lại trong nhĩ",
+        "symptoms": "Hồi hộp,Đau ngực,Khó thở,Chóng mặt,Mệt mỏi,Ngất",
+        "causes": "Bệnh tim mạch cấu trúc,Phẫu thuật tim,Bệnh phổi mạn,Rượu,Cường giáp",
+        "diagnosis": "Điện tâm đồ (sóng sawtooth F),Holter 24h,Thăm dò điện sinh lý tim",
+        "treatment": "Sốc điện chuyển nhịp,Cắt đốt điện RF,Thuốc chống loạn nhịp,Thuốc chống đông ngừa đột quỵ"
+    },
+    {
+        "name": "Viêm dạ dày",
+        "group_name": "Tiêu hóa",
+        "risk_level": "low",
+        "icon": "🤢",
+        "description": "Viêm niêm mạc dạ dày cấp hoặc mạn tính do nhiều nguyên nhân khác nhau",
+        "symptoms": "Đau thượng vị,Ợ chua,Buồn nôn,Đầy hơi,Chán ăn,Nôn",
+        "causes": "Nhiễm H.pylori,NSAID kéo dài,Rượu bia,Stress,Trào ngược mật,Dị ứng thức ăn",
+        "diagnosis": "Nội soi dạ dày,Sinh thiết niêm mạc,Test H.pylori hơi thở,Xét nghiệm phân",
+        "treatment": "Thuốc ức chế PPI,Thuốc kháng H2,Diệt H.pylori phác đồ 3 thuốc,Thay đổi chế độ ăn"
+    },
+    {
+        "name": "Loét dạ dày tá tràng",
+        "group_name": "Tiêu hóa",
+        "risk_level": "medium",
+        "icon": "🤕",
+        "description": "Tổn thương loét niêm mạc dạ dày hoặc tá tràng, có thể gây xuất huyết và thủng",
+        "symptoms": "Đau thượng vị thành cơn,Đau khi đói hoặc sau ăn,Buồn nôn,Nôn,Nôn ra máu,Phân đen",
+        "causes": "H.pylori,Thuốc NSAID,Rượu,Hút thuốc,Tăng tiết acid,Zollinger-Ellison",
+        "diagnosis": "Nội soi dạ dày sinh thiết,Test H.pylori,nội soi có tiêm cản quang,X-quang dạ dày với baryte",
+        "treatment": "Thuốc PPI,Diệt H.pylori,Loại bỏ NSAID,Thuốc bảo vệ niêm mạc,Phẫu thuật cắt bỏ nếu biến chứng"
+    },
+    {
+        "name": "Viêm đại tràng",
+        "group_name": "Tiêu hóa",
+        "risk_level": "medium",
+        "icon": "💩",
+        "description": "Viêm niêm mạc đại tràng cấp hoặc mạn tính gây rối loạn tiêu hóa kéo dài",
+        "symptoms": "Đau bụng quặn,Tiêu chảy,Phân lẫn nhầy,Sót ruột,Đầy hơi,Chướng bụng,Mệt mỏi",
+        "causes": "Nhiễm khuẩn,Nhiễm ký sinh trùng,Dị ứng thực phẩm,Rối loạn miễn dịch,Stress,Thuốc kháng sinh",
+        "diagnosis": "Nội soi đại tràng,Sinh thiết,Cấy phân,Xét nghiệm máu (CRP,BC),CT bụng",
+        "treatment": "Thuốc kháng viêm aminosalicylate,Thuốc điều hòa miễn dịch,Probiotic,Chế độ ăn ít chất xơ,Tránh thực phẩm kích thích"
+    },
+    {
+        "name": "Viêm gan B",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Nhiễm virus viêm gan B mạn tính gây tổn thương gan tiến triển, nguy cơ xơ gan và ung thư gan",
+        "symptoms": "Vàng da,Mệt mỏi,Chán ăn,Nước tiểu sẫm màu,Đau hạ sườn phải,Sốt nhẹ,Buồn nôn",
+        "causes": "Virus HBV,Lây qua đường máu,Truyền máu nhiễm bệnh,Từ mẹ sang con,Quan hệ tình dục không an toàn",
+        "diagnosis": "HBsAg dương tính,Anti-HBc IgM,Xét nghiệm HBV-DNA,Men gan (AST/ALT),Siêu âm gan",
+        "treatment": "Thuốc kháng virus (Tenofovir,Entecavir),Interferon,Thuốc bảo vệ gan,Theo dõi định kỳ,Ghép gan"
+    },
+    {
+        "name": "Viêm gan C",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Nhiễm virus viêm gan C mạn tính, thường tiến triển thầm lặng đến xơ gan và ung thư biểu mô tế bào gan",
+        "symptoms": "Mệt mỏi,Vàng da nhẹ,Đau cơ khớp,Chán ăn,Nước tiểu vàng,Đau hạ sườn phải,Ngứa",
+        "causes": "Virus HCV,Lây qua đường máu,Tiêm chích ma túy,Truyền máu trước 1992,Lây từ mẹ sang con",
+        "diagnosis": "Anti-HCV,Xét nghiệm HCV RNA,Genotype HCV,Men gan,Siêu âm gan,FibroScan",
+        "treatment": "Thuốc kháng virus tác động trực tiếp (DAA) phác đồ 8-12 tuần,Tỷ lệ khỏi >95%,Theo dõi sau điều trị"
+    },
+    {
+        "name": "Xơ gan",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Xơ hóa gan tiến triển không hồi phục, mất chức năng gan và tăng áp lực tĩnh mạch cửa",
+        "symptoms": "Mệt mỏi,Vàng da,Phù chân,Trướng bụng,Xuất huyết,Sao mạch,Ngứa,Phân bạc màu,Nước tiểu đậm",
+        "causes": "Viêm gan B/C mạn,Rượu,Gan nhiễm mỡ không do rượu (NASH),Tự miễn,Xơ đường mật",
+        "diagnosis": "Siêu âm gan,FibroScan,CT bụng,Men gan,Bilirubin,Albumin,INR,Sinh thiết gan",
+        "treatment": "Điều trị biến chứng,Lợi tiểu,Paracentesis,Thuốc chẹn beta cho tăng áp tĩnh mạch cửa,Ghép gan"
+    },
+    {
+        "name": "Viêm tụy",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🥩",
+        "description": "Viêm tụy cấp hoặc mạn tính do men tụy tự tiêu hủy mô tụy, gây đau bụng dữ dội",
+        "symptoms": "Đau bụng trên dữ dội lan ra sau lưng,Buồn nôn,Nôn,Sốt,Mạch nhanh,Chướng bụng",
+        "causes": "Sỏi mật,Rượu bia,Tăng triglyceride máu,Chấn thương,Thuốc,Nhiễm trùng,Di truyền",
+        "diagnosis": "Amylase và Lipase tăng cao (gấp 3 lần),CT bụng có tiêm thuốc cản quang,Siêu âm bụng,MRCP",
+        "treatment": "Nhập viện,Nhịn ăn và nuôi dưỡng tĩnh mạch,Dịch truyền,Thuốc giảm đau,Nội soi ERCP nếu do sỏi mật"
+    },
+    {
+        "name": "Sỏi mật",
+        "group_name": "Tiêu hóa",
+        "risk_level": "medium",
+        "icon": "🪨",
+        "description": "Hình thành sỏi cholesterol hoặc sắc tố trong túi mật hoặc đường mật",
+        "symptoms": "Đau hạ sườn phải sau ăn mỡ,Buồn nôn,Nôn,Đau lan lên vai phải,Đầy hơi,Vàng da,Sốt",
+        "causes": "Béo phì,Thai kỳ,Tăng lipid máu,Giảm cân nhanh,Di truyền,Đái tháo đường,Thuốc tránh thai",
+        "diagnosis": "Siêu âm bụng,CT bụng,MRCP,ERCP,Xét nghiệm men gan và bilirubin",
+        "treatment": "Cắt túi mật nội soi,Thuốc tiêu sỏi (URS),Tán sỏi bằng sóng xung kích,ERCP lấy sỏi ống mật chủ"
+    },
+    {
+        "name": "Hội chứng ruột kích thích",
+        "group_name": "Tiêu hóa",
+        "risk_level": "low",
+        "icon": "💩",
+        "description": "Rối loạn chức năng ruột mạn tính với đau bụng và thói quen đi tiểu thay đổi không tổn thương thực thể",
+        "symptoms": "Đau bụng quặn,Tiêu chảy hoặc táo bón,Đầy hơi,Chướng bụng,Sót ruột,Niêm nhầy trong phân",
+        "causes": "Stress,Rối loạn nhu động ruột,Vi khuẩn đường ruột mất cân bằng,Dị ứng thực phẩm,Di truyền,Nhiễm trùng ruột",
+        "diagnosis": "Tiêu chuẩn Rome IV,Nội soi đại tràng loại trừ,Xét nghiệm phân,Test hơi thở lactose,Siêu âm bụng",
+        "treatment": "Chế độ ăn FODMAP thấp,Thuốc chống co thắt,Probiotic,Thuốc chống tiêu chảy,Giảm stress,Tập thể dục"
+    },
+    {
+        "name": "Viêm thực quản",
+        "group_name": "Tiêu hóa",
+        "risk_level": "medium",
+        "icon": "🔥",
+        "description": "Viêm niêm mạc thực quản do trào ngược acid, nhiễm trùng hoặc dị ứng thực phẩm",
+        "symptoms": "Ợ nóng,Đau sau xương ức,Khó nuốt,Nuốt đau,Ợ chua,Nôn,Đắng miệng",
+        "causes": "Trào ngược dạ dày thực quản,Dị ứng thực phẩm (tăng bạch cầu ái toan),Nấm Candida,Virus HSV,Nhiễm xạ",
+        "diagnosis": "Nội soi thực quản,Sinh thiết,Đo pH thực quản 24h,Chụp X-quang thực quản cản quang",
+        "treatment": "Thuốc PPI,Thuốc kháng acid,Thay đổi chế độ ăn,Kháng nấm nếu do nấm,Tránh thực phẩm gây dị ứng"
+    },
+    {
+        "name": "Barrett thực quản",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🔥",
+        "description": "Biến đổi tiền ung thư niêm mạc thực quản dưới do trào ngược mạn tính, chuyển sản biểu mô trụ",
+        "symptoms": "Ợ nóng mạn tính,Khó nuốt,Đau ngực,Nuốt nghẹn,Nôn ra máu,Phân đen",
+        "causes": "Trào ngược dạ dày thực quản mạn tính,Béo phì,Hội chứng tăng áp môn vị,Thoát vị hoành",
+        "diagnosis": "Nội soi thực quản,Sinh thiết có loạn sản,Chụp cản quang thực quản,Đo pH thực quản",
+        "treatment": "PPI liều cao,Nội soi cắt bỏ loạn sản,Liệu pháp quang động,Phẫu thuật Nissen,Cắt thực quản nếu ung thư"
+    },
+    {
+        "name": "Viêm ruột thừa",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🫄",
+        "description": "Viêm cấp ruột thừa do tắc lòng ruột thừa, cần phẫu thuật cấp cứu kịp thời",
+        "symptoms": "Đau bụng âm ỉ quanh rốn sau di chuyển xuống hố chậu phải,Sốt nhẹ,Buồn nôn,Nôn,Chán ăn,Co cứng cơ thành bụng",
+        "causes": "Tắc ruột thừa do sỏi phân,Nhiễm khuẩn,Phì đại mô lympho,Dị vật,Ký sinh trùng",
+        "diagnosis": "Khám bụng (dấu McBurney),Siêu âm bụng,CT bụng,Công thức máu (bạch cầu tăng),CRP tăng",
+        "treatment": "Cắt ruột thừa nội soi khẩn cấp,Kháng sinh tiêm tĩnh mạch trước mổ,Giảm đau,Dịch truyền"
+    },
+    {
+        "name": "Tắc ruột",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "💩",
+        "description": "Tắc nghẽn một phần hoặc toàn bộ lòng ruột non hoặc ruột già, cấp cứu ngoại khoa",
+        "symptoms": "Đau bụng quặn từng cơn,Nôn,Bí trung đại tiện,Chướng bụng,Bụng co cứng,Sốt,Mất nước",
+        "causes": "Dính ruột sau mổ,Thoát vị nghẹt,Khối u đại tràng,Xoắn ruột,Phân cứng,Hẹp ruột do Crohn,Lồng ruột",
+        "diagnosis": "X-quang bụng đứng (mức hơi nước),CT bụng có thuốc cản quang,Siêu âm bụng,Công thức máu,Điện giải đồ",
+        "treatment": "Nhịn ăn hoàn toàn,Sonde dạ dày liên tục,Dịch truyền tĩnh mạch,Phẫu thuật giải phóng tắc ruột,Điều trị nguyên nhân"
+    },
+    {
+        "name": "Xuất huyết tiêu hóa",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Chảy máu đường tiêu hóa từ thực quản đến hậu môn, có thể đe dọa tính mạng nếu không cấp cứu kịp thời",
+        "symptoms": "Nôn ra máu tươi hoặc bã cà phê,Phân đen như nhựa đường,Phân máu đỏ tươi,Choáng váng,Ngất,Tụt huyết áp",
+        "causes": "Loét dạ dày tá tràng,Giãn vỡ tĩnh mạch thực quản,Rách Mallory-Weiss,Ung thư dạ dày,Xuất huyết trực tràng,Polyp đại tràng",
+        "diagnosis": "Nội soi dạ dày tá tràng cấp cứu,Nội soi đại tràng,CT mạch máu,Xét nghiệm máu (Hb,Hct),Soi trực tràng",
+        "treatment": "Hồi sức truyền dịch/Truyền máu,Nội soi cầm máu (cắt đốt/chích/hemoclip),Thuốc PPI liều cao,Phẫu thuật cấp cứu"
+    },
+    {
+        "name": "Viêm phúc mạc",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🫄",
+        "description": "Viêm màng bụng cấp do nhiễm trùng, hóa chất hoặc vỡ tạng rỗng, cấp cứu ngoại khoa",
+        "symptoms": "Đau bụng dữ dội toàn bụng,Bụng co cứng như gỗ,Sốt cao,Nôn,Nhịp tim nhanh,Khó thở,Liệt ruột",
+        "causes": "Vỡ ruột thừa,Thủng dạ dày,Thủng đại tràng,Nhiễm trùng sau mổ,Viêm tụy cấp,Chấn thương bụng",
+        "diagnosis": "Khám bụng (phản ứng thành bụng),CT bụng có tiêm thuốc,X-quang bụng đứng (liềm hơi dưới hoành),Công thức máu,Siêu âm bụng",
+        "treatment": "Phẫu thuật cấp cứu làm sạch ổ bụng,Kháng sinh phổ rộng tĩnh mạch,Hồi sức truyền dịch,Dẫn lưu ổ bụng"
+    },
+    {
+        "name": "Áp xe gan",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Ổ mủ trong nhu mô gan do nhiễm khuẩn hoặc amip, gây nhiễm trùng và tổn thương gan",
+        "symptoms": "Sốt cao rét run,Đau hạ sườn phải,Vàng da,Chán ăn,Sụt cân,Đổ mồ hôi đêm,Buồn nôn",
+        "causes": "Vi khuẩn đường mật (E.coli,Klebsiella),Amip Entamoeba histolytica,Áp xe do nhiễm khuẩn huyết,Chấn thương gan",
+        "diagnosis": "Siêu âm bụng (ổ dịch echo trống),CT bụng có tiêm thuốc,Máu (BC tăng,CRP tăng),Cấy mủ ổ áp xe,Xét nghiệm amip huyết thanh",
+        "treatment": "Kháng sinh tĩnh mạch phổ rộng,Metronidazole nếu do amip,Chọc hút mủ qua da,Phẫu thuật dẫn lưu nếu thất bại"
+    },
+    {
+        "name": "Suy gan cấp",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Suy giảm chức năng gan nhanh chóng, kèm rối loạn đông máu và bệnh não gan",
+        "symptoms": "Vàng da tiến triển nhanh,Bệnh não gan (lẫn lộn, hôn mê),Xuất huyết,Phù não,Suy thận,Mệt mỏi cực độ,Nước tiểu đậm",
+        "causes": "Virus viêm gan A/B/E,Sốc thuốc (Acetaminophen),Độc tố nấm men,Thiếu máu gan cấp,Bệnh Wilson,Sốt vàng da,Ung thư gan",
+        "diagnosis": "Men gan tăng cao (AST/ALT >10.000),INR >1.5,Bilirubin tăng,Đường huyết thấp,CT/MRI não,Siêu âm gan",
+        "treatment": "Hồi sức tích cực,N-acetylcysteine nếu ngộ độc Acetaminophen,Lọc huyết tương,Ghép gan cấp cứu,Điều trị nguyên nhân"
+    },
+    {
+        "name": "Viêm túi mật",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "🪨",
+        "description": "Viêm cấp túi mật, thường do sỏi mật gây tắc cổ túi mật, có thể dẫn đến hoại tử và thủng",
+        "symptoms": "Đau hạ sườn phải dữ dội,Sốt cao rét run,Buồn nôn,Nôn,Vàng da,Đau lan lên vai phải,Dấu hiệu Murphy dương tính",
+        "causes": "Sỏi mật,Viêm túi mật không do sỏi,Nhiễm trùng (E.coli,Klebsiella),Thiếu máu cục bộ téo túi mật,Chấn thương",
+        "diagnosis": "Siêu âm bụng (thành túi mật dày >4mm),CT bụng,Xạ hình gan mật (HIDA scan),Công thức máu,CRP,Men gan,Amylase tăng",
+        "treatment": "Cắt túi mật nội soi sớm,Kháng sinh tĩnh mạch,Dịch truyền,Thuốc giảm đau,Nhịn ăn"
+    },
+    {
+        "name": "Bệnh Crohn",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "💩",
+        "description": "Bệnh viêm ruột mạn tính tự miễn gây viêm xuyên thành bất kỳ vị trí nào từ miệng đến hậu môn",
+        "symptoms": "Đau bụng hố chậu phải,Tiêu chảy mạn tính,Mệt mỏi,Sụt cân,Sốt nhẹ,Chảy máu trực tràng,Rò hậu môn",
+        "causes": "Rối loạn miễn dịch,Di truyền (gen NOD2),Vi khuẩn đường ruột,Hút thuốc lá,Ăn uống công nghiệp",
+        "diagnosis": "Nội soi đại tràng đến hồi tràng,CT ruột non,MRI ruột,Phân tích phân,Calprotectin,Xét nghiệm máu viêm",
+        "treatment": "Thuốc aminosalicylate,Thuốc ức chế miễn dịch (Azathioprine),Sinh học kháng TNF (Infliximab),Corticosteroid,Phẫu thuật cắt đoạn ruột"
+    },
+    {
+        "name": "Viêm loét đại tràng",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "💩",
+        "description": "Bệnh viêm ruột tự miễn gây viêm loét niêm mạc đại tràng liên tục từ trực tràng lên",
+        "symptoms": "Tiêu chảy có máu,Đau quặn bụng,Mót rặn nhiều,Phân nhầy máu,Sốt,Mệt mỏi,Sụt cân",
+        "causes": "Rối loạn miễn dịch,Di truyền,Yếu tố môi trường,Vi khuẩn đường ruột mất cân bằng,Stress",
+        "diagnosis": "Nội soi đại tràng sinh thiết,Calprotectin phân,Công thức máu,CRP,CT bụng,X-quang đại tràng cản quang",
+        "treatment": "Mesalazine (5-ASA),Thuốc ức chế miễn dịch,Thuốc sinh học kháng TNF,Corticosteroid,Phẫu thuật cắt toàn bộ đại tràng"
+    },
+    {
+        "name": "Ung thư đại trực tràng",
+        "group_name": "Tiêu hóa",
+        "risk_level": "high",
+        "icon": "💩",
+        "description": "Khối u ác tính ở đại tràng hoặc trực tràng, một trong những ung thư phổ biến nhất",
+        "symptoms": "Thay đổi thói quen đi tiêu,Phân máu đỏ tươi hoặc đen,Đau bụng,Sụt cân không rõ nguyên nhân,Thiếu máu,Mệt mỏi,Tắc ruột",
+        "causes": "Polyp đại tràng chuyển dạng,Di truyền (HNPCC,FAP),Tuổi trên 50,Chế độ ăn nhiều thịt đỏ,Ít chất xơ,Béo phì,Hút thuốc,Rượu",
+        "diagnosis": "Nội soi đại tràng sinh thiết,CT bụng có dựng hình đại tràng,Xét nghiệm máu ẩn trong phân (FOBT),CEA,MRI trực tràng",
+        "treatment": "Phẫu thuật cắt đoạn đại tràng triệt căn,Hóa trị (FOLFOX),Xạ trị trước mổ (trực tràng),Điều trị đích (Cetuximab,Bevacizumab),Miễn dịch (Checkpoint inhibitor)"
+    },
+    {
+        "name": "Không dung nạp lactose",
+        "group_name": "Tiêu hóa",
+        "risk_level": "low",
+        "icon": "🥛",
+        "description": "Thiếu hụt men lactase gây không tiêu hóa được đường lactose trong sữa, gây rối loạn tiêu hóa",
+        "symptoms": "Đầy hơi,Đau bụng,Tiêu chảy sau uống sữa,Chướng bụng,Buồn nôn,Ợ hơi,Đi ngoài phân lỏng",
+        "causes": "Thiếu hụt men lactase bẩm sinh hoặc mắc phải,Tổn thương niêm mạc ruột non (sau nhiễm trùng,viêm ruột),Di truyền,Tuổi cao",
+        "diagnosis": "Test hơi thở hydro,Nghiệm pháp dung nạp lactose,Sinh thiết ruột non đo hoạt tính lactase,Phân tích phân",
+        "treatment": "Kiêng sữa và các sản phẩm chứa lactose,Chế phẩm thay thế giàu canxi,Men lactase dạng viên trước bữa ăn,Sữa không lactose"
+    },
+    {
+        "name": "Đau nửa đầu Migraine",
+        "group_name": "Thần kinh",
+        "risk_level": "medium",
+        "icon": "🤕",
+        "description": "Đau đầu dữ dội từng cơn với rối loạn thần kinh kèm theo, thường đau một bên đầu",
+        "symptoms": "Đau đầu dữ dội một bên,Nhạy cảm ánh sáng,Nhạy cảm tiếng ồn,Buồn nôn,Nôn,Rối loạn thị giác (hào quang),Đau nhói theo mạch đập",
+        "causes": "Di truyền,Thay đổi nội tiết (kinh nguyệt),Stress,Thực phẩm (sô cô la,phô mai,chuối),Thiếu ngủ,Thời tiết thay đổi",
+        "diagnosis": "Khám lâm sàng (tiêu chuẩn ICHD),MRI não loại trừ,CT scan não,Nhật ký đau đầu",
+        "treatment": "Thuốc giảm đau (Triptans),Thuốc chống viêm (NSAID),Phòng ngừa (Propranolol,Topiramate),Tránh yếu tố kích hoạt,Nghỉ ngơi trong phòng tối"
+    },
+    {
+        "name": "Đau đầu căng thẳng",
+        "group_name": "Thần kinh",
+        "risk_level": "low",
+        "icon": "🤕",
+        "description": "Đau đầu nhẹ đến trung bình cảm giác như băng siết chặt quanh đầu, phổ biến nhất",
+        "symptoms": "Đau hai bên đầu,Cảm giác ép chặt quanh đầu,Nhức nhẹ vùng trán và gáy,Đau không nhói,Không buồn nôn,Kéo dài 30 phút đến vài giờ",
+        "causes": "Căng cơ cổ và vai,Stress,Tư thế làm việc sai,Thiếu ngủ,Mệt mỏi thị giác,Nghiến răng,Lo âu",
+        "diagnosis": "Khám lâm sàng là chính,CT/MRI loại trừ các nguyên nhân khác,Đo áp lực cơ",
+        "treatment": "Thuốc giảm đau thông thường (Paracetamol,Ibuprofen),Thư giãn cơ,Massage,Xoa bóp vùng cổ và vai,Điều chỉnh tư thế,Yoga"
+    },
+    {
+        "name": "Đột quỵ não",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Tổn thương não cấp tính do thiếu máu não hoặc xuất huyết não, cần cấp cứu khẩn cấp",
+        "symptoms": "Yếu liệt nửa người,Mặt méo lệch,Nói khó hoặc mất tiếng,Mù một mắt,Mất thăng bằng,Chóng mặt dữ dội,Đau đầu đột ngột,Nhìn đôi",
+        "causes": "Tắc động mạch não (xơ vữa,huyết khối),Tắc nghẽn mạch do di chuyển từ tim (rung nhĩ),Xuất huyết do vỡ mạch,Cao huyết áp,Đái tháo đường,Hút thuốc",
+        "diagnosis": "CT não cấp cứu,MRI khuếch tán (Diffusion MRI),Chụp mạch máu não,Carotid ultrasound,Siêu âm tim qua thực quản,Xét nghiệm máu đông máu",
+        "treatment": "Tiêu sợi huyết (Alteplase) trong 4.5 giờ,Lấy huyết khối bằng dụng cụ cơ khí (thời gian 6-24h),Phục hồi chức năng thần kinh,Thuốc chống kết tập tiểu cầu,Phẫu thuật lấy máu tụ (xuất huyết)"
+    },
+    {
+        "name": "Động kinh",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Rối loạn thần kinh mạn tính với các cơn co giật tái phát do phóng điện bất thường trong não",
+        "symptoms": "Co giật toàn thân,Cơn bất tỉnh,Cơn vắng ý thức,Kêu la,Co cứng chân tay,Cắn lưỡi,Đái dầm,Lú lẫn sau cơn,Ngáp môi,lơ mơ",
+        "causes": "Sẹo não (chấn thương,đột quỵ),Di truyền (kênh ion),U não,Viêm não,Nhiễm trùng não,Thiếu oxy não bẩm sinh,Rối loạn chuyển hóa,Sốt cao co giật",
+        "diagnosis": "Điện não đồ (EEG) ghi cơn,MRI não,Video EEG dài hạn,CT não,Xét nghiệm máu và dịch não tủy",
+        "treatment": "Thuốc chống động kinh (Valproate,Levetiracetam,Carbamazepine),Phẫu thuật cắt ổ động kinh,Kích thích thần kinh phế vị,Chế độ ăn keto"
+    },
+    {
+        "name": "Parkinson",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Bệnh thoái hóa thần kinh mạn tính do mất tế bào sản xuất dopamine trong não",
+        "symptoms": "Run tay chân lúc nghỉ,Cứng cơ (bánh xe răng cưa),Chậm vận động,Mất thăng bằng,Dáng đi lê chân,Mặt thờ ơ (mặt mặt nạ),Chữ viết nhỏ dần,Nói khó,Rối loạn vận mạch",
+        "causes": "Mất tế bào thần kinh dopaminergic vùng chất đen,Di truyền (alpha-synuclein, LRRK2),Tuổi cao,Độc tố môi trường,Thoái hóa protein không giải thích được",
+        "diagnosis": "Khám lâm sàng là chính (tiêu chuẩn UK Brain Bank),MRI loại trừ,DAT-SPECT scan,Tiền sử lâm sàng và đáp ứng Levodopa",
+        "treatment": "Levodopa/Carbidopa,Chất chủ vận dopamine (Pramipexole,Ropinirole),Thuốc kháng cholinergic,Phẫu thuật kích thích não sâu (DBS),Vật lý trị liệu thần kinh"
+    },
+    {
+        "name": "Alzheimer",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Bệnh thoái hóa thần kinh tiến triển gây mất trí nhớ và suy giảm nhận thức không hồi phục",
+        "symptoms": "Mất trí nhớ ngắn hạn,Quên sự việc mới,Lặp lại câu hỏi,Mất phương hướng thời gian và không gian,Thay đổi tính cách,Rối loạn ngôn ngữ,Mất khả năng thực hiện công việc quen thuộc,Hoang tưởng",
+        "causes": "Tích tụ mảng beta-amyloid và đám rối sợi thần kinh tau,Di truyền (APOE e4, PSEN1, PSEN2, APP),Tuổi cao,Chấn thương sọ não,Cao huyết áp,Đái tháo đường",
+        "diagnosis": "Đánh giá lâm sàng (MMSE, MoCA),MRI não (teo hồi hải mã,teo thùy thái dương),PET scan amyloid và tau,Xét nghiệm dịch não tủy (A-beta 42, tau),Xét nghiệm gen",
+        "treatment": "Thuốc ức chế Cholinesterase (Donepezil,Rivastigmine),Memantine (ức chế NMDA),Quản lý hành vi,Chăm sóc toàn diện,Hỗ trợ người chăm sóc"
+    },
+    {
+        "name": "Mất ngủ mạn tính",
+        "group_name": "Thần kinh",
+        "risk_level": "low",
+        "icon": "😴",
+        "description": "Rối loạn giấc ngủ kéo dài với khó đi vào giấc ngủ hoặc khó duy trì giấc ngủ trên 1 tháng",
+        "symptoms": "Khó đi vào giấc ngủ,Thức giấc nhiều lần,Dậy sớm không ngủ được,Mệt mỏi ban ngày,Khó tập trung,Cáu gắt,Giảm hiệu suất công việc,Ngủ gà",
+        "causes": "Stress,Lo âu,Trầm cảm,Rối loạn nhịp sinh học,Thói quen ngủ xấu,Caffeine/Rượu,Thuốc kích thích,Đau mạn tính,Thời kỳ mãn kinh",
+        "diagnosis": "Khám lâm sàng,Nhật ký giấc ngủ 2 tuần,Đa ký giấc ngủ (Polysomnography),Chỉ số chất lượng giấc ngủ Pittsburgh (PSQI)",
+        "treatment": "Vệ sinh giấc ngủ (phòng ngủ tối,yên tĩnh),Liệu pháp hành vi nhận thức cho mất ngủ (CBT-I),Thuốc ngủ ngắn hạn (Melatonin,Zolpidem),Thư giãn trước khi ngủ,Tránh caffeine và màn hình"
+    },
+    {
+        "name": "Đau thần kinh tọa",
+        "group_name": "Thần kinh",
+        "risk_level": "medium",
+        "icon": "🦵",
+        "description": "Đau lan dọc theo dây thần kinh tọa từ thắt lưng đến bàn chân do chèn ép rễ thần kinh",
+        "symptoms": "Đau lan từ lưng dưới qua mông xuống chân,Đau như điện giật,Tê bì chân,Yếu ngón chân,Đau tăng khi ngồi hoặc ho,Teo cơ chân",
+        "causes": "Thoát vị đĩa đệm thắt lưng,Hẹp ống sống,Chấn thương cột sống,Cơ lê chèn ép,U tủy sống,Hội chứng chùm đuôi ngựa",
+        "diagnosis": "MRI cột sống thắt lưng,CT scan,Đo điện cơ (EMG),X-quang cột sống,Đánh giá dấu hiệu Lasègue (nâng chân thẳng)",
+        "treatment": "Vật lý trị liệu,Thuốc giảm đau thần kinh (Gabapentin,Amitriptyline),Thuốc chống viêm NSAID,Chườm nóng/Lạnh,Tiêm steroid ngoài màng cứng,Phẫu thuật vi phẫu lấy đĩa đệm"
+    },
+    {
+        "name": "Lo âu",
+        "group_name": "Thần kinh",
+        "risk_level": "low",
+        "icon": "😰",
+        "description": "Rối loạn với lo lắng quá mức kéo dài, khó kiểm soát lo âu và các triệu chứng thực thể",
+        "symptoms": "Lo lắng quá mức,Bồn chồn,Bất an,Tim đập nhanh,Khó thở,Đổ mồ hôi,Rung cơ,Khó tập trung,Rối loạn giấc ngủ,Mệt mỏi",
+        "causes": "Di truyền,Mất cân bằng neurotransmitter (GABA,serotonin),Stress kéo dài,Sự kiện chấn thương,Lạm dụng chất kích thích,Rối loạn miễn dịch",
+        "diagnosis": "Khám lâm sàng và phỏng vấn tâm thần (DSM-5/GAD-7),Loại trừ bệnh thực thể (cường giáp,rối loạn tim),Đánh giá tâm lý",
+        "treatment": "Liệu pháp nhận thức hành vi (CBT),Thuốc chống trầm cảm (SSRI - Sertraline,Escitalopram),Benzodiazepine ngắn hạn,Thư giãn,Thiền chánh niệm,Tập thể dục"
+    },
+    {
+        "name": "Viêm màng não",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Viêm màng bao bọc não và tủy sống do nhiễm trùng, cấp cứu thần kinh nguy hiểm",
+        "symptoms": "Sốt cao,Đau đầu dữ dội,Cổ cứng,Nhạy cảm ánh sáng,Buồn nôn,Nôn,Lơ mơ,Co giật,Ban xuất huyết hoại tử (não mô cầu),Hôn mê",
+        "causes": "Não mô cầu (Neisseria meningitidis),Phế cầu (Streptococcus pneumoniae),Vi khuẩn Mycobacteria lao,Virus (Enterovirus,Herpes),Nấm (Cryptococcus) ở suy giảm miễn dịch",
+        "diagnosis": "Chọc dò dịch não tủy (phân tích, nuôi cấy, PCR),CT não trước chọc dò,Cấy máu,Nhuộm Gram và kháng nguyên nhanh,PCR virus trong dịch não tủy",
+        "treatment": "Kháng sinh tĩnh mạch khẩn cấp (Ceftriaxone + Vancomycin + Ampicillin),Dexamethasone giảm biến chứng thần kinh,Cách ly hô hấp nếu nghi não mô cầu,Điều trị hỗ trợ truyền dịch"
+    },
+    {
+        "name": "Viêm não",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Viêm nhu mô não do nhiễm virus (HSV trội), tự miễn hoặc các tác nhân khác, gây tổn thương thần kinh nặng",
+        "symptoms": "Sốt,Đau đầu,Rối loạn ý thức,Co giật,Rối loạn hành vi,Thiếu hụt thần kinh khu trú,Mất trí nhớ,Ảo giác,Nói khó,Yếu nửa người",
+        "causes": "Herpes simplex virus (HSV-1),Varicella zoster virus,Arbovirus (Viêm não Nhật Bản, Tây sông Nile),Viêm não tự miễn kháng thụ thể NMDA,HIV",
+        "diagnosis": "MRI não (tổn thương thái dương viền - HSV),Chọc dò dịch não tủy (PCR HSV, pleocytosis),EEG (sóng Sharp triphasic),Xét nghiệm tự kháng thể (NMDAR,MOG,AQP4)",
+        "treatment": "Acyclovir tĩnh mạch 21 ngày (HSV và VZV),Corticosteroid liều cao truyền,IVIG và Plasmapheresis nếu tự miễn,Thuốc chống động kinh,Phục hồi chức năng thần kinh"
+    },
+    {
+        "name": "U não",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Khối u phát triển bất thường trong hộp sọ, có thể lành tính hoặc ác tính (ung thư não)",
+        "symptoms": "Đau đầu tiến triển (đau tăng vào sáng sớm),Buồn nôn và nôn,Động kinh,Thiếu hụt thần kinh khu trú (yếu liệt,rối loạn thị giác,ngôn ngữ),Thay đổi tính cách,Rối loạn ý thức",
+        "causes": "Đột biến gen,Di truyền (Neurofibromatosis 2, Von Hippel Lindau),Phơi nhiễm phóng xạ đầu mặt,Suy giảm miễn dịch (lymphoma não),U di căn từ phổi,vú,đại tràng,mela",
+        "diagnosis": "MRI não có gadolinium,Cộng hưởng từ (MRS, PWI),CT scan não,Sinh thiết u để xác định mô bệnh học,Chọc dò dịch não tủy (nếu nghi ngờ di căn màng não)",
+        "treatment": "Phẫu thuật cắt u (giải ép thần kinh),Xạ trị (Gamma Knife, IMRT),Hóa trị (Temozolomide cho u nguyên bào thần kinh đệm),Liệu pháp đích,Quản lý tăng áp nội sọ (Mannitol,Corticosteroid)"
+    },
+    {
+        "name": "Chấn thương sọ não",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🤕",
+        "description": "Tổn thương não do tác động ngoại lực vào hộp sọ, gây rối loạn ý thức và thiếu hụt thần kinh",
+        "symptoms": "Đau đầu,Bất tỉnh ngay sau chấn thương,Mất trí nhớ sau chấn thương/Buồn nôn,Nôn,Rối loạn thị giác,Chảy máu mũi/tai,Lú lẫn,Đồng tử không đều,Yếu tay chân",
+        "causes": "Tai nạn giao thông,Té ngã,Tai nạn thể thao,Bạo lực,Chấn thương do văng/xâm nhập hộp sọ,Vết thương đầu do hỏa khí",
+        "diagnosis": "CT scan não cấp (chụp nhanh đánh giá xuất huyết,gãy xương),MRI não (tổn thương sợi trục lan tỏa),Glasgow Coma Scale,Đo áp lực nội sọ,Chụp mạch phát hiện tổn thương mạch",
+        "treatment": "Hồi sức thần kinh (tối ưu CPP, PaCO2),Phẫu thuật lấy máu tụ/giải ép sọ,Mannitol giảm phù não,Thuốc chống động kinh dự phòng,Vật lý trị liệu phục hồi chức năng"
+    },
+    {
+        "name": "Bệnh xơ cứng rải rác",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Bệnh tự miễn mạn tính hủy myelin hệ thần kinh trung ương, gây tổn thương đa ổ theo thời gian",
+        "symptoms": "Mờ mắt từng đợt (viêm dây thần kinh thị giác),Tê bì chân tay,Yếu cơ,Mệt mỏi cực độ,Mất thăng bằng,Nói khó,Rối loạn chức năng bàng quang,Rung giật nhãn cầu,Dị cảm,Chứng hội tụ và tiểu não",
+        "causes": "Tế bào T tấn công myelin,Di truyền (HLA-DRB1),Nhiễm EBV,Thiếu vitamin D,Hút thuốc,Phụ nữ (tỷ lệ cao hơn nam 3:1)",
+        "diagnosis": "MRI não và tủy sống (tổn thương T2 mất myelin),Phân tích dịch não tủy (băng oligoclonal,IgG index),Tiềm năng gợi (VEP,SSEP),Tiêu chuẩn McDonald 2017",
+        "treatment": "Corticosteroid tấn công (Methylprednisolone),Thuốc điều chỉnh bệnh (Interferon beta,Fingolimod,Natalizumab,Ocrelizumab),Vật lý trị liệu phục hồi chức năng,Quản lý triệu chứng"
+    },
+    {
+        "name": "Bệnh nhược cơ",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "💪",
+        "description": "Bệnh tự miễn gây yếu cơ mệt mỏi dao động do kháng thể chống thụ thể acetylcholin tại điểm nối thần kinh cơ",
+        "symptoms": "Yếu cơ tăng theo gắng sức,Sụp mi mắt (ptosis),Nhìn đôi (diplopia),Khó nuốt,Nói giọng mũi,Yếu cơ hô hấp (nguy hiểm),Yếu tay chân,Mỏi cơ khi nhai",
+        "causes": "Kháng thể kháng thụ thể acetylcholine (AChR) hoặc kháng MuSK,Tuyến ức bất thường (u tuyến ức/tăng sản tuyến ức),Di truyền (hiếm),Liên quan các bệnh tự miễn khác",
+        "diagnosis": "Xét nghiệm kháng thể AChR và MuSK,Teslon/Edrophonium test,Điện cơ đồ kích thích (giảm biên độ decrement >10%),CT ngực tìm u tuyến ức,Nghiệm pháp tăng mỏi cơ",
+        "treatment": "Thuốc ức chế Cholinesterase (Pyridostigmine),Corticosteroid,Thuốc ức chế miễn dịch (Azathioprine,Mycophenolate),Cắt u tuyến ức (Thymectomy),IVIG và Plasmapheresis trong nhược cơ nặng"
+    },
+    {
+        "name": "Liệt mặt ngoại biên (Bell)",
+        "group_name": "Thần kinh",
+        "risk_level": "low",
+        "icon": "😞",
+        "description": "Liệt dây thần kinh mặt ngoại biên cấp tính, thường tự hồi phục trong vài tuần đến vài tháng",
+        "symptoms": "Mặt méo một bên,Không nhắm kín mắt,Nếp nhăn trán mất,Bên miệng trễ xuống,Khó nhăn nhó cười,Bên mặt bị chảy nước mắt,nước miếng,Đau sau tai,Giảm vị giác",
+        "causes": "Viêm dây thần kinh mặt do virus Herpes simplex type 1 (HSV-1),Varicella zoster (Ramsay Hunt),Chấn thương thái dương,Đái tháo đường,Thai kỳ,Lạnh đầu mặt",
+        "diagnosis": "Khám lâm sàng (phân biệt liệt trung ương và ngoại biên),Điện cơ (EMG) tiên lượng hồi phục,Chẩn đoán hình ảnh loại trừ nguyên nhân thứ phát",
+        "treatment": "Prednisolone 60mg/ngày trong 7 ngày,Thuốc kháng virus (Acyclovir/Valacyclovir nếu nghi HSV),Nước mắt nhân tạo tránh khô loét mắt,Đắp mặt che mắt,Vật lý trị liệu cơ mặt"
+    },
+    {
+        "name": "Hội chứng Guillain-Barre",
+        "group_name": "Thần kinh",
+        "risk_level": "high",
+        "icon": "🦵",
+        "description": "Bệnh viêm đa dây thần kinh cấp tính tự miễn sau nhiễm trùng, gây yếu tiến triển nhanh và có thể liệt hô hấp",
+        "symptoms": "Yếu tay chân đối xứng tiến triển nhanh (từ chân lên tay),Mất phản xạ gân xương,Dị cảm đầu ngón (tê kim châm),Đau lưng dữ dội,Yếu cơ hô hấp,Liệt mặt hai bên,Rối loạn thần kinh thực vật (tim mạch,huyết áp,bàng quang)",
+        "causes": "Nhiễm Campylobacter jejuni trước đó (tiêu chảy),Nhiễm virus (CMV,EBV,Zika),Vắc xin (hiếm - cúm,Zika),Cơ chế tế bào lympho T tấn công myelin thần kinh ngoại biên",
+        "diagnosis": "Phân tích dịch não tủy (tăng phân ly đạm-tế bào - albuminocytologic dissociation),Điện cơ và dẫn truyền thần kinh (giảm tốc độ dẫn truyền,block dẫn truyền),Kháng thể kháng ganglioside (GM1,GQ1b),MRI tủy sống",
+        "treatment": "IVIG (Immunoglobulin tĩnh mạch) 5 ngày,Plasmapheresis (lọc huyết tương),Hỗ trợ hô hấp máy thở (nếu liệt cơ hô hấp),Vật lý trị liệu phục hồi chức năng lâu dài,Theo dõi tim mạch liên tục"
+    },
+    {
+        "name": "Đau dây thần kinh sinh ba",
+        "group_name": "Thần kinh",
+        "risk_level": "medium",
+        "icon": "😖",
+        "description": "Hội chứng đau một bên mặt dữ dội từng cơn cực ngắn dọc phân bố dây thần kinh sinh ba",
+        "symptoms": "Đau mặt như điện giật,dao đâm một bên,Đau cực mạnh kéo dài vài giây đến 2 phút,Cơn đau tái phát nhiều lần trong ngày,Đau lan vùng hàm/má/mắt/trán,Yếu tố kích hoạt (chạm răng,râu,cọ,nói,ăn,uống),Không có yếu cơ hoặc mất cảm giác",
+        "causes": "Mạch máu (thường động mạch tiểu não trên) chèn ép dây thần kinh sinh ba,Xơ cứng rải rác,U góc cầu tiểu não,Đột quỵ thân não,Vô căn (đa số)",
+        "diagnosis": "MRI/MRA sọ não và góc cầu tiểu não (tìm mạch chẹn,khối,u),Chẩn đoán lâm sàng dựa vào đặc điểm đau (tiêu chuẩn ICHD-3),EEG loại trừ động kinh",
+        "treatment": "Carbamazepine (thuốc đầu tay) / Oxcarbazepine,Gabapentin/Pregabalin liều cao,Phẫu thuật giải ép vi mạch (MVD - nếu phát hiện mạch chèn ép),Cắt đốt bằng tần số vô tuyến/Gamma Knife Xạ phẫu,Phong bế thần kinh ngoại vi"
+    },
+    {
+        "name": "Suy giáp",
+        "group_name": "Nội tiết",
+        "risk_level": "low",
+        "icon": "🦋",
+        "description": "Suy giảm chức năng tuyến giáp gây thiếu hụt hormone giáp, làm chậm chuyển hóa cơ thể",
+        "symptoms": "Mệt mỏi,Tăng cân,Không chịu lạnh,Rụng tóc,Da khô,Táo bón,Chậm nhịp tim,Trí nhớ giảm,Rối loạn kinh nguyệt,Phù niêm (myxedema)",
+        "causes": "Viêm tuyến giáp Hashimoto tự miễn,Phẫu thuật cắt giáp,Xạ trị iodine phóng xạ,Thiếu Iodine (vùng núi),Thuốc (Lithium,Amiodarone),Suy tuyến yên (giảm TSH)",
+        "diagnosis": "TSH tăng cao (dấu hiệu chính),FT4 giảm,Tự kháng thể giáp (Anti-TPO,Anti-Tg),Siêu âm tuyến giáp,Sinh thiết nếu có nhân",
+        "treatment": "Levothyroxine (L-T4) thay thế suốt đời,Theo dõi TSH mỗi 6-12 tháng,Liều điều chỉnh theo tuổi và cân nặng,Tránh tương tác với sắt,canxi,thuốc kháng acid"
+    },
+    {
+        "name": "Cường giáp",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🦋",
+        "description": "Tăng sản xuất hormone tuyến giáp gây tăng chuyển hóa toàn bộ cơ thể",
+        "symptoms": "Sụt cân,Nhịp tim nhanh,Hồi hộp,Rung tay,Tăng tiết mồ hôi,Không chịu nóng,Ăn nhiều,Lo lắng,Bồn chồn,Lồi mắt (Basedow),Rối loạn kinh nguyệt",
+        "causes": "Bệnh Basedow (Graves - tự miễn),Nhân giáp độc (bướu giáp đa nhân),Viêm tuyến giáp (De Quervain,hashitoxicosis),U tuyến yên tiết TSH,Quá liều Levothyroxine",
+        "diagnosis": "TSH giảm (<0.01),FT3 và FT4 tăng,Anti-TSHR dương tính (Basedow),Siêu âm giáp (tăng sinh mạch),Xạ hình giáp (I-131 uptake tăng)",
+        "treatment": "Thuốc kháng giáp (Methimazole,PTU),I-131 phóng xạ,Cắt bỏ tuyến giáp,Thuốc chẹn beta (Propranolol),Kiểm soát nhịp tim và hồi hộp"
+    },
+    {
+        "name": "Gout",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🦵",
+        "description": "Viêm khớp do tăng acid uric máu và lắng đọng tinh thể urat tại khớp",
+        "symptoms": "Đau khớp dữ dội đột ngột (thường ngón chân cái),Sưng nóng đỏ đau,Hạn chế vận động,Sốt nhẹ,Tophi (cục urat dưới da),Tái phát thành từng đợt",
+        "causes": "Tăng sản xuất acid uric (di truyền, chế độ ăn nhiều purine thịt đỏ,hải sản,nội tạng,bia),Giảm thải trừ acid uric qua thận (bệnh thận, thuốc lợi tiểu),Béo phì,Rượu bia,Suy thận",
+        "diagnosis": "Xét nghiệm acid uric máu > 416 umol/L nam, > 360 nữ,Chọc dịch khớp tìm tinh thể urat hình kim dưới kính hiển vi phân cực,X-quang khớp (bào mòn,hạt tophi),Siêu âm khớp (dấu kép double contour)",
+        "treatment": "Thuốc chống viêm NSAID (Ibuprofen,Naproxen),Colchicine,Corticosteroid (ngắn hạn),Thuốc hạ acid uric máu (Allopurinol,Febuxostat),Chế độ ăn ít purine,Uống nhiều nước"
+    },
+    {
+        "name": "Loãng xương",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🦴",
+        "description": "Giảm mật độ xương và thoái hóa cấu trúc xương, tăng nguy cơ gãy xương",
+        "symptoms": "Đau nhức xương mạn tính,Giảm chiều cao,Gù lưng (gù cột sống),Gãy xương tự phát hoặc do chấn thương nhẹ (cổ xương đùi,cổ tay,cột sống),Đau lưng tiến triển",
+        "causes": "Thiếu estrogen (mãn kinh sớm),Tuổi cao,Giảm testosterone nam,Thiếu canxi/vitamin D,Thuốc Corticosteroid kéo dài,Hút thuốc,Rượu,Di truyền,Ít vận động,Bệnh lý (cường cận giáp,cường giáp)",
+        "diagnosis": "Đo mật độ xương (DXA - T-score < -2.5),X-quang (mờ xương,gãy xương),Xét nghiệm canxi,vitamin D,PTH,Marker chuyển hóa xương (CTX,P1NP)",
+        "treatment": "Bổ sung Canxi (1200mg/ngày),Vitamin D (800-2000 IU/ngày),Bisphosphonate (Alendronate,Zoledronic acid),Denosumab,Teriparatide (PTH tái tổ hợp),Tập thể dục chịu lực"
+    },
+    {
+        "name": "Bệnh Addison",
+        "group_name": "Nội tiết",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Suy tuyến thượng thận nguyên phát gây thiếu hụt cortisol và aldosterone",
+        "symptoms": "Mệt mỏi mạn tính,Sụt cân,Tăng sắc tố da (giống da cháy nắng),Hạ huyết áp tư thế,Chóng mặt,Thèm muối,Rối loạn tiêu hóa,Buồn nôn,Đau bụng,Sốt do suy thượng thận cấp",
+        "causes": "Viêm tuyến thượng thận tự miễn (70%),Lao thượng thận,Ung thư di căn thượng thận,Cắt thượng thận,Nhiễm nấm (histoplasma),Xuất huyết thượng thận (Waterhouse-Friderichsen, nhiễm não mô cầu)",
+        "diagnosis": "Cortisol máu buổi sáng thấp,ACTH tăng cao,Test kích thích ACTH (Synacthen) dương tính,Aldosterone thấp,Renin tăng,Anti-21-hydroxylase kháng thể,CT thượng thận",
+        "treatment": "Hydrocortisone uống thay thế (12-15mg/m2/ngày),Fludrocortisone (mineralocorticoid) 0.05-0.2 mg/ngày,Tăng liều khi stress/nhiễm trùng/Mổ,Tiêm Hydrocortisone nếu suy thượng thận cấp"
+    },
+    {
+        "name": "Hội chứng Cushing",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🧍",
+        "description": "Cơ thể tiếp xúc với cortisol quá mức kéo dài do u tuyến yên hoặc thuốc",
+        "symptoms": "Mặt trăng (moon face),Béo trung tâm (bụng to,chân tay nhỏ),Da mỏng,bầm tím,Xuất hiện vết rạn da màu đỏ tím (striae),Yếu cơ gốc chi,Cao huyết áp,Đái tháo đường thứ phát,Rậm lông,Rối loạn kinh nguyệt",
+        "causes": "U tuyến yên tiết ACTH (bệnh Cushing - 70%),U thượng thận tiết cortisol (u lành/ác),U ác tính tiết ACTH lạc chỗ (phổi nhỏ,tụy,...),Corticosteroid dùng ngoại sinh (thuốc chống viêm,hen,bệnh mô liên kết)",
+        "diagnosis": "Cortisol nước tiểu 24h tăng,Test ức chế Dexamethasone 1mg (sáng hôm sau cortisol >50 nmol/L),ACTH máu,CT/MRI tuyến yên và thượng thận,Chụp xạ hình DOTATOC nếu ACTH lạc chỗ",
+        "treatment": "Phẫu thuật u tuyến yên (TSS - Transsphenoidal),Cắt thượng thận (u thượng thận),Giảm liều/ngừng Corticosteroid ngoại sinh,Thuốc ức chế cortisol tổng hợp (Ketoconazole,Metyrapone),Xạ trị tuyến yên"
+    },
+    {
+        "name": "U tuyến yên",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🧠",
+        "description": "Khối u thường lành tính phát triển từ tuyến yên, gây rối loạn nội tiết và chèn ép thần kinh",
+        "symptoms": "Đau đầu,Rối loạn thị trường (bán manh thái dương),Mất kinh/tiết sữa bất thường (tăng Prolactin),Hội chứng Cushing (u ACTH),To đầu chi (u GH),Suy tuyến yên do chèn ép,Mệt mỏi",
+        "causes": "Đột biến gen đơn bào tuyến yên (vô căn đa số),Di truyền (MEN1, Carney complex,FIPA),Phơi nhiễm bức xạ đầu cổ,Pseudo-u tuyến yên (do thiếu hormone giáp)",
+        "diagnosis": "MRI tuyến yên cắt lớp mỏng (adenoma micro <1cm / macro >1cm),Xét nghiệm hormone tuyến yên và cơ quan đích (Prolactin,GH,IGF-1,ACTH,Cortisol,TSH,FT4,LH,FSH,Testosterone/Estradiol),Khám thị trường (Humphrey)",
+        "treatment": "Phẫu thuật qua xoang bướm (TSS),Thuốc ức chế Prolactin (Cabergoline/Dostinex),Thuốc ức chế GH (Octreotide,Pegvisomant),Xạ trị (Gamma Knife),Thay thế hormone suy tuyến"
+    },
+    {
+        "name": "To đầu chi",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🧑",
+        "description": "Tăng sản xuất hormone tăng trưởng (GH) ở người trưởng thành do u tuyến yên, gây phì đại mô xương và mô mềm",
+        "symptoms": "Phì đại tay chân (không đeo được nhẫn),Phì đại sọ mặt (mũi to,môi dày,trán nhô, hàm nhô),Da dày đổ dầu,Đổ mồ hôi quá mức,Giọng trầm hơn,Đau khớp,Hội chứng ống cổ tay,Rối loạn thị trường,Ngáy to (ngưng thở ngủ),Bướu cổ",
+        "causes": "U tuyến yên tăng tiết GH (adenoma somatotroph) >95%,Hiếm: u ác tính ngoại vi tiết GHRH (phổi,tụy,ruột thừa),Hội chứng McCune-Albright,Carcinoid chế tiết GHRH",
+        "diagnosis": "IGF-1 tăng (xét nghiệm sàng lọc chính),GH không ức chế sau nghiệm pháp dung nạp Glucose (OGTT),MRI tuyến yên tìm u,Khám Thị trường,Xét nghiệm hormone toàn bộ trục dưới đồi-yên",
+        "treatment": "Phẫu thuật cắt u (TSS) là điều trị đầu tay,Thuốc chủ vận Somatostatin (Octreotide LAR,Lanreotide),Thuốc đối kháng GH (Pegvisomant),Xạ trị (Gamma Knife nếu còn sót u),Kiểm soát bệnh kèm (cao huyết áp,đái tháo đường,ngưng thở ngủ)"
+    },
+    {
+        "name": "Đái tháo nhạt",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🚽",
+        "description": "Rối loạn bài tiết quá nhiều nước tiểu pha loãng do thiếu ADH hoặc kháng ADH ở thận",
+        "symptoms": "Tiểu nhiều (đa niệu > 3-20L/ngày),Khát nước cực độ (uống nhiều),Mất nước mạn tính,Mệt mỏi,Trẻ em: bỏ bú,kém phát triển,Mất ngủ do tiểu đêm,Rối loạn điện giải (tăng Natri máu)",
+        "causes": "Trung ương (thiếu ADH): u sọ hầu,chấn thương đầu,viêm não,phẫu thuật tuyến yên,Thận (kháng ADH): thuốc Lithium,bệnh thận mạn,thiếu kali,canxi máu cao,Thai kỳ (ADH bị phân giải bởi placenta vasopressinase)",
+        "diagnosis": "Nghiệm pháp nhịn khô (tăng Natri,mất nước,nước tiểu cô đặc kém),Đo copeptin/ADH,Đáp ứng với Desmopressin (trung ương: giảm tiểu>50%; thận: không đáp ứng),MRI não (tìm tổn thương thùy sau tuyến yên)",
+        "treatment": "Desmopressin (DDAVP) xịt mũi/uống (trung ương),HCTZ + Amiloride (thận),Giảm muối và protein (thận),Ngừng thuốc Lithium (thận),Điều trị nguyên nhân nền"
+    },
+    {
+        "name": "Cường cận giáp",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🦴",
+        "description": "Tăng sản xuất hormone PTH gây tăng canxi máu và các rối loạn chuyển hóa canxi",
+        "symptoms": "Sỏi thận (canxi oxalate),Đau xương,Gãy xương bệnh lý,Yếu cơ,Mệt mỏi,Trầm cảm,Suy thận,Loét dạ dày,Viêm tụy,Tăng huyết áp,Rối loạn nhịp tim (QT ngắn)",
+        "causes": "U tuyến cận giáp lành tính (85%),Tăng sản tất cả các tuyến cận giáp (10-15%),Ung thư tuyến cận giáp (hiếm <1%),Di truyền (MEN1, MEN2A, Hyperparathyroidism jaw tumor syndrome),Suy thận mạn (gây cường cận giáp thứ phát)",
+        "diagnosis": "PTH tăng + Canxi máu tăng (cường cận giáp nguyên phát),Vitamin D,Phosphate,Siêu âm tuyến cận giáp hoặc Sestamibi scan (phát hiện u),Xquang xương (mất xương dưới màng xương,hạt tiêu đốt ngón),Đánh giá sỏi thận (CT thận)",
+        "treatment": "Phẫu thuật cắt u tuyến cận giáp (chữa khỏi >90%),Bisphosphonate giảm canxi (Zoledronic acid),Cinacalcet (calcimimetic) hạ PTH và canxi,Bù dịch pha loãng canxi (cấp canxi máu cao),Điều trị suy thận (thứ phát)"
+    },
+    {
+        "name": "Suy cận giáp",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "🫁",
+        "description": "Thiếu hụt PTH gây hạ canxi máu và tăng phospho máu",
+        "symptoms": "Tê bì quanh miệng và đầu ngón,Căng cơ tự phát (tetany: co cứng bàn tay chân),Co thắt thanh quản (khó thở,stridor),Co giật (hạ canxi máu),Trẻ em chậm phát triển,Da khô móng giòn,Rụng tóc,Đục thể thủy tinh",
+        "causes": "Phẫu thuật tuyến giáp/vùng cổ gây cắt tuyến cận giáp (nguyên nhân phổ biến nhất),Bệnh tự miễn (kháng thể kháng CaSR),Di truyền (DiGeorge syndrome, hội chứng thiếu PTH bẩm sinh),Thiếu Magnesium,Xạ trị vùng cổ",
+        "diagnosis": "PTH thấp + Canxi máu thấp (Ca <2.1 mmol/L) + Phospho máu cao,Magnesium máu,Canxi niệu 24h phân biệt suy cận giáp và giảm canxi do thiếu vitamin D,ECG (QT kéo dài),Siêu âm thận (loại trừ sỏi thận)",
+        "treatment": "Canxi uống liều cao (1000-2000 mg),Vitamin D liều cao (Calcitriol 0.25-2 mcg/ngày),Magie bổ sung nếu thiếu,Truyền canxi tĩnh mạch (nếu hạ canxi nặng cấp: Co giật,co thắt thanh quản)"
+    },
+    {
+        "name": "Bướu giáp đa nhân",
+        "group_name": "Nội tiết",
+        "risk_level": "low",
+        "icon": "🦋",
+        "description": "Nhiều nhân giáp phát triển trong tuyến giáp, thường lành tính, gây phì đại tuyến",
+        "symptoms": "Sờ thấy khối ở cổ,Khó nuốt,Khó thở,Khàn tiếng,Cảm giác nghẹn ở cổ,Ho,Đôi khi cường giáp (nhân độc)",
+        "causes": "Thiếu Iodine mạn tính,Di truyền,Phụ nữ,Tuổi cao,Chất bướu cổ trong thực phẩm (củ cải,sắn),Viêm tuyến giáp mạn",
+        "diagnosis": "Siêu âm tuyến giáp (nhiều nhân hỗn hợp),Xét nghiệm chức năng giáp (TSH,FT3,FT4),Sinh thiết tế bào FNA (nếu nhân nghi ngờ 4cm,TIRADS cao),Xạ hình giáp (phân loại nhân nóng/lạnh)",
+        "treatment": "Theo dõi định kỳ (siêu âm 6-12 tháng) nếu không triệu chứng,Levothyroxine ức chế TSH (nếu TSH thấp),Phẫu thuật cắt thùy/tuyến giáp (nếu chèn ép hoặc nghi ngờ K),I-131 phóng xạ (nếu nhân độc gây cường giáp)"
+    },
+    {
+        "name": "PCOS",
+        "group_name": "Nội tiết",
+        "risk_level": "medium",
+        "icon": "👩",
+        "description": "Hội chứng buồng trứng đa nang - rối loạn nội tiết phổ biến ở phụ nữ trong độ tuổi sinh sản",
+        "symptoms": "Rối loạn kinh nguyệt (thưa kinh,mất kinh),Rậm lông (hirsutism),Mụn trứng cá,Rụng tóc,Da dầu,Béo phì trung tâm,Khó thụ thai,Kháng insulin,Sạm da gáy (acanthosis nigricans)",
+        "causes": "Kháng insulin,Rối loạn hormone LH-FSH,Di truyền (gen DENND1A, LHCGR),Môi trường (yếu tố nội tiết thai nhi),Béo phì,Viêm mạn tính cấp độ thấp",
+        "diagnosis": "Tiêu chuẩn Rotterdam (có 2/3: 1) Thưa/mất kinh,2) Lâm sàng/cận lâm sàng tăng Androgen,3) Siêu âm buồng trứng >12 nang/1 bên),Xét nghiệm: LH/FSH >2,Testosterone tự do,SHBG,Đường huyết,Insulin,OGTT (loại trừ Đái tháo đường)",
+        "treatment": "Thay đổi lối sống: giảm cân 5-10%, tập thể dục,Metformin (cải thiện kháng insulin,phục hồi kinh nguyệt),Thuốc tránh thai (Điều hòa kinh nguyệt,giảm Androgen),Clomiphene hoặc Letrozole (kích thích rụng trứng),Thuốc kháng Androgen (Spironolactone),Điều trị mụn và rậm lông"
+    },
+    {
+        "name": "Rối loạn lipid máu",
+        "group_name": "Nội tiết",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Bất thường về lipid máu: tăng cholesterol xấu LDL, giảm cholesterol tốt HDL, tăng Triglyceride",
+        "symptoms": "Không triệu chứng giai đoạn sớm,Cơn đau ngực (bệnh mạch vành),Đau chân cách hồi (xơ vữa động mạch ngoại biên),Vàng da (xanthoma) quanh mắt,gan bàn tay,gân Achilles,Viêm tụy (nếu Triglyceride > 1000 mg/dL)",
+        "causes": "Di truyền (tăng cholesterol gia đình - FH),Chế độ ăn nhiều chất béo bão hòa,muối,Ít vận động,Béo phì,Đái tháo đường,Suy giáp,Bệnh thận hư,Rượu,Thuốc (lợi tiểu,progestin,corticosteroid)",
+        "diagnosis": "Xét nghiệm mỡ máu đói: Cholesterol toàn phần >5.2 mmol/L,LDL >3.4 mmol/L,HDL <1.0 nam <1.3 nữ,Triglyceride >2.3 mmol/L,Apolipoprotein B và Lp(a) đánh giá nguy cơ tim mạch",
+        "treatment": "Statin (Atorvastatin,Rosuvastatin) - giảm LDL chính,Ezetimibe ức chế hấp thu cholesterol,Fibrate (Fenofibrate) giảm Triglyceride,Bổ sung Omega-3 liều cao,Chế độ ăn Địa Trung Hải,Tập thể dục ít nhất 150 phút/tuần"
+    },
+    {
+        "name": "Mãn dục nam",
+        "group_name": "Nội tiết",
+        "risk_level": "low",
+        "icon": "👨",
+        "description": "Suy giảm testosterone do lão hóa nam giới, ảnh hưởng đến sức khỏe tổng thể và chức năng sinh dục",
+        "symptoms": "Giảm ham muốn tình dục,Rối loạn cương,Mệt mỏi,Trầm cảm,Giảm khối lượng cơ,Tăng mỡ nội tạng,Loãng xương,Rụng tóc,Rối loạn giấc ngủ,Bốc hỏa như mãn kinh nữ",
+        "causes": "Tuổi cao (>40 testosterone giảm 1% mỗi năm),Suy tinh hoàn nguyên phát,Viêm tinh hoàn do quai bị,Chấn thương tinh hoàn,Xạ trị,hóa trị,Béo phì,Rượu,Stress mạn tính,Hội chứng chuyển hóa,Đái tháo đường,Thuốc (opioid,corticosteroid)",
+        "diagnosis": "Testosterone máu buổi sáng 8-10h: <8.0 nmol/L (chẩn đoán), <12 nmol/L + triệu chứng,LH,FSH,SHBG,Prolactin,Đánh giá triệu chứng lâm sàng (bảng hỏi ADAM/AMS)",
+        "treatment": "Testosterone thay thế (gel da (Androgel),tiêm (Nebido 3 tháng/lần),miếng dán),Tập thể dục sức mạnh (Squat,Deadlift),Giảm cân,Bỏ rượu,Thuốc ức chế thơm hóa (Anastrozole) nếu Estradiol cao kèm"
+    },
+    {
+        "name": "Thoái hóa khớp",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "medium",
+        "icon": "🦴",
+        "description": "Bệnh mạn tính thoái hóa sụn khớp và xương dưới sụn, thường gặp ở người cao tuổi",
+        "symptoms": "Đau khớp (tăng khi vận động),Cứng khớp buổi sáng < 30 phút,Giảm tầm vận động,Tiếng lạo xạo khi cử động,Biến dạng khớp,Sưng nhẹ,Yếu cơ cạnh khớp",
+        "causes": "Tuổi cao,Béo phì,Di truyền,Chấn thương khớp trước đây,Công việc nặng nhọc(khuỵu gối),Viêm khớp mạn,Rối loạn chuyển hóa",
+        "diagnosis": "X-quang khớp (hẹp khe khớp,gai xương,xơ đặc dưới sụn),MRI khớp (tổn thương sụn),Siêu âm khớp,Chọc dịch khớp loại trừ viêm khớp khác",
+        "treatment": "Giảm cân,Tập vật lý trị liệu (tăng cường cơ quanh khớp),Thuốc giảm đau (Paracetamol,NSAID),Tiêm Corticosteroid nội khớp,Tiêm acid hyaluronic (giả dạng dịch khớp),Phẫu thuật thay khớp (gối,háng) giai đoạn cuối"
+    },
+    {
+        "name": "Thoát vị đĩa đệm",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "medium",
+        "icon": "🦴",
+        "description": "Nhân nhầy đĩa đệm thoát ra ngoài qua vòng sợi, chèn ép rễ thần kinh hoặc tủy sống",
+        "symptoms": "Đau thắt lưng lan xuống chân một bên (đau thần kinh tọa),Tê bì kiểu bít tất chân,Yếu cơ (yếu gập duỗi bàn chân),Dấu Lasègue (+),Rối loạn cơ vòng (hội chứng đuôi ngựa - cấp cứu): bí tiểu,mất cảm giác vùng yên ngựa,liệt 2 chân",
+        "causes": "Thoái hóa đĩa đệm,Mang vác nặng sai tư thế,Chấn thương cột sống,Bẩm sinh,Di truyền,Hút thuốc (giảm dinh dưỡng đĩa đệm),Lái xe thường xuyên rung xóc",
+        "diagnosis": "MRI cột sống thắt lưng (tiêu chuẩn vàng),CT scan cột sống,X-quang cột sống (loại trừ gãy,u),EMG/NCV đánh giá mức độ chèn ép rễ thần kinh",
+        "treatment": "Nghỉ ngơi ngắn (<3 ngày),Vật lý trị liệu (McKenzie,duỗi cột sống),Thuốc giảm đau NSAID,Gabapentin/Pregabalin (đau thần kinh),Tiêm steroid ngoài màng cứng,Phẫu thuật vi phẫu lấy đĩa đệm (nếu thất bại điều trị nội khoa 6 tuần hoặc có yếu liệt tiến triển)"
+    },
+    {
+        "name": "Viêm khớp dạng thấp",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦴",
+        "description": "Bệnh tự miễn viêm mạn tính màng hoạt dịch khớp, gây hủy hoại khớp tiến triển",
+        "symptoms": "Đau khớp đối xứng hai bên (cổ tay,bàn ngón tay,gối,cổ chân),Cứng khớp buổi sáng > 30 phút,Sưng nóng đau khớp,Hạt thấp dưới da,Biến dạng khớp (cổ ngỗng,thùa khuyết),Mệt mỏi,sốt nhẹ,sụt cân",
+        "causes": "Tự miễn (kháng thể RF,anti-CCP),Di truyền (HLA-DRB1),Nhiễm trùng (P.gingivalis,EBV),Phụ nữ (tỷ lệ nữ:nam = 3:1),Hút thuốc (yếu tố nguy cơ mạnh nhất),Nhiễm trùng nha chu",
+        "diagnosis": "Xét nghiệm RF (dương tính 70%),Anti-CCP (dương tính 95%),CRP,ESR tăng,X-quang khớp (bào mòn xương,hẹp khe khớp đối xứng),Siêu âm khớp (tăng sinh mạch màng hoạt dịch),Tiêu chuẩn ACR/EULAR 2010 (≥6 điểm)",
+        "treatment": "DMARDs tổng hợp (Methotrexate đầu tay,Leflunomide,Sulfasalazine),DMARDs sinh học (kháng TNF: Adalimumab,Etanercept; kháng IL6: Tocilizumab; kháng CD20: Rituximab),JAK inhibitors (Tofacitinib,Baricitinib),Corticosteroid liều thấp kiểm soát cơn cấp,NSAID giảm đau,Vật lý trị liệu"
+    },
+    {
+        "name": "Đau thắt lưng",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "low",
+        "icon": "🦴",
+        "description": "Đau vùng cột sống thắt lưng cấp hoặc mạn tính, phổ biến ở mọi lứa tuổi",
+        "symptoms": "Đau vùng thắt lưng,Đau tăng khi ngồi lâu hoặc cúi,Co cứng cơ cạnh sống,Hạn chế vận động cột sống,Đau lan xuống mông hoặc chân (nếu chèn ép dây thần kinh)",
+        "causes": "Tư thế sai,Cơ yếu cốt lõi (core),Béo phì,Ít vận động,Căng cơ do nâng vật nặng,Chấn thương,Thoái hóa đĩa đệm,Rối loạn tâm thần (stress,trầm cảm),Hút thuốc",
+        "diagnosis": "Khám lâm sàng là chính (dấu hiệu báo động: sốt, sụt cân, tiền sử ung thư, yếu cơ),X-quang cột sống (loại trừ gãy,u),MRI (nếu có đau lan chân,Nghi ngờ thoát vị đĩa đệm,hẹp ống sống)",
+        "treatment": "Duy trì vận động (không nằm nghỉ dài ngày),Vật lý trị liệu (tập kéo giãn,tăng cường cơ core),Thuốc giảm đau: Paracetamol,NSAID,Giãn cơ (Cyclobenzaprine, Eperisone),Chườm nóng/lạnh,Nắn chỉnh cột sống (Chiropractic),Acupuncture"
+    },
+    {
+        "name": "Viêm gân",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "low",
+        "icon": "💪",
+        "description": "Viêm cấp hoặc mạn tính gân do lặp lại động tác quá mức hoặc chấn thương",
+        "symptoms": "Đau địa phương tại gân,Đau tăng khi cử động,Sưng nhẹ,Nóng ấm,Nổi u cục dọc gân,Kiểm tra căng giãn (+),Điểm đau chói tại bám tận gân",
+        "causes": "Vận động quá mức lặp lại (thể thao,công việc),Chấn thương cấp,Tuổi cao (giảm đàn hồi gân),Di truyền,Bất động kéo dài,Bệnh lý (gout,viêm khớp dạng thấp),Thuốc Fluoroquinolone kháng sinh",
+        "diagnosis": "Khám lâm sàng (điểm đau chói,tăng đau khi co duỗi kháng lực),Siêu âm gân (dày,viêm,xơ hóa,rách),MRI gân (phát hiện rách bán phần/toàn phần),X-quang (loại trừ vôi hóa gân,viêm điểm bám tận)",
+        "treatment": "Nghỉ ngơi tương đối,Chườm đá,Thuốc NSAID uống/bôi,Trị liệu sóng xung kích (ESWT),Tiêm Corticosteroid (liệu pháp ngắn hạn),Vật lý trị liệu (tập kéo giãn, tăng sức mạnh cơ),Phẫu thuật sửa gân nếu đứt hoàn toàn"
+    },
+    {
+        "name": "Lupus ban đỏ hệ thống",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦋",
+        "description": "Bệnh tự miễn mạn tính ảnh hưởng đa cơ quan (da,khớp,thận,thần kinh,máu)",
+        "symptoms": "Ban cánh bướm hai má,Sốt,Mệt mỏi,Đau khớp,Rụng tóc,Loét miệng,Ban da nhạy cảm ánh sáng,Viêm thận (phù,cao huyết áp,suy thận),Viêm màng phổi/tim,Thiếu máu,Giảm bạch cầu,Rối loạn đông máu (kháng phospholipid),Co giật,loạn thần",
+        "causes": "Tự miễn (kháng thể kháng nhân ANA),Di truyền (HLA-DR2/DR3),Nội tiết (nữ:nam = 9:1),Môi trường (ánh nắng,nhiễm trùng,thuốc),Vi rút Epstein-Barr (EBV),Hút thuốc",
+        "diagnosis": "ANA dương tính (sàng lọc 95%),Anti-dsDNA,PCR,MPO,PR3,Protein niệu 24h,Sinh thiết thận (đánh giá mức độ viêm thận),Công thức máu (giảm 3 dòng),CRP,ESR,Kháng thể kháng phospholipid (aPL,chống đông lupus)",
+        "treatment": "Hydroxychloroquine (nền tảng điều trị),Corticosteroid liều thấp/trung bình,Thuốc ức chế miễn dịch (Mycophenolate mofetil,Cyclophosphamide cho viêm thận nặng,Azathioprine),Thuốc sinh học (Belimumab - kháng BLyS),Rituximab (kháng CD20),Thuốc chống đông (nếu hội chứng kháng phospholipid)"
+    },
+    {
+        "name": "Viêm cột sống dính khớp",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦴",
+        "description": "Bệnh viêm cột sống mạn tính tự miễn thuộc nhóm bệnh lý cột sống huyết thanh âm tính",
+        "symptoms": "Đau lưng viêm (đau nghỉ ngơi,cứng buổi sáng,đau đêm),Cứng cột sống tiến triển,Giảm tầm vận động cột sống,Đau mông luân phiên,Viêm khớp gối/cổ chân,Đau gót chân (viêm bám tận gân Achilles),Viêm màng bồ đào",
+        "causes": "Di truyền HLA-B27 (90% bệnh nhân),Yếu tố môi trường (nhiễm khuẩn đường ruột?),Rối loạn miễn dịch (tế bào T tấn công sụn khớp và điểm bám tận),Nam giới (3:1),Khởi phát < 40 tuổi",
+        "diagnosis": "MRI cột sống chậu (phù tủy xương,viêm khớp cùng chậu trước khi XQ thấy),X-quang (viêm khớp cùng chậu 2 bên,mọc cầu xương bamboo spine giai đoạn muộn),HLA-B27 dương tính (hỗ trợ chẩn đoán),CRP/ESR tăng (đợt hoạt động),Tiêu chuẩn ASAS 2009",
+        "treatment": "NSAID liều cao liên tục (Indomethacin,Diclofenac,Naproxen),Kháng TNF: Adalimumab,Infliximab,Etanercept,Golimumab (thuốc sinh học ức chế TNF),Kháng IL-17: Secukinumab,Ixekizumab,DMARD (Sulfasalazine,Methotrexate cho viêm khớp ngoại vi),Vật lý trị liệu (tập kéo giãn,ngủ nằm ngửa mặt phẳng cứng),Tiêm Corticosteroid nội khớp"
+    },
+    {
+        "name": "Hoại tử vô mạch chỏm xương đùi",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦴",
+        "description": "Chết mô xương chỏm xương đùi do thiếu máu nuôi, gây xẹp chỏm và thoái hóa khớp háng",
+        "symptoms": "Đau vùng háng lan xuống đùi,Đau tăng khi tỳ nặng hoặc xoay chân,Hạn chế vận động khớp háng (xoay trong,dạng),Đau về đêm,Ngồi xổm khó,Đi khập khiễng,Yếu cơ mông,đùi",
+        "causes": "Sử dụng Corticosteroid liều cao kéo dài (nguyên nhân số 1),Uống rượu nhiều,Chấn thương (gãy cổ xương đùi vỡ cung động mạch vòng),Bệnh hồng cầu lưỡi liềm,Bệnh Gaucher,Xạ trị vùng chậu,Lupus,Viêm tụy,Gout,Béo phì,Hút thuốc,Đái tháo đường",
+        "diagnosis": "MRI hông (nhạy nhất,phát hiện sớm trước xẹp) : Double line sign,CT scan (xẹp chỏm sớm),X-quang hông (phân giai đoạn Ficat: 1-4),Siêu âm Doppler mạch máu nuôi chỏm,Elevated CRP/ESR (loại trừ viêm xương khớp)",
+        "treatment": "Giai đoạn sớm (trước xẹp Ficat 1-2): Giảm tỳ nén,nạng,Bisphosphonate (Alendronate) ngăn xẹp,Giai đoạn xẹp (Ficat 3-4): Phẫu thuật bảo tồn: Khoan giải áp lõi + ghép xương tự thân mạch máu (Ficat 2-3),Osteotomy quanh ổ cối thay đổi trục tỳ nén,Thay toàn bộ khớp háng (THA) giai đoạn cuối (Ficat 4)"
+    },
+    {
+        "name": "Gãy xương",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦴",
+        "description": "Mất liên tục hoàn toàn hoặc không hoàn toàn của xương do chấn thương hoặc bệnh lý",
+        "symptoms": "Đau dữ dội tại vị trí gãy,Sưng nề biến dạng chi,Mất vận động chi,Bầm máu dưới da,Có tiếng lạo xạo (crepitus) khi di động,Ngắn chi (nếu gãy di lệch),Lộ đầu xương (gãy hở)",
+        "causes": "Chấn thương trực tiếp (ngã,tai nạn),Chấn thương gián tiếp (xoắn),Loãng xương (gãy xương bệnh lý),Ung thư xương di căn,Nhiễm trùng xương (osteomyelitis),Bệnh Paget xương,Chấn thương thể thao",
+        "diagnosis": "X-quang 2 tư thế (đầu diện nghiêng) - chẩn đoán xác định vị trí,loại gãy,CT scan (gãy phức tạp,vỡ nhiều mảnh,gãy khớp),MRI (gãy stress,gãy bệnh lý,chèn ép thần kinh),Siêu âm (gãy xương sọ,trẻ em),Đánh giá tổn thương mạch máu thần kinh (mạch quay,chày,điện cơ)",
+        "treatment": "Băng bột (gãy không di lệch hoặc sau nắn),Phẫu thuật Kết xương bên trong (nẹp vít,đinh nội tủy,đinh chốt,...Kết hợp xương ),Phẫu thuật cố định bên ngoài (khung Ilizarov) gãy hở,bảo tồn chi,Kháng sinh (gãy hở),Chống đông (dự phòng thuyên tắc phổi),Phục hồi chức năng (vật lý trị liệu sớm)"
+    },
+    {
+        "name": "Bong gân",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "low",
+        "icon": "🦶",
+        "description": "Tổn thương dây chằng do kéo giãn quá mức khi khớp bị vặn bất thường",
+        "symptoms": "Đau đột ngột tại khớp sau chấn thương,Sưng nề,Bầm tím,Hạn chế vận động khớp,Mất vững khớp (nếu đứt hoàn toàn),Đau ấn trên dây chằng",
+        "causes": "Cơ chế xoay vặn khớp quá tầm vận động sinh lý (ví dụ lật cổ chân),Tai nạn thể thao (bóng rổ,bóng đá,...),Đi giày cao gót,Đường không bằng phẳng,Yếu cơ và dây chằng trước đó,Di truyền (mô liên kết lỏng lẻo)",
+        "diagnosis": "Khám lâm sàng (căng khớp,mất vững),Siêu âm cơ xương khớp (dây chằng rách,tràn dịch),MRI (đánh giá mức độ rách dây chằng: độ 1-3),X-quang (loại trừ gãy xương kèm theo,gãy arrachement),Khám mất vững dưới gây tê (ghi nhận)",
+        "treatment": "Nguyên tắc RICE: Nghỉ (Rest),Chườm đá (Ice),Băng ép (Compression),Kê cao (Elevation),Bất động (nẹp/bột độ 2,3),NSAID giảm đau,Nạng (độ 3),Phẫu thuật khâu nối dây chằng nếu đứt hoàn toàn mất vững nhiều,Vật lý trị liệu vận động sớm sau giai đoạn cấp (tập giữ thăng bằng, sức mạnh)"
+    },
+    {
+        "name": "Sai khớp",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "high",
+        "icon": "🦴",
+        "description": "Mất tiếp xúc hoàn toàn hai mặt khớp do chấn thương hoặc bệnh lý",
+        "symptoms": "Đau dữ dội,Biến dạng khớp (mất vị trí giải phẫu),Mất vận động khớp,Sưng nề nhanh,Cảm giác trật khớp,Co cơ quanh khớp",
+        "causes": "Chấn thương trực tiếp hoặc gián tiếp (té đập vai),Yếu dây chằng bẩm sinh,Sai khớp tái hồi (lỏng lẻo khớp),Bệnh lý: Hội chứng Ehlers-Danlos,Viêm khớp mạn,Bệnh thần kinh (Charcot joint),Co giật (sau động kinh)",
+        "diagnosis": "Khám lâm sàng (mất cấu trúc xương,chiều dài chi thay đổi),X-quang 2 tư thế (xác định sai hướng),CT/MRI (đánh giá tổn thương kèm theo: gãy Hill-Sachs,tổn thương Bankart ở vai),Đánh giá mạch máu thần kinh (kiểm tra mạch quay,thần kinh mũ ở vai)",
+        "treatment": "Nắn trật khẩn cấp (thường cần thuốc giãn cơ + giảm đau, thủ thuật nắn kín Hỗ trợ),Bất động sau nắn 3 tuần và tập phục hồi chức năng,Thuốc giảm đau NSAID,Chườm đá,Vật lý trị liệu tăng cường cơ quanh khớp giữ vững,Phẫu thuật (nếu tái sai khớp nhiều lần,tổn thương Bankart,mảnh rời trong khớp)"
+    },
+    {
+        "name": "Hội chứng ống cổ tay",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "low",
+        "icon": "✋",
+        "description": "Chèn ép dây thần kinh giữa trong ống cổ tay, gây tê và yếu bàn tay",
+        "symptoms": "Tê bì ngón tay 1-4 (ngón cái,trỏ,giữa) về đêm,Đau cổ tay lan lên cẳng tay,Tiến triển: yếu ngón cái (không cầm chắc được),Teo mô cơ ngón cái (thenar),Lắc tay giảm tê (dấu Flick),Đau tăng khi gập cổ tay (Phalen test +),Gõ dây thần kinh giữa (Tinel sign +)",
+        "causes": "Lặp lại động tác gập duỗi cổ tay (gõ bàn phím,thủ công),Mang thai (mất cân bằng dịch),Béo phì,Suy giáp,Đái tháo đường,Viêm màng hoạt dịch (viêm khớp dạng thấp),Chấn thương cổ tay trước,Tăng áp lực ống cổ tay bẩm sinh",
+        "diagnosis": "Khám lâm sàng (Phalen test,Tinel test,đánh giá cảm giác và sức cơ),Đo điện cơ dẫn truyền thần kinh (giảm vận tốc dẫn truyền cảm giác vận động ngón cái),Siêu âm ống cổ tay (dây thần kinh giữa >9mm2 diện tích cắt ngang),MRI cổ tay (nếu khối u,chèn ép thần kinh)",
+        "treatment": "Nẹp cổ tay duỗi trung tính (đêm) - hiệu quả hàng đầu,Tránh động tác lặp lại,Thuốc NSAID uống/bôi,Tiêm Corticosteroid nội ống cổ tay (điều trị bảo tồn,hiệu quả tạm thời),Phẫu thuật giải ép: Mở dây chằng ngang cổ tay nội soi/kín"
+    },
+    {
+        "name": "Vẹo cột sống",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "low",
+        "icon": "🦴",
+        "description": "Cột sống cong bất thường sang một bên với xoay thân đốt sống, thường gặp ở thiếu niên",
+        "symptoms": "Vai không cân bằng,Xương bả vai nhô cao một bên,Thắt lưng lệch,Eo bất đối xứng,Xương sườn nhô (gù sườn),Mặc quần áo xộc xệch,Mệt mỏi lưng mạn tính",
+        "causes": "Vẹo cột sống vô căn ở thiếu niên (80% - không rõ nguyên nhân),Bẩm sinh (đốt sống chêm,đốt sống dính),Bệnh thần kinh cơ (bại não,liệt,loạn dưỡng cơ Duchenne),Hội chứng (Marfan,Neurofibromatosis type 1),Loãng xương (gây vẹo ở người già),Di truyền (đa gen)",
+        "diagnosis": "Khám lâm sàng: Nghiệm pháp cúi gập thân (Adam test),đo chiều cao gù sườn (scoliometer),X-quang cột sống toàn bộ tư thế đứng (đo góc Cobb) - tiêu chuẩn chẩn đoán,MRI cột sống (nếu đau nhiều,có thiếu hụt thần kinh,khởi phát sớm hoặc bệnh thần kinh cơ),Scan xương (loại trừ u xương)",
+        "treatment": "Theo dõi định kỳ (góc Cobb <20°,không can thiệp),Nẹp chỉnh cột sống (góc 20-40°,còn tăng trưởng >1 năm),Vật lý trị liệu (bài tập Schroth,tăng cường cơ lưng),Phẫu thuật: Hàn xương + nẹp vít cuống cung (góc >40-50° và tiến triển),Điều trị nguyên nhân nếu thứ phát"
+    },
+    {
+        "name": "Loạn sản xương hông",
+        "group_name": "Cơ xương khớp",
+        "risk_level": "medium",
+        "icon": "🦴",
+        "description": "Bất thường phát triển ổ cối của trẻ sơ sinh, khiến chỏm xương đùi không nằm đúng vị trí",
+        "symptoms": "Trẻ sơ sinh: nếp gấp da chân không đều,Xoay ngoài chân bên tổn thương,Chân ngắn hơn,Góc dạng hông hẹp,Trẻ lớn: đi khập khiễng,Trendelenburg (+),Đau hông,mỏi lưng khi trưởng thành",
+        "causes": "Ngôi thai ngược (sinh ngôi mông),Có tiền sử gia đình loạn sản xương hông,Suy dinh dưỡng bào thai,Quấn tã chân duỗi thẳng (truyền thống một số dân tộc),Giới nữ (nữ:nam=4:1),Ngôi đầu nhưng thiểu ối,thai to,Đa thai",
+        "diagnosis": "Khám sàng lọc sơ sinh (Ortolani, Barlow maneuver) - phát hiện trật khớp háng sơ sinh,Siêu âm khớp háng trẻ sơ sinh (theo Graf - phân loại 4 type: I-IV, góc α >60° type I),X-quang khớp háng (sau 4-6 tháng: đường Hilgenreiner,Perkin,Shenton) đánh giá trật khớp",
+        "treatment": "Trẻ <6 tháng: Đai Pavlik (dạng chân duy trì khớp trong ổ cối) - hiệu quả 80%,Trẻ 6-18 tháng: Thủ thuật nắn kín + bột bó toàn thân (bột Spica) hoặc phẫu thuật nắn mở khớp + cắt xương ổ cối (Salter,Dega),Trẻ >18 tháng: Phẫu thuật nắn mở kết hợp cắt xương + tạo hình ổ cối (tái tạo hông bằng phẫu thuật Lefevre,Cắt xương mu,cắt xương chậu ba đầu)"
+    },
+    {
+        "name": "Viêm da cơ địa",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Bệnh viêm da mạn tính tái phát do cơ địa dị ứng, thường khởi phát từ trẻ nhỏ",
+        "symptoms": "Ngứa dữ dội,Da khô,Đỏ da,mụn nước,Tổn thương lichen hóa (da dày,thâm),Vị trí điển hình: mặt (trẻ nhỏ),nếp gấp khuỷu chân (người lớn),Mất ngủ do ngứa,Bội nhiễm vi khuẩn (Staph vàng) làm nặng thêm",
+        "causes": "Di truyền (đột biến gen Filaggrin làm rối loạn hàng rào bảo vệ da),Dị ứng (sữa,trứng,đậu phộng,mạt bụi,phấn hoa),Nhiễm tụ cầu vàng trên da,Yếu tố môi trường (thời tiết khô lạnh),Stress,Cơ địa tăng đáp ứng miễn dịch (Th2),Thiếu vitamin D",
+        "diagnosis": "Khám lâm sàng (ngứa,da khô,vị trí tổn thương điển hình,tiền sử dị ứng cá nhân/gia đình),Tiêu chuẩn Hanifin và Rajka (cần 3/4 tiêu chuẩn chính + 3/23 phụ),IgE toàn phần tăng,Test lẩy da (đồng dị nguyên dương tính nhiều loại),Sinh thiết da (không cần thiết thường quy,loại trừ bệnh da khác nếu chẩn đoán khó)",
+        "treatment": "Dưỡng ẩm liên tục (kem,-> emollient) giúp khôi phục hàng rào bảo vệ da,Kem Corticosteroid tại chỗ (giảm viêm,ngứa) - dùng ngắt quãng,Thuốc ức chế Calcineurin tại chỗ (Tacrolimus,Pimecrolimus) an toàn vùng da nhạy cảm,Kháng histamin (kháng H1) giảm ngứa,Chất làm mềm da (bath oil),Trong trường hợp nặng: kháng sinh (fucidin,bactroban) nếu bội nhiễm, UVB, Thuốc ức chế miễn dịch (Cyclosporine), Dupilumab (kháng IL-4,IL-13) - sinh học"
+    },
+    {
+        "name": "Vảy nến",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Bệnh da tự miễn mạn tính với tăng sinh tế bào thượng bì quá mức, tạo mảng vảy dày",
+        "symptoms": "Mảng da đỏ có vảy trắng bạc phủ dày,Ngứa ít,Nứt nứt da chảy máu,Tổn thương khuỷu tay,gối,da đầu,Vảy móng tay (dày,đục,thủng lỗ),Viêm khớp vảy nến (sưng đau khớp ngón tay chân)",
+        "causes": "Tự miễn (tế bào T, tế bào NK tấn công tế bào thượng bì,IL-17,IL-23 đóng vai trò trung tâm),Di truyền (HLA-Cw6,IL23R,IL12B gen),Yếu tố môi trường: Nhiễm trùng (Streptococcus họng),Stress,Thuốc (Beta-blocker,Lithium,Chloroquine,NSAID),Hút thuốc,Rượu,Chấn thương da (hiện tượng Koebner)",
+        "diagnosis": "Khám lâm sàng là chính (đặc điểm mảng vảy bạc,Auspitz sign: cạo vảy ra có chấm máu),Sinh thiết da (tăng sừng,parakeratosis,vi nhú kéo dài,dày thượng bì,viêm quanh mao mạch nhú),X-quang khớp (viêm khớp vảy nến),Đánh giá mức độ nặng (PASI: Psoriasis Area and Severity Index,BSA: Body Surface Area)",
+        "treatment": "Bôi ngoài da: Corticosteroid, Analog Vitamin D (Calcipotriol),Tazarotene (retinoid),Quang trị liệu: UVB dải hẹp (NB-UVB), PUVA (Psoralen + UVA),Thuốc toàn thân: Methotrexate,Cyclosporine,Acitretin (retinoid uống),Sinh học (ức chế TNF: Adalimumab,Infliximab; ức chế IL-17: Secukinumab,Ixekizumab; ức chế IL-23: Guselkumab,Risankizumab),Thuốc JAK ức chế (Tofacitinib)..."
+    },
+    {
+        "name": "Mụn trứng cá",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧑",
+        "description": "Rối loạn nang lông tuyến bã mạn tính, phổ biến ở tuổi dậy thì",
+        "symptoms": "Nhân trắng,nhân đóng (comedones),Mụn viêm sẩn đỏ,Mụn mủ (pustule),U nang mụn (nốt sần đau),Sẹo lõm/sẹo lồi sau mụn,Mụn tập trung ở mặt,ngực,lưng",
+        "causes": "Tăng tiết bã nhờn (do Androgen tăng ở tuổi dậy thì),Bít tắc nang lông (tế bào chết + bã nhờn),Vi khuẩn Propionibacterium acnes (Cutibacterium acnes) phát triển quá mức,Viêm (phản ứng miễn dịch với vi khuẩn),Di truyền,Hormone (kinh nguyệt,PCOS),Stress,Chế độ ăn (sữa, đường, thực phẩm GI cao),Mỹ phẩm gây nhân (comedogenic),Thuốc (Corticosteroid,Lithium)",
+        "diagnosis": "Khám da là chính (phân loại mụn độ 1-4,đếm số lượng nhân,sẩn,mụn mủ,nang),Đánh giá mức độ nặng (thang IGA, GEA,PGA),Trong nữ có dấu hiệu cường androgen rõ: Testosterone tự do,SHBG,DHEA-S,17-hydroxyprogesterone,Siêu âm buồng trứng (loại trừ PCOS)",
+        "treatment": "Vệ sinh da mặt dịu nhẹ,Tránh nặn mụn,Benzoyl Peroxide (dụng cụ kháng khuẩn tại chỗ),Retinoids tại chỗ (Adapalene,Tretinoin,Tazarotene) - chống bít tắc nhân,Thuốc kháng sinh (Clindamycin,Erythromycin tại chỗ; Doxycycline,Minocycline uống) cho mụn viêm,Thuốc tránh thai kết hợp (Ethinylestradiol + Drospirenone) cho nữ,Isotretinoin (uống cho mụn nặng,không đáp ứng) - theo dõi tác dụng phụ (khô da,tăng lipid máu,quái thai),Liệu pháp ánh sáng (xanh,đỏ,PDT,Tẩy da chết hóa học"
+    },
+    {
+        "name": "Zona thần kinh",
+        "group_name": "Da liễu",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Bệnh da do tái hoạt vi rút Varicella Zoster (thủy đậu) ở người trưởng thành",
+        "symptoms": "Đau dữ dội theo dây thần kinh trước phát ban,Sốt nhẹ,Mệt mỏi,Nổi mụn nước thành chùm trên nền da đỏ,phân bố một bên cơ thể theo khoanh tủy,Đau rát bỏng,Mụn nước vỡ → đóng vảy trong 7-10 ngày,Đau dây thần kinh sau Zona (đau kéo dài nhiều tháng) ở người già",
+        "causes": "Tái hoạt tính Virus Varicella Zoster (sau thủy đậu tiên phát),Tuổi cao (>50),Suy giảm miễn dịch (HIV,hóa trị,ghép tạng,Corticosteroid liều cao,mạn tính),Stress,Chấn thương,Suy dinh dưỡng,Điều trị ức chế miễn dịch,Bệnh ác tính (bạch cầu,lymphoma)",
+        "diagnosis": "Khám lâm sàng (mụn nước hình chùm,phân bố một bên theo khoanh tủy,không sang bên kia),Xét nghiệm PCR dịch mụn nước (vô cùng nhạy và đặc hiệu - tiêu chuẩn vàng),Kháng thể IgM,IgG (huyết thanh) tăng gấp 4 lần sau 2-4 tuần (chẩn đoán hồi cứu),Nhuộm Tzanck (tế bào khổng lồ đa nhân) hiện ít dùng",
+        "treatment": "Thuốc kháng virus (Acyclovir 800mg x5/ngày 7 ngày,Valacyclovir 1g x3/ngày 7 ngày,Famciclovir) - càng sớm trong 72h đầu,Gabapentin/Pregabalin (đau dây thần kinh),Thuốc giảm đau NSAID,Amitriptyline (đau sau Zona),Dung dịch xanh methylene bôi khô mụn nước,Giữ vệ sinh da chống bội nhiễm,Vắc xin Zostavax/Shingrix phòng herpes zoster cho người >60"
+    },
+    {
+        "name": "Nấm da",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Nhiễm nấm sợi tơ (Dermatophytes) tại da,tóc,móng,phổ biến nhiệt đới ẩm",
+        "symptoms": "Vùng da tròn,bầu dục có bờ viền đỏ,nổi vảy trắng,Giữa lành (central clearing),Ngứa nhiều,Đặc biệt: nấm bẹn (đùi),nấm chân (kẽ ngón),nấm thân (khắp người),nấm móng (dày,ố vàng),nấm da đầu (rụng tóc mảng)",
+        "causes": "Nấm sợi tơ: Trichophyton,Epidermophyton,Microsporum (dermatophytes),Nấm men: Candida (ở niêm mạc,nếp gấp),Nấm mốc: Aspergillus ở móng,Nhiễm từ người/động vật/đất (lây trung gian),Yếu tố thuận lợi: ẩm ướt,ra nhiều mồ hôi,vệ sinh kém,bể bơi,phòng tập gym,đi giày bít,Bệnh nền: Đái tháo đường,béo phì,suy giảm miễn dịch,dùng Corticosteroid kéo dài",
+        "diagnosis": "Khám lâm sàng (viền đóng vảy,ngứa),Soi tươi tìm sợi nấm với KOH(10-20%) dưới kính hiển vi,Nuôi cấy nấm trên môi trường Sabouraud + Chloramphenicol,PCR nấm (xác định loài nhanh),Đèn Wood (phát quang màu xanh lục nấm Microsporum da đầu)",
+        "treatment": "Thuốc kháng nấm tại chỗ (Clotrimazole,Terbinafine,Miconazole,Ketoconazole) bôi 2 lần/ngày 4-6 tuần,Kem + bột kháng nấm vùng nấm bẹn,Thuốc kháng nấm toàn thân (Terbinafine uống 2-4 tuần,Griseofulvin,Itraconazole,Fluconazole) cho nấm da đầu,móng,thân lan rộng,Vệ sinh khô ráo,giữ vùng nhiễm thông thoáng,Tránh dùng chung đồ dùng cá nhân,khăn tắm,giày dép"
+    },
+    {
+        "name": "Mề đay mạn tính",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Mày đay tái phát kéo dài trên 6 tuần do nhiều nguyên nhân khác nhau",
+        "symptoms": "Sẩn phù (wheals) da đỏ ngứa dữ dội mọc thành từng đợt,Mỗi sẩn tồn tại vài giờ rồi lặn không để lại sẹo,Phù mạch (sưng mô dưới da: môi,mí mắt,lưỡi),Ngứa nhiều về đêm",
+        "causes": "Vô căn (40-50% không tìm được nguyên nhân),Tự miễn (kháng thể kháng thụ thể IgE hoặc FcεRI),Vật lý (nhiệt,lạnh,ánh nắng,áp lực,chà xát),Nhiễm trùng tiềm ẩn (H.pylori,giun sán,viêm răng,viêm xoang),Thuốc (NSAID,kháng sinh,codeine),Thức ăn (phụ gia,thực phẩm giàu histamine),Bệnh nội tiết (cường giáp,mãn kinh),Nhựa cây,côn trùng cắn",
+        "diagnosis": "Khám lâm sàng là chính,Xét nghiệm cơ bản: CTM (bạch cầu ái toan),TSH,kháng thể giáp,ESR,CRP,Test thử da với huyết thanh tự thân (ASST: Autologous serum skin test) cho mề đay tự miễn,Test lẩy da,IgE,D-dimer (mề đay nặng),Sinh thiết da (nếu khó khăn với mề đay viêm mạch)",
+        "treatment": "Kháng histamin H1 không an thần (Cetirizine,Levocetirizine,Loratadine,Desloratadine,Fexofenadine) - điều trị cơ bản,có thể tăng liều gấp 2-4 lần,Kháng H2 (Ranitidine,Famotidine) phối hợp,Leukotriene receptor antagonist (Montelukast),Thuốc ức chế miễn dịch (Cyclosporine,Methotrexate),Thuốc sinh học (Omalizumab kháng IgE) cho mề đay kháng trị,Trong cơn cấp: Corticosteroid ngắn ngày"
+    },
+    {
+        "name": "Chàm (Eczema)",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Viêm da đỏ,ngứa,mụn nước và tiết dịch do các yếu tố kích thích bên ngoài hoặc cơ địa",
+        "symptoms": "Ngứa nhiều,Da đỏ,mụn nước li ti,Nề đỏ tiết dịch (giai đoạn cấp),Đóng vảy tiết vàng (giai đoạn bán cấp),Da dày lichen hóa (giai đoạn mạn),Tổn thương tay,cẳng chân,bàn tay",
+        "causes": "Kích thích cơ học (gãi),Dị ứng tiếp xúc (xà phòng,chất tẩy rửa,nickel,nước hoa,cây cỏ),Da khô cơ địa,Căng thẳng,Thời tiết khô lạnh,Nhiễm khuẩn (Staph vàng kích hoạt),Rối loạn hàng rào biểu bì (mất ceramide,lipid giữ nước)",
+        "diagnosis": "Khám lâm sàng,Phân bố vị trí tổn thương (bàn tay,cẳng chân),Sinh thiết da (phân biệt với vảy nến,biểu bì viêm: xốp bào,ly giải gai ổ,vi nhú kéo dài),Patch test (test dị ứng tiếp xúc) nếu nghi ngờ viêm da tiếp xúc",
+        "treatment": "Dưỡng ẩm đầy đủ (emollient) và tránh yếu tố kích thích,Kem Corticosteroid (yếu/trung bình) trong giai đoạn cấp ,Thuốc ức chế calcineurin (Tacrolimus,Pimecrolimus) cho mặt/nếp gấp,Kháng histamin uống giảm ngứa,Băng ướt (wet wrap) cho giai đoạn cấp có tiết dịch,Chống bội nhiễm (Fusidic acid,Mupirocin tại chỗ; Doxycycline uống toàn thân),Quang trị liệu (UVB dải hẹp)"
+    },
+    {
+        "name": "Viêm da tiếp xúc",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Phản ứng viêm da cấp do tiếp xúc trực tiếp với chất kích thích hoặc dị ứng",
+        "symptoms": "Da đỏ,ngứa,Sưng phồng,Mụn nước nhỏ,Rát bỏng,Nứt nẻ da,Đóng mài,Tổn thương khu trú tại vùng tiếp xúc (ranh giới rõ),Phù nề mí mắt nếu ở mặt,Bỏng cỏ do nhựa cây + ánh sáng,Viêm da tã lót",
+        "causes": "Chất kích thích (chemical irritant): Xà phòng,chất tẩy rửa,acid,kiềm,dung môi,dầu mỡ,dầu thực vật,Chất gây dị ứng (allergen): Nickel (trang sức,khóa quần),Formaldehyde (keo,mỹ phẩm),Urushiol (sơn,cây sồi,cây thường xuân độc),Nước hoa,cao su,latex,thuốc kháng sinh bôi,Benzalkonium,Benzoyl peroxide,Ánh nắng + hóa chất thực vật (phytophotodermatitis)",        "diagnosis": "Khám lâm sàng (ranh giới rõ,khu trú vùng tiếp xúc),Patch test (test áp trên lưng 48-96h phát hiện dị ứng typ IV),Lịch sử phơi nhiễm với chất nghi ngờ,Sinh thiết da (xốp bào,thâm nhập lympho bào quanh mạch) phân biệt với viêm da cơ địa,Đo nồng độ IgE (không đặc hiệu)",
+        "treatment": "Ngưng tiếp xúc chất gây kích ứng / dị ứng (nếu tìm ra),Chườm mát + kem dưỡng ẩm dịu nhẹ,Kem Corticosteroid tại chỗ mạnh (Clobetasol) trong thời gian ngắn (2-3 tuần),Corticosteroid uống (Prednisone) trong viêm nặng lan rộng,Thuốc kháng histamine (antihistamine) giảm ngứa (Cetirizine,Fexofenadine),Kháng sinh nếu bội nhiễm (Mupirocin,Fucidin)"
+    },
+    {
+        "name": "Viêm nang lông",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Nhiễm trùng nang lông nông hoặc sâu do vi khuẩn, thường gặp ở vùng có nhiều lông",
+        "symptoms": "Mụn đỏ nhỏ li ti quanh nang lông,Mụn mủ trắng ở đầu nang lông,Ngứa hoặc đau nhẹ,Xuất hiện ở vùng mặt (râu),cánh tay,đùi,mông,Viêm nang lông sâu có thể thành nhọt (furuncle)",
+        "causes": "Vi khuẩn Tụ cầu vàng (Staph aureus - thường gặp nhất),Vi khuẩn Gram âm (Pseudomonas: viêm nang lông bồn tắm nước nóng),Nấm men (Malassezia,Pityrosporum),Ký sinh trùng (Demodex folliculorum),Ứ mồ hôi,Mặc quần áo kín,bí,Da dầu,Dùng corticosteroid tại chỗ kéo dài,Cạo râu nhiễm khuẩn,Bệnh nền (đái tháo đường, HIV)",
+        "diagnosis": "Khám da lâm sàng,Nhuộm Gram dịch mủ (tìm cầu khuẩn Gram dương/trực khuẩn Gram âm),Nuôi cấy dịch mủ xác định vi khuẩn + kháng sinh đồ,Soi nấm (nếu nghi ngờ Malassezia),Xét nghiệm máu (đường huyết, HIV) nếu nghi ngờ bệnh nền",
+        "treatment": "Vệ sinh da khô thoáng,tránh cạo râu hoặc mặc quần áo chật,Chườm ấm tự tiêu nhẹ,Kháng sinh tại chỗ (Mupirocin,Fusidic acid,Clindamycin gel,Benzoyl Peroxide 5% cream),Kháng sinh uống (Cephalexin,Dicloxacillin,Doxycycline) nếu rộng hoặc viêm sâu,Thuốc kháng nấm (Ketoconazole cream) nếu do nấm men,Trong viêm nang lông bồn tắm nước nóng (Pseudomonas): tự khỏi 7-14 ngày,không cần điều trị kháng sinh thường quy"
+    },
+    {
+        "name": "Nhọt",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Nhiễm trùng tụ cầu sâu ở nang lông gây áp xe dưới da, thường do tụ cầu vàng",
+        "symptoms": "Sẩn đỏ sưng đau tiến triển thành khối mủ,Nóng đỏ,Hạch vùng lân cận sưng,Sốt nhẹ,Đau dữ dội khi ấn,Mủ chảy ra khi vỡ,Để lại sẹo nhỏ",
+        "causes": "Tụ cầu vàng (Staph aureus - thường gặp),Liên cầu tan máu nhóm A (Streptococcus pyogenes) - hiếm hơn,Yếu tố: suy giảm miễn dịch,đái tháo đường,suy dinh dưỡng,vệ sinh kém,mặc quần áo chật,ra nhiều mồ hôi,Béo phì,Thiếu sắt,Thiếu kẽm",
+        "diagnosis": "Khám lâm sàng (khối sưng nóng đỏ đau,điểm hoại tử trung tâm),Siêu âm mô mềm (khảo sát ổ áp xe,kích thước,độ sâu),Chọc hút mủ và nuôi cấy (xác định vi khuẩn + kháng sinh đồ) nếu nghi ngờ kháng thuốc (MRSA),Xét nghiệm máu (CTM: tăng BC đa nhân, CRP,đường huyết, HbA1c)",
+        "treatment": "Chườm ấm (tự tiêu hoặc hình thành mủ nhanh),Dẫn lưu mủ (rạch thoát mủ) nếu nhọt lớn/áp xe,Kháng sinh: Tại chỗ (Mupirocin,Fucidin) nếu nhọt nhỏ; Uống (Cephalexin 500mg x4/ngày 7-10 ngày,Dicloxacillin,Clindamycin) cho nhọt to nhiều nhọt; Nếu MRSA: Trimethoprim/Sulfamethoxazole,Doxycycline,Clindamycin,Vệ sinh cá nhân,tránh tự nặn nhọt,giữ sạch vùng bị ảnh hưởng"
+    },
+    {
+        "name": "Lang ben",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Nhiễm nấm Malassezia furfur gây mất sắc tố da mảng, vô hại và không lây",
+        "symptoms": "Mảng da mất sắc tố (trắng hơn da xung quanh) ở ngực,lưng,cánh tay,Da hơi vảy nhẹ,Ngứa không đáng kể hoặc không ngứa,Ngứa nhiều hơn khi trời nóng,Vào mùa hè rõ thấy,mùa đông mờ dần",
+        "causes": "Nấm men Malassezia furfur (Pityrosporum ovale) - ký sinh trên da bình thường,Tăng tiết bã nhờn,Đổ mồ hôi nhiều,Thời tiết nóng ẩm,Suy giảm miễn dịch,Di truyền,Dùng corticosteroid kéo dài,Sử dụng dầu/dưỡng thể béo",
+        "diagnosis": "Khám lâm sàng (mảng trắng viền rõ,không viêm,không vảy nhiều),Đèn Wood (huỳnh quang màu vàng-xanh nhạt),Soi tươi với KOH 10% tìm sợi nấm ngắn + bào tử nấm men (dạng spaghetti & meatballs),Vảy da làm xét nghiệm (soi thấy ngay nấm men đặc trưng)",
+        "treatment": "Thuốc kháng nấm tại chỗ: Dầu gội Ketoconazole 2% (bôi 5-10 phút rồi gội sạch hàng ngày 7 ngày),Kem bôi Ketoconazole 2%/Clotrimazole 1%/Terbinafine 1% (2 lần/ngày 2-4 tuần),Thuốc kháng nấm uống: Itraconazole 200mg/ngày 7 ngày hoặc Fluconazole 300mg 1 tuần 2-3 liều,Phòng tái phát: Dầu gội Ketoconazole 1 tuần/lần vào mùa hè,Tránh ra nắng nhiều (vì da mất sắc tố nhạy cảm cháy nắng)"
+    },
+    {
+        "name": "Bạch biến",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧴",
+        "description": "Bệnh da tự miễn gây mất tế bào sắc tố melanocyte, dẫn đến các mảng da trắng bất thường",
+        "symptoms": "Mảng da trắng mất sắc tố ranh giới rõ,Da không đau không ngứa (có thể ngứa nhẹ trước khi xuất hiện mảng),Hay gặp ở mặt,cổ,tay,mông,bộ phận sinh dục (vùng chịu ma sát),Tóc/lông mọc trong mảng bạch biến cũng trắng,Khá thường gặp ở trẻ em,thanh niên",
+        "causes": "Tự miễn (tế bào lympho T tấn công melanocyte),Di truyền (gen PTPN22,NLRP1,IL2RA,TYR),Stress oxy hóa,Stress tâm lý,Chấn thương da (hiện tượng Koebner),Rối loạn thần kinh),Bệnh lý kèm: viêm tuyến giáp Hashimoto,đái tháo đường type 1,thiếu máu ác tính)",
+        "diagnosis": "Khám lâm sàng: đèn Wood giúp nhìn rõ ranh giới mảng bạch biến (màu trắng sáng huỳnh quang),Sinh thiết da (không thấy tế bào melanocyte,mất sắc tố trong thượng bì),Xét nghiệm máu: TSH,Anti-TPO,Anti-Tg (tìm bệnh tự miễn kèm),AHA (antinuclear antibody),Kháng thể kháng melanocyte (nếu có).",
+        "treatment": "Corticosteroid tại chỗ (mạnh/trung bình) trên các mảng nhỏ (20% cải thiện),Thuốc ức chế calcineurin tại chỗ (Tacrolimus,Pimecrolimus) cho mặt,cổ,Quang trị liệu NB-UVB (dải hẹp) 2-3 lần/tuần (phương pháp hiệu quả nhất an toàn nhất),PUVA (Psoralen+UVA) cho bạch biến rộng,Ghép melanocyte (phẫu thuật),Giảm stress,Bôi kem che khuyết điểm mỹ phẩm,Kem chống nắng SPF cao bảo vệ vùng da mất sắc tố"
+    },
+    {
+        "name": "Rụng tóc từng mảng",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🧑",
+        "description": "Rụng tóc khu trú từng vùng một/nhiều chỗ, do tự miễn triệu chứng không để lại sẹo",
+        "symptoms": "Rụng tóc từng mảng tròn/bầu dục đột ngột,Da đầu mảng rụng nhẵn láng,không sẹo,Có thể rụng toàn bộ tóc đầu (alopecia totalis) hoặc toàn thân (alopecia universalis),Móng lõm,nhám,gồ ghề (pitting),Trẻ em khởi phát sớm,Hay tái phát",
+        "causes": "Tự miễn (tế bào T tấn công nang lông giai đoạn anagen),Di truyền: 20% có tiền sử gia đình (gen HLA DQB1*03,DQA1*05,IL2RA),Stress tâm lý là yếu tố khởi phát,Các bệnh tự miễn kèm: bệnh tuyến giáp (30%),bạch biến (10%),hen suyễn,viêm mũi dị ứng;Hội chứng Down",
+        "diagnosis": "Khám lâm sàng: thử nghiệm kéo tóc (hair pull test) (+),Rụng tóc hình tròn,da nhẵn không sẹo, thấy lỗ nang lông còn;Soi da đầu (dermoscopy): dấu hiệu chấm than (exclamation mark hairs) - tóc gãy ngọn thon;Sinh thiết da đầu: thâm nhiễm lympho bào (CD4,CD8) quanh nang lông ở giai đoạn đầu;Xét nghiệm máu: TSH,FT4,Anti-TPO,Anti-Tg",
+        "treatment": "Corticosteroid tại chỗ (kem,mỡ,gội) thoa vào vùng rụng tóc,( Triamcinolone acetonide) mạnh nhất;Tiêm Corticosteroid nội tổn thương (dưới da) hàng tháng cho mảng nhỏ;Quang trị liệu NB-UVB,PUVA;Thuốc kích thích mọc tóc: Minoxidil 2-5% bôi;Thuốc ức chế miễn dịch: Methotrexate,Cyclosporine cho trường hợp nặng;Thuốc sinh học: Tofacitinib,Ruxolitinib (JAK inhibitor) đang có nghiên cứu tích cực"
+    },
+    {
+        "name": "Ghẻ",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Bệnh da do cái ghẻ (Sarcoptes scabiei var hominis) đào hầm dưới da gây ngứa dữ dội",
+        "symptoms": "Ngứa dữ dội dữ dội, tăng dữ dội về đêm,Nổi mụn nước,đường hầm (burrow) dài 1-10mm ngoằn ngoèo màu nâu xám trên da,Mụn đỏ,sẩn,mụn mủ rải rác,Vị trí: kẽ ngón tay,cổ tay,khuỷu,nách,mông,bộ phận sinh dục (dương vật,bìu),Dày sừng (ở người suy giảm miễn dịch: ghẻ vảy tiết),Lây cho người thân trong nhà",
+        "causes": "Cái ghẻ Sarcoptes scabiei hominis (kí sinh trùng chân đốt cực nhỏ 0.2-0.4mm),Lây truyền qua tiếp xúc da-da gần gũi (cùng giường,quan hệ tình dục),Trẻ em lây từ mẹ; Cũng lây qua quần áo,khăn tắm,chăn màn,Tập thể: nhà trẻ,trường học,viện dưỡng lão,trại giam,Vùng Đông Nam Á,Việt Nam khá phổ biến,điều kiện vệ sinh kém",
+        "diagnosis": "Khám lâm sàng: ngứa đêm,đường hầm,vị trí điển hình;Soi tươi (tìm cái ghẻ): nạo vảy da (bằng kim) chỗ đường hầm đặt trên lam + dầu soi kính hiển hiển vi thấy cái ghẻ (con trưởng thành hoặc ấu trùng) hoặc trứng,phân;Dermoscopy: thấy đầu đen của cái ghẻ ở cuối đường hầm (dấu tam giác delta glider)",
+        "treatment": "Bôi Permethrin 5% kem từ cổ đến chân (trừ mặt) (để 8-14 giờ, rửa sạch) - điều trị tiêu chuẩn vàng cho người lớn và trẻ >2 tháng;Ivermectin uống 200 mcg/kg,lặp lại sau 7 ngày (thay thế cho kem,tiện cho đám đông);Điều trị đồng thời cho tất cả người trong nhà tiếp xúc gần,ngay cả không có triệu chứng;Vệ sinh môi trường: giặt quần áo bằng nước nóng (50-60 độ C) hoặc ủ kín 3 ngày,Tránh tiếp xúc da-da 24-48h sau điều trị"
+    },
+    {
+        "name": "Herpes môi",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Nhiễm virus Herpes simplex type 1 tái phát ở vùng môi, gây mụn nước nhóm thành chùm",
+        "symptoms": "Nóng rát,ngứa ran,căng vùng môi trước phát ban vài giờ-1 ngày,Nổi mụn nước nhỏ thành chùm trên nền da đỏ ở bờ môi,Đau rát,Sốt nhẹ,nổi hạch dưới hàm,Mụn nước vỡ đóng mài vàng trong 3-4 ngày,Tự lành trong 7-10 ngày,Tái phát nhiều lần trong năm",
+        "causes": "Virus Herpes simplex type 1 (HSV-1) - nhiễm tiên phát từ nhỏ (mụn nước miệng-họng nướu:sốt,đau họng,phát ban miệng);Tái hoạt tính: virus ngủ trong hạch thần kinh sinh ba (trigeminal ganglion);Yếu tố kích hoạt: stress,mệt mỏi,thiếu ngủ,nắng nóng,sốt,cảm lạnh,ánh nắng gay gắt,kỳ kinh nguyệt,chấn thương môi,mỹ phẩm;Suy giảm miễn dịch (HIV,hóa trị,ghép tạng)",
+        "diagnosis": "Khám lâm sàng (mụn nước thành chùm vùng môi,tái phát nhiều lần) là chẩn đoán chính;PCR từ dịch mụn nước (xác định DNA HSV) - tiêu chuẩn vàng;Nhuộm Tzanck (tế bào đa nhân khổng lồ) hiện ít dùng;Huyết thanh học: kháng thể IgM (nhiễm cấp),IgG (nhiễm cũ và tái hoạt)",
+        "treatment": "Thuốc kháng virus tại chỗ: Acyclovir 5% kem bôi (làm nặng hơn),Penciclovir 1% kem (bôi từ khi có triệu chứng báo trước, mỗi 2h lúc tỉnh) rút ngắn 1-2 ngày;Thuốc kháng virus uống (cho tái phát nặng hoặc thường xuyên >8 lần/năm): Acyclovir 200mg x5/ngày 5 ngày;Valacyclovir 2g x2/ngày 1 ngày;Famciclovir 1500mg 1 liều);Phòng ngừa: bôi kem chống nắng môi SPF30,tránh yếu tố kích hoạt,Kem chống tái phát: Acyclovir uống hàng ngày 400mg x2 lần/ngày 6 tháng-1 năm (nếu tái phát thường xuyên)"
+    },
+    {
+        "name": "Cháy nắng",
+        "group_name": "Da liễu",
+        "risk_level": "low",
+        "icon": "☀️",
+        "description": "Viêm da cấp do phơi nhiễm quá mức tia cực tím UVB trong ánh nắng mặt trời",
+        "symptoms": "Da đỏ (ban đỏ) 3-6 tiếng sau phơi nắng,đỉnh 12-24 tiếng,Cảm giác da nóng rát,đau,Đau trình đắp,Sưng nhẹ (phù da),Mụn nước trong cháy nắng nặng,Rộp da,bong tróc da sau 3-8 ngày,Mệt mỏi,nhức đầu,sốt nhẹ,mất nước trong cháy nắng nặng",
+        "causes": "Tia cực tím UVB (290-320nm) -> gây đột biến trực tiếp DNA tế bào sừng,chết tế bào (sunburn) và apoptosis tế bào Langerhans,Phơi nắng trưa (10-16h) không bảo vệ,Da trắng,sáng (Fitzpatrick I,II) nguy cơ cao nhất,Gần xích đạo,độ cao (núi cao,băng tuyết phản xạ UV mạnh hơn),Máy làm rám năng nhân tạo (UVB tanning bed) cũng có thể gây cháy nắng,Thuốc tăng nhạy cảm với ánh sáng: Tetracycline,NSAID,thuốc lợi tiểu,St. John's Wort,Mỹ phẩm chứa retinoid (tăng bong vảy da mỏng)",
+        "diagnosis": "Khám lâm sàng,phân độ cháy nắng ( đỏ:mức độ 1,mụn nước:mức độ 2),Hỏi tiền sử phơi nắng, Kiểu da (Fitzpatrick I-VI),Không cần xét nghiệm thêm trong cháy nắng thông thường,Sinh thiết da hiếm khi cần (thấy tế bào sunburn (keratinocyte apoptosis) trong thượng bì)",
+        "treatment": "Chườm mát/lạnh (nước lạnh 15-20 độ C,không đá) giảm đau và nhiệt,Kem dưỡng da (emollient) dịu nhẹ (có Aloe vera,không cồn),Kem Corticosteroid yếu (hydrocortisone 1%) bôi vùng đỏ (không bôi lên da phồng rộp),Thuốc giảm đau (Ibuprofen,Paracetamol) giảm đau hạ sốt,Thuốc kháng histamin uống (giảm cảm giác ngứa nếu có),Không bôi mỡ hoặc bơ lên chỗ cháy nắng,Uống nhiều nước bù dịch,Chống nắng nghiêm ngặt (SPF 50+ , quần áo chống nắng, nón rộng vành) cho đến khi da lành"
+    },
+    {
+        "name": "Nhiễm trùng tiểu",
+        "group_name": "Tiết niệu",
+        "risk_level": "low",
+        "icon": "🚽",
+        "description": "Nhiễm khuẩn đường tiết niệu do vi khuẩn xâm nhập vào bàng quang, niệu đạo hoặc thận",
+        "symptoms": "Tiểu buốt,Tiểu rắt,Tiểu gấp,Nước tiểu đục,Nước tiểu mùi khai mạnh,Đau hạ vị,Đau lưng (nếu viêm bể thận),Sốt (viêm thận-cao huyết áp),Buồn nôn",
+        "causes": "Vi khuẩn Escherichia coli (80%),Proteus,Klebsiella,Enterococcus,Staph saprophyticus,Phụ nữ (niệu đạo ngắn,gần hậu môn),Quan hệ tình dục,Vệ sinh kém,Đặt sonde tiểu,Bất thường đường tiểu,Sỏi thận,Đái tháo đường,Thai kỳ,Suy giảm miễn dịch,Tuổi cao",
+        "diagnosis": "Xét nghiệm nước tiểu (que nhúng: nitrite (+) ,bạch cầu esterase (+) ),Phân tích cặn nước tiểu (bạch cầu >5/hpf,vi khuẩn),Cấy nước tiểu (xác định vi khuẩn >10^5 CFU/mL),Kháng sinh đồ,Sàng lọc hình ảnh siêu âm thận-bàng quang (nếu có tái phát),CT bụng (nếu có sỏi thận,bất thường đường tiết niệu)"
+    },
+    {
+        "name": "Sỏi thận",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🪨",
+        "description": "Hình thành sỏi calcium,acid uric hoặc cystine trong đường tiết niệu, gây đau quặn thận",
+        "symptoms": "Đau quặn thận (đau lưng dưới,dữ dội,lan xuống bụng+bẹn),Buồn nôn,nôn,Đái máu (đỏ tươi hoặc vi thể),Tiểu buốt,Tiểu rắt,Sốt/nhiễm trùng nếu sỏi nhiễm khuẩn bít tắc",
+        "causes": "Mất nước mãn tính,Chế độ ăn nhiều muối,oxalate (socola,cà phê,trà),Natri,canxi (uống sữa không gây sỏi,nhưng uống thêm canxi không gây sỏi; ngược lại, thiếu canxi làm tăng hấp thu oxalate),Tăng acid uric (gout),Béo phì,Đái tháo đường,Tuổi cao,Nhiễm khuẩn đường tiểu tái phát,Bệnh thận đa nang,Di truyền (tăng canxi niệu vô căn)",
+        "diagnosis": "CT scan thận không cản quang (hình ảnh sỏi rất rõ,tiêu chuẩn vàng),Siêu âm thận-bàng quang (thận ứ nước),X-quang thận-bàng quang (KUB - sỏi calcium phát hiện khoảng 60-70%),Xét nghiệm nước tiểu (pH,đái máu,tinh thể),Sỏi phân tích thành phần (sau đào thải/mổ/ESWL),Xét nghiệm máu: Canxi,acid uric,PTH,elecrolyte,eGFR"
+    },
+    {
+        "name": "Viêm cầu thận cấp",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🫘",
+        "description": "Viêm cấp các cầu thận hai bên tự hồi phục sau nhiễm liên cầu khuẩn hoặc bệnh lý miễn dịch",
+        "symptoms": "Phù to toàn thân (xẹp lún),Tiểu ít,Nước tiểu màu đỏ sẫm (đái máu đại thể),Cao huyết áp,Suy thận cấp (tăng Creatinine,BUN),Mệt mỏi,chán ăn,đau lưng",
+        "causes": "Nhiễm liên cầu khuẩn nhóm A (viêm họng,nhiễm trùng da) sau 1-3 tuần,Bệnh thận tự miễn (IgA nephropathy - bệnh Berger),Viêm mạch (Wegener's granulomatosis, microscopic polyangiitis),Lupus ban đỏ hệ thống (viêm thận lupus),Viêm nội tâm mạc nhiễm khuẩn,Viêm gan B/C,HIV,Hội chứng Goodpasture (kháng thể kháng màng đáy cầu thận)",
+        "diagnosis": "Xét nghiệm nước tiểu (đái máu,hồng cầu biến dạng,protein niệu cao),Cấy máu và ASO (bằng chứng nhiễm liên cầu),Bổ thể C3 thấp (viêm cầu thận cấp sau nhiễm liên cầu),Kháng thể ANA,anti-GBM,ANCA,Siêu âm thận (thận to),Sinh thiết thận (tiêu chuẩn vàng xác định nguyên nhân)",
+        "treatment": "Điều chỉnh nước điện giải (hạn chế muối,lợi tiểu),Thuốc hạ áp (Corticosteroid nếu bệnh thận tự miễn),Điều trị nguyên nhân (kháng sinh nếu còn nhiễm liên cầu,Thuốc ức chế miễn dịch (Cyclophosphamide cho viêm thận nặng),Lọc máu (chạy thận nhân tạo) nếu suy thận cấp nặng)"
+    },
+    {
+        "name": "Hội chứng thận hư",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🫘",
+        "description": "Tổn thương cầu thận gây protein niệu lượng lớn, phù và rối loạn lipid máu",
+        "symptoms": "Phù toàn thân (nhiễm trùng dễ vỡ),Nước tiểu nhiều bọt (protein niệu),Mệt mỏi,Chán ăn,Nhiễm trùng tái phát (dễ mắc),Tăng đông máu (huyết khối thận),Cao huyết áp",
+        "causes": "Bệnh cầu thận nguyên phát (bệnh thận màng - membranous nephropathy, bệnh thận thay đổi tối thiểu, xơ hóa cầu thận phân đoạn khu trú FSGS, viêm cầu thận màng tăng sinh MPGN),Bệnh toàn thân (đái tháo đường, lúpus ban đỏ hệ thống, amyloidosis, bệnh hồng cầu lưỡi liềm),Nhiễm trùng (viêm gan B,C, HIV, giang mai, sốt rét),Thuốc (NSAID kháng viêm, vàng, heroin, lithi, kháng sinh),Di truyền",
+        "diagnosis": "Xét nghiệm nước tiểu (protein niệu >3.5g/24h),Máu (Albumin máu giảm <30g/L, Cholestero tăng, triglyceride tăng),Sinh thiết thận (chẩn đoán xác định thể mô bệnh học),Siêu âm thận (thận to),Xét nghiệm miễn dịch (ANA,ANCA,Anti-GBM,ASO, HBsAg,C3,C4)",
+        "treatment": "Corticosteroid (Prednisone 1mg/kg/ngày) cho bệnh thận thay đổi tối thiểu,Thuốc ức chế miễn dịch (Cyclosporine, Tacrolimus, Mycophenolate mofetil, Cyclophosphamide),Thuốc lợi tiểu giảm phù,Thuốc ức chế men chuyển (ACEi) giảm protein niệu và hạ áp,Thuốc hạ lipid (Statin),Kháng sinh dự phòng viêm phổi Pneumocystis,Chống đông (dự phòng huyết khối nếu Albumin <20g/L)"
+    },
+    {
+        "name": "Bệnh thận đa nang",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🫘",
+        "description": "Bệnh thận di truyền gây phát triển nhiều nang trong thận và các cơ quan khác, tiến triển đến suy thận mạn",
+        "symptoms": "Đau lưng hông,Cao huyết áp,Đái máu,Nhiễm trùng đường tiểu tái phát,Sỏi thận,Suy thận tiến triển (tuổi 50-60),Nang gan (40%),Nang tụy (10%),Phình động mạch trong sọ (nguy cơ đột quỵ xuất huyết màng não)",
+        "causes": "Di truyền: Đột biến gen PKD1 (85% - nặng, suy thận sớm) hoặc PKD2 (15% - nhẹ hơn),Di truyền trội nhiễm sắc thể thường (ADPKD) - bố mẹ bị truyền 50% con bị,Di truyền lặn (ARPKD) hiếm hơn (nặng,trẻ sơ sinh tử vong)",
+        "diagnosis": "Siêu âm thận (tiêu chuẩn chẩn đoán: nhiều nang >5/bên thận,thận to),CT thận bụng (kích thước nang,thận lớn hơn),MRI thận (đo tổng thể tích thận - TKV, tiên lượng suy thận) và kiểm tra nang các cơ quan khác (gan,tụy,phình mạch não),Xét nghiệm gen PKD1/PKD2,Creatinine/eGFR,Protein niệu,Siêu âm Doppler mạch thận (tăng huyết áp),Chụp CT/MRI mạch não (sàng lọc phình mạch)",
+        "treatment": "Thuốc hạ áp (ACEi/ARB) - huyết áp mục tiêu <130/80 mmHg,Tolvaptan (vasopressin antagonist) làm chậm tiến triển suy thận,Uống nhiều nước (3L/ngày),Tránh caffeine (hạn chế tăng cAMP làm nang to),Kháng sinh (nhiễm trùng nang),Điều trị đau (tránh NSAID kéo dài),Phẫu thuật giảm áp nang (nếu đau),Chạy thận nhân tạo/Ghép thận (khi suy thận giai đoạn cuối)"
+    },
+    {
+        "name": "Ung thư thận",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🫘",
+        "description": "Ung thư tế bào thận (RCC - Renal cell carcinoma), thường gặp ở người trên 50 tuổi",
+        "symptoms": "Đái máu đại thể (70%),Đau hông lưng,Sờ thấy khối ở thắt lưng (tam chứng cổ điển),Sụt cân,sốt,mệt mỏi,Thiếu máu,Tăng huyết áp,Tình trạng bệnh lý toàn thân: tăng canxi máu,tăng hồng cầu,giảm huyết áp tư thế",
+        "causes": "Hút thuốc lá (nguy cơ tăng 1.5-2 lần),Béo phì,Cao huyết áp,Di truyền (bệnh von Hippel Lindau VHL, ung thư thận dạng nhú gia đình),Suy thận giai đoạn cuối chạy thận nhân tạo dài ngày,Phơi nhiễm hóa chất (asbestos,cadmium,thuốc nhuộm),Nhiễm độc thuốc giảm đau (phenacetin),Nam giới,Nam giới,Gia đình có người mắc ung thư thận",
+        "diagnosis": "Siêu âm bụng (phát hiện u thận nghi ngờ đầu tiên),CT scan bụng có tiêm thuốc cản quang (đặc tính u mạch máu,mỡ,chất rắn - chẩn đoán xác định và đánh giá lan tràn - xâm lấn),MRI bụng,CT ngực (tìm di căn phổi),Xét nghiệm nước tiểu (tiểu máu vi thể),Sinh thiết u thận (khi không chắc chắn trên phim)/ trước điều trị đích,Chụp thận đồ tĩnh mạch (IVU) ngày càng ít dùng",
+        "treatment": "Phẫu thuật cắt thận (triệt căn hoặc bảo tồn nephron - cắt u còn mô thận lành) cho u khu trú chưa di căn,Điều trị đích (targeted therapy): chất ức chế Tyrosine kinase (Sunitinib, Pazopanib,Axitinib),Kháng VEGF (Bevacizumab),Chất ức chế mTOR (Everolimus,Temsirolimus),Liệu pháp miễn dịch: ức chế điểm kiểm tra (Checkpoint inhibitor): Nivolumab (PD-1), Ipilimumab (CTLA-4),Xạ trị giảm đau xương (di căn),Hóa trị ít hiệu quả (trừ ung thư thận dạng nhú chứ không phải tế bào sáng)"
+    },
+    {
+        "name": "Ung thư bàng quang",
+        "group_name": "Tiết niệu",
+        "risk_level": "high",
+        "icon": "🚽",
+        "description": "Khối u ác tính từ niêm mạc bàng quang, phổ biến nhất đường tiết niệu",
+        "symptoms": "Đái máu không đau (thường gặp nhất,70-80%),Tiểu rắt tiểu gấp,tiểu khó,Đau hạ vị,Đau hông (tắc niệu quản do u),Huyết khối tĩnh mạch,Phù hạch bẹn,Sụt cân,mệt mỏi",
+        "causes": "Hút thuốc lá (nguy cơ chính - gấp 3 lần),Phơi nhiễm hóa chất (thuốc nhuộm anilin,cao su,xăng dầu,amoniac),Nhiễm Schistosoma haematobium (ký sinh trùng máu, gây viêm mạn tính, thường gặp ở Ai Cập),Xạ trị vùng chậu,Thuốc (Cyclophosphamide, Ifosfamide),Đái tháo đường (nguy cơ tăng 80%),Bàng quang thần kinh mạn,Viêm bàng quang mạn,Suy thận mạn (di căn thận),Di truyền (hội chứng Lynch, u bàng quang có tiền sử gia đình)",
+        "diagnosis": "Soi bàng quang (cystoscopy) + sinh thiết u (tiêu chuẩn vàng),Xét nghiệm nước tiểu (tế bào học tìm tế bào u ác tính hoặc test marker NMP22,FISH),CT bụng chậu (CT uro) hoặc MRI đánh giá giai đoạn xâm lấn và di căn,Chụp thận đồ tĩnh mạch (IVU) đánh giá đường tiết niệu trên,Siêu âm bàng quang qua ngả bụng/trực tràng/âm đạo (phát hiện u)",
+        "treatment": "U nông (Ta,T1): Cắt u qua soi (TURBT) + Bơm BCG vào bàng quang dự phòng tái phát,U xâm lấn cơ (T2,T3): Cắt bàng quang toàn bộ + tạo hình bàng quang ruột non/đường tiểu qua da (lleal conduit) và/hay hóa trị (Cisplatin-based),U di căn (T4,N+,M+): Hóa trị toàn thân (Cisplatin,Gemcitabine),Liệu pháp miễn dịch checkpoint inhibitor (Pembrolizumab,Nivolumab,Xạ trị không triệt căn (triệu chứng)"
+    },
+    {
+        "name": "Tăng sản lành tính tuyến tiền liệt",
+        "group_name": "Tiết niệu",
+        "risk_level": "medium",
+        "icon": "🧍‍♂️",
+        "description": "Phì đại tuyến tiền liệt lành tính gây chèn ép niệu đạo, rối loạn đi tiểu ở nam giới tuổi trung niên",
+        "symptoms": "Tiểu khó (rặn tiểu,tiểu ngắt quãng),Tiểu đêm nhiều lần,Tiểu nhiều lần ban ngày,Tiểu rắt,Tia tiểu yếu,Cảm giác tiểu không hết,Bí tiểu cấp hoặc bán cấp",
+        "causes": "Lão hóa (tuyến tiền liệt phát triển dần từ tuổi 40),Androgen (testosterone và DHT kích thích),Di truyền (30-40%),Béo phì,Đái tháo đường,Bệnh tim mạch,Ít vận động,Chế độ ăn thịt đỏ nhiều chất béo,Rượu bia",
+        "diagnosis": "Thăm trực tràng (DRE: đánh giá kích thước,mật độ,mặt nhẵn,ranh giới,áp xe),PSA máu (tăng nhẹ 4-10ng/mL, phân biệt với ung thư bằng tỷ số PSA tự do/PSA toàn phần),Bảng câu hỏi IPSS (đánh giá độ nặng triệu chứng tiểu),Siêu âm tuyến tiền liệt qua trực tràng (TRUS) đo thể tích tuyến,Nghiệm pháp đo niệu dòng (Uroflowmetry: Qmax <15mL/s gợi ý tắc nghẽn),Đo áp lực bàng quang - dòng tiểu (nếu nghi ngờ)",
+        "treatment": "Theo dõi chờ (triệu chứng nhẹ IPSS 0-7),Thuốc chẹn alpha 1 (Tamsulosin,Alfuzosin) giãn cổ bàng quang & tiền liệt tuyến -> cải thiện triệu chứng nhanh,Thuốc ức chế 5α-Reductase (Finasteride,Dutasteride) làm giảm kích thước tiền liệt (sau 3-6 tháng),Phẫu thuật nội soi: TURP (cắt đốt nội soi tuyến tiền liệt qua niệu đạo) - tiêu chuẩn vàng,Phẫu thuật mở (Tuyến to quá lớn >80g,TURP không hiệu quả),Phương pháp khác: GreenLight (Laser quang chọn lọc), Thuốc điều trị cơn bí tiểu cấp"
+    },
+    {
+        "name": "Viêm tiền liệt tuyến",
+        "group_name": "Tiết niệu",
+        "risk_level": "medium",
+        "icon": "🧍‍♂️",
+        "description": "Viêm tuyến tiền liệt cấp hoặc mạn tính, do vi khuẩn hoặc không do vi khuẩn",
+        "symptoms": "Đau vùng chậu (hạ vị),Đau hậu môn,Đau tầng sinh môn,Đau khi xuất tinh,tiểu buốt,Tiểu khó,Sốt (cấp),nóng da vùng tiền liệt tuyến (thăm trực tràng),Rối loạn cương,đau người mệt mỏi (mạn tính)",
+        "causes": "Vi khuẩn Gram âm (Escherichia coli,Proteus,Klebsiella,Pseudomonas),Nhiễm khuẩn niệu đạo,đặt sonde lưu,Vi khuẩn lây tình dục (Chlamydia,Neisseria,Trichomonas),Bất thường đường tiểu,U xơ tuyến tiền liệt,Tắc nghẽn niệu đạo,Táo bón mạn,Rối loạn miễn dịch (viêm mạn không do vi khuẩn),Coi chừng kẽ (Stress,căng thẳng,mệt mỏi)",
+        "diagnosis": "Khám lâm sàng: thăm trực tràng (tuyến tiền liệt cấp: sưng, đau chói; mạn: to, căng, đau nhẹ),Xét nghiệm: nước tiểu (cấy,định lượng),Massage tuyến tiền liệt lấy dịch + cấy (vi khuẩn),PSA (có thể tăng trong viêm cấp),Siêu âm qua trực tràng (áp xe, u, vôi hóa)",
+        "treatment": "Viêm cấp: Kháng sinh phổ rộng (Fluoroquinolone,TMP-SMX,Ceftriaxone) IV khởi đầu sau đó uống 2-6 tuần,Giảm đau NSAID (Ibuprofen,Naproxen),Chườm nóng vùng chậu,Uống nhiều nước (lưu thông nước tiểu),Tránh ngồi lâu;Viêm mạn không do vi khuẩn: Thuốc chẹn alpha (giảm triệu chứng đường tiểu dưới),NSAID,giảm stress,tập thể dục,vật lý trị liệu vùng chậu (pelvic floor therapy),Tránh đồ uống kích thích (cà phê,rượu,chất cay)",
+        "treatment": "Thuốc kháng sinh (Fluoroquinolone,TMP-SMX 4-6 tuần nếu vi khuẩn dương tính),Thuốc chẹn alpha (Tamsulosin) giảm co thắt cổ bàng quang,NSAID giảm đau,Chườm ấm tầng sinh môn,Tránh rượu,caffeine,thức ăn cay,Siêu âm dẫn lưu áp xe nếu có,Vật lý trị liệu vùng chậu (mạn)"
+    },
+    {
+        "name": "Rối loạn cương dương",
+        "group_name": "Tiết niệu",
+        "risk_level": "low",
+        "icon": "🧍‍♂️",
+        "description": "Rối loạn chức năng cương dương - không thể đạt hoặc duy trì sự cương đủ cho quan hệ tình dục",
+        "symptoms": "Khó cương cứng, Không duy trì được cương, Giảm cứng cương, không thể quan hệ được, Giảm ham muốn (kèm rối loạn nội tiết), Xuất tinh sớm (kèm)",
+        "causes": "Nguyên nhân thể thực thể (tổn thương mạch máu,thần kinh): Đái tháo đường,Cao huyết áp,Xơ vữa động mạch,Rối loạn lipid máu,Bệnh mạch vành,Mãn dục nam (testosterone thấp),Phẫu thuật vùng chậu (cắt tuyến tiền liệt,đại trực tràng),Xạ trị vùng chậu,Tổn thương tủy sống;Nguyên nhân tâm lý (stress,lo âu,trầm cảm), Thuốc: thuốc hạ áp (Beta-blocker,Lợi tiểu), chống trầm cảm (SSRI),Hút thuốc,Rượu,Ma túy"
+    },
+    {
+        "name": "Đau mắt đỏ",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👁️",
+        "description": "Viêm kết mạc mắt do virus hoặc vi khuẩn, rất dễ lây lan",
+        "symptoms": "Đỏ mắt (lòng trắng đỏ),Chảy nước mắt,Chảy ghèn/ghỉ mắt (dử mắt),Ngứa mắt,Rát mắt,Nề mi mắt,Nhìn mờ nhẹ,Sợ ánh sáng nhẹ",
+        "causes": "Virus Adenovirus (thường gặp nhất),Enterovirus (viêm kết mạc xuất huyết cấp),Vi khuẩn (Staph aureus,Strep pneumoniae,Haemophilus influenzae),Lây trực tiếp qua tay-vật dụng-dụng cụ bệnh viện,Dị ứng (phấn hoa,bụi,lông động vật),Thuốc tra mắt kích ứng,Hóa chất (bơi hồ bơi clo cao)"
+    },
+    {
+        "name": "Tăng nhãn áp",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Bệnh thần kinh thị giác mạn tính do tăng áp lực nội nhãn, gây tổn thương không hồi phục thị trường",
+        "symptoms": "Giai đoạn đầu: Không triệu chứng (trộm cắp thị lực).Mất dần thị trường ngoại vi (hầm),Nhìn mờ,Đau mắt,nhức mắt,Nhìn thấy quầng hào quang khi nhìn đèn,Mắt đỏ,sưng mắt (góc đóng cấp),Giảm thị lực trung tâm giai đoạn cuối",
+        "causes": "Tăng áp lực nội nhãn (do tắc dẫn lưu thủy dịch),Di truyền (gen MYOC,OPTN,CYP1B1),Tuổi cao (trên 40),Chủng tộc (người da đen,người châu Á,góc đóng),Cận thị nặng,Chấn thương mắt trước đây,Thuốc Corticosteroid nhỏ mắt hoặc uống dài ngày (gây tăng nhãn áp thứ phát),Bệnh mạch máu (cao huyết áp,đái tháo đường),U mắt,viêm mắt,phẫu thuật mắt"
+    },
+    {
+        "name": "Cận thị",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👓",
+        "description": "Tật khúc xạ mắt gây nhìn gần rõ, nhìn xa mờ do trục nhãn cầu dài hoặc công suất hội tụ quá mạnh",
+        "symptoms": "Nhìn xa mờ,Nheo mắt nhìn xa,Nhức đầu khi nhìn xa lâu,Mỏi mắt (do cố gắng nhìn ra xa),Thường xuyên dụi mắt,Ngồi gần tivi khi trẻ em,Nheo mắt nhìn bảng ở trường (trẻ em)"
+    },
+    {
+        "name": "Viêm giác mạc",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Viêm nhiễm giác mạc do vi khuẩn, virus, nấm hoặc tổn thương gây loét có thể dẫn đến mù nếu không điều trị kịp thời",
+        "symptoms": "Đau mắt dữ dội,Đỏ mắt,Nhìn mờ,Chảy nước mắt nhiều,Sợ ánh sáng (co quắp mi),Cảm giác dị vật trong mắt,Loét giác mạc (đục trắng trên giác mạc),Mủ tiền phòng"
+    },
+    {
+        "name": "Đục thủy tinh thể",
+        "group_name": "Mắt",
+        "risk_level": "medium",
+        "icon": "👁️",
+        "description": "Đục thể thủy tinh (crystallin lens protein) gây suy giảm thị lực từ từ, thường do lão hóa",
+        "symptoms": "Nhìn mờ từ từ,không đau,Chói lóa (đèn pha xe),Khó nhìn ban đêm,Nhìn đôi một mắt,Màu sắc mờ nhạt hoặc vàng úa,Thay đổi khúc xạ (cận thị đột ngột tăng)"
+    },
+    {
+        "name": "Viêm màng bồ đào",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Viêm lớp màng mạch nho của mắt (mống mắt,thể mi,hắc mạc), thường do tự miễn hoặc nhiễm trùng",
+        "symptoms": "Đau mắt sâu,Đỏ mắt quanh rìa giác mạc,Nhìn mờ,Nhạy cảm với ánh sáng (sợ ánh sáng),Ruồi bay,Nhìn đen thâm thị trường (viêm hắc mạc sau),Giảm thị lực"
+    },
+    {
+        "name": "Bong võng mạc",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Lớp võng mạc tách khỏi biểu mô sắc tố bên dưới, cấp cứu nhãn khoa đe dọa thị lực nhanh chóng",
+        "symptoms": "Ruồi bay đột ngột tăng nhiều,Chớp sáng (photopsia) ở thị trường ngoại vi,Bóng đen (màn che) tiến triển lan rộng (như bức màn),Mất thị trường từng góc,Giảm thị lực trung tâm (khi bong đến hoàng điểm),Không đau"
+    },
+    {
+        "name": "Thoái hóa hoàng điểm",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Tổn thương vùng hoàng điểm của võng mạc do tuổi già, gây mất thị lực trung tâm không hồi phục",
+        "symptoms": "Nhìn mờ trung tâm (đọc sách,nhận mặt người khó khăn),Biến dạng hình ảnh (méo mó – Amsler grid test dương tính),Ám điểm trung tâm (điểm mờ giữa thị trường),Ám điểm tối dần lan rộng,Mất thị lực màu sắc"
+    },
+    {
+        "name": "Khô mắt",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👁️",
+        "description": "Rối loạn màng phim nước mắt gây khó chịu bề mặt nhãn cầu do thiếu nước mắt hoặc mất cân bằng chất lượng",
+        "symptoms": "Cảm giác khô rát mắt,Cát sạn trong mắt,Đỏ mắt nhẹ,Nhìn mờ dao động (mờ rồi rõ khi chớp mắt),Chảy nước mắt phản xạ (mắt cay,bỏng nước mắt),Nặng mi mắt,Mệt mỏi mắt khi đọc,máy tính nhiều"
+    },
+    {
+        "name": "Lẹo mắt",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👁️",
+        "description": "Nhiễm trùng cấp cấp của tuyến Zeis (nang lông mi) hoặc tuyến Meibomius gây sưng viêm mí mắt",
+        "symptoms": "Sưng đỏ khu trú bờ mi (sưng đột ngột),Đau mắt ấn đau (míc lẹo: tuyến lông mi),Mụn mủ đầu vàng có thể nhìn thấy,Sự nhạy cảm ánh sáng nhẹ,Chảy nước mắt"
+    },
+    {
+        "name": "Lão thị",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👓",
+        "description": "Mất dần khả năng điều tiết nhìn gần của thể thủy tinh do lão hóa (thường quanh tuổi 40)",
+        "symptoms": "Khó nhìn gần (giữ sách xa ra để đọc),Mỏi mắt khi làm việc gần,Nhức đầu,nheo mắt khi đọc,Cần đèn sáng hơn để nhìn gần,Nhìn mờ chữ in nhỏ khi cầm sách gần"
+    },
+    {
+        "name": "Loạn thị",
+        "group_name": "Mắt",
+        "risk_level": "low",
+        "icon": "👓",
+        "description": "Tật khúc xạ do giác mạc/thể thủy tinh có độ cong không đều, gây nhiều tiêu điểm trên võng mạc",
+        "symptoms": "Nhìn mờ ở mọi khoảng cách (gần và xa),Nheo mắt thường xuyên,Nhức đầu,mỏi mắt,Nhìn hình ảnh bị méo mó (như có bóng mờ),Khó nhìn đường thẳng (như gợn sóng),Mệt mỏi thị giác"
+    },
+    {
+        "name": "Viêm thần kinh thị giác",
+        "group_name": "Mắt",
+        "risk_level": "high",
+        "icon": "👁️",
+        "description": "Viêm dây thần kinh thị giác, thường liên quan đến bệnh xơ cứng rải rác, gây mất thị lực đột ngột",
+        "symptoms": "Mất thị lực cấp một mắt (nặng,tiến triển nhanh vài giờ - vài ngày),Đau mắt kiểu nhãn cầu khi cử động mắt,Giảm cảm nhận màu sắc (màu đỏ mờ hơn – desaturation),Ám điểm trung tâm,Chớp sáng,nhạy cảm ánh sáng"
+    },
+    {
+        "name": "Sốt xuất huyết",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦟",
+        "description": "Bệnh sốt cấp tính do virus Dengue (4 serotype) lây qua muỗi Aedes aegypti, gây giảm tiểu cầu và xuất huyết",
+        "symptoms": "Sốt cao đột ngột 39-40°C kéo dài 2-7 ngày,Đau đầu dữ dội,Đau sau hố mắt,Đau cơ khớp toàn thân,Mệt mỏi,Nổi chấm xuất huyết dưới da,Chảy máu chân răng,mũi,nôn/đi ngoài ra máu,Thoát huyết tương (tràn dịch màng phổi,cổ trướng) nguy kịch,Hạ huyết áp (sốc Dengue)",
+        "causes": "Virus Dengue (4 serotype DEN-1,2,3,4),Lây qua muỗi Aedes aegypti đốt,Muỗi sinh sản ở vùng nước đọng,Miễn dịch không bền vững, nhiễm lần 2 nặng hơn (do hiện tượng tăng cường miễn dịch ADE),Mùa mưa, Nhiệt đới,Đô thị hóa thiếu kiểm soát muỗi",
+        "diagnosis": "Xét nghiệm nhanh kháng nguyên NS1 (dương tính 1-3 ngày đầu,Test nhanh kháng thể IgM/IgG (sau 5 ngày sốt),PCR Dengue (phân typ),Công thức máu (giảm tiểu cầu, Hematocrit tăng),Siêu âm bụng (dày thành túi mật, tràn dịch màng bụng, màng phổi)",
+        "treatment": "Nằm viện theo dõi dấu hiệu cảnh báo (nôn nhiều, đau bụng, xuất huyết niêm mạc, tiểu ít, li bì),Bù dịch sớm (đường uống/ tĩnh mạch theo phác đồ),Thuốc hạ sốt (Paracetamol, tránh NSAID,Ibuprofen,Aspirin gây xuất huyết nặng hơn),Theo dõi Hematocrit và tiểu cầu 6-12h,Chọc hút dịch nếu tràn dịch nhiều gây suy hô hấp,Truyền tiểu cầu/máu (nếu xuất huyết nặng)"
+    },
+    {
+        "name": "Thủy đậu",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Bệnh truyền nhiễm cấp do virus Varicella Zoster gây phát ban mụn nước toàn thân, thường nhẹ ở trẻ em, nặng ở người lớn",
+        "symptoms": "Sốt nhẹ- vừa,Mệt mỏi,Phát ban đỏ tiến triển thành mụn nước (tuần tự: mẩn đỏ -> mụn nước -> mụn mủ -> đóng vảy),Mụn nước ngứa nhiều,phân bố từ mặt xuống thân mình (trung tâm),Mụn xuất hiện thành vài đợt (cùng lúc cả nốt mới và nốt vảy),Lở miệng (mụn nước trong miệng)",
+        "causes": "Virus Varicella Zoster (VZV - herpesvirus),Lây qua đường hô hấp (giọt bắn, dịch mụn nước),Rất dễ lây (90% người tiếp xúc không miễn nhiễm sẽ mắc),Trẻ em không tiêm vắc xin,Phụ nữ mang thai có thể lây sang thai gây hội chứng thủy đậu bẩm sinh"
+    },
+    {
+        "name": "Sởi",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Bệnh truyền nhiễm cấp do virus Morbillivirus gây sốt phát ban, rất dễ lây và có thể biến chứng nặng",
+        "symptoms": "Sốt cao (39-40°C),Ho khàn khan,Chảy nước mũi nhiều,Viêm kết mạc mắt (đỏ mắt,chảy nước mắt),Hạt Koplik trong miệng (chấm trắng nhỏ trên niêm mạc má báo trước phát ban 1-2 ngày),Phát ban dát sẩn đỏ từ mặt > lan thân > tay chân (ban xuất hiện từ trên xuống),Ban biến mất để lại các chấm nâu sau 5-7 ngày",
+        "causes": "Virus sởi (Morbillivirus, họ Paramyxoviridae),Lây qua đường hô hấp (giọt bắn),Rất dễ lây: 95% người không miễn dịch tiếp xúc gần sẽ nhiễm,Virus tồn tại trong không khí đến 2 giờ sau khi người bệnh ho/ hắt hơi"
+    },
+    {
+        "name": "Sốt rét",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦟",
+        "description": "Bệnh ký sinh trùng sốt rét do Plasmodium lây qua muỗi Anopheles gây sốt cơn và thiếu máu",
+        "symptoms": "Sốt cơn điển hình (rét run - sốt nóng - vã mồ hôi),Sốt chu kỳ 48h (P.vivax,ovale),72h (P.mariae) hoặc không chu kỳ (P.falciparum),Thiếu máu tan máu tán huyết,Lách to,Gan to,Đau đầu,đau cơ,Đau bụng,nôn tiêu chảy,Suy tạng (falciparum - sốt rét não,suy thận cấp,phù phổi)",
+        "causes": "Ký sinh trùng Plasmodium (P.falciparum nặng,P.vivax,P.ovale,P.malariae,P.knowlesi),Lây qua muỗi Anopheles cái đốt,Truyền máu,Kim tiêm, Mẹ sang con (bẩm sinh hiếm),Vùng nhiệt đới (châu Phi, Đông Nam Á, Nam Mỹ)"
+    },
+    {
+        "name": "Uốn ván",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Nhiễm trùng cấp tính do ngoại độc tố Clostridium tetani gây co cứng cơ và co giật uốn ván",
+        "symptoms": "Co cứng cơ hàm (trismus,khó mở miệng - triệu chứng sớm nhất),Cứng cổ,cứng lưng (ưu thế duỗi),Cười nhăn (risus sardonicus),Co cứng cơ bụng thành cứng,Co giật uốn ván hình chữ U khi kích thích,Suy hô hấp (co thắt thanh quản,cứng cơ ngực hoành)",
+        "causes": "Trực khuẩn Clostridium tetani (kỵ khí Gram dương),Bào tử có trong đất,bụi,phân động vật,Xâm nhập qua vết thương (bẩn, sâu, dập nát, mảnh đinh,gỗ, mảnh bom mìn),Giải phóng độc tố tetanospasmin -> tác dụng lên thần kinh vận động và giao cảm"
+    },
+    {
+        "name": "Tay chân miệng",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm virus cấp ở trẻ em <5t do Enterovirus (EV71,Coxsackie A16) gây mụn nước ở tay,chân,miệng",
+        "symptoms": "Sốt nhẹ- vừa (38-39°C),Đau họng,Mệt mỏi,Phát ban mụn nước ở lòng bàn tay,bàn chân,đầu gối,mông,Loét miệng (mụn nước vỡ trên nền niêm mạc đỏ vùng hầu họng,lưỡi,má trong => đau họng làm trẻ bỏ ăn,bỏ bú),Biến chứng nặng (EV71): Viêm não,gây sốc,liệt mềm cấp tính",
+        "causes": "Enterovirus: Coxsackie A16 (thường nhẹ), EV71 (thường nặng biến chứng),Lây qua đường tiêu hóa (phân-miệng), đường hô hấp (giọt bắn), tiếp xúc trực tiếp với dịch mụn nước,Rất dễ lây ở nhà trẻ, trường mầm non,Vệ sinh kém"
+    },
+    {
+        "name": "Ho gà",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm trùng hô hấp do trực khuẩn Bordetella pertussis gây ho từng cơn dữ dội, nguy hiểm nhất ở trẻ sơ sinh",
+        "symptoms": "Giai đoạn 1 (1-2 tuần): Sổ mũi,ho nhẹ,sốt nhẹ (giống cảm lạnh),Giai đoạn 2 (kịch phát - 2-6 tuần): Ho từng cơn dãn (ho liên tục 5-10 nhịp trong một hơi thở),Tiếng rít 'whoop' sau cơn ho khi hít vào,Nôn sau ho,Mặt tím đỏ,chảy nước mắt mũi,Giai đoạn 3 (hồi phục - vài tuần đến tháng): ho giảm dần",
+        "causes": "Trực khuẩn Bordetella pertussis (Gram âm),Lây qua đường hô hấp (giọt bắn),Rất dễ lây (80% người tiếp xúc không miễn nhiễm sẽ mắc),Trẻ sơ sinh <3 tháng chưa tiêm vắc xin đủ liều bị bệnh nặng nhất có thể tử vong do ngưng thở"
+    },
+    {
+        "name": "Bạch hầu",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm trùng cấp do trực khuẩn Corynebacterium diphtheriae, tạo giả mạc vùng họng và độc tố gây viêm cơ tim,liệt thần kinh",
+        "symptoms": "Sốt nhẹ (38-39°C),Mệt mỏi,Đau họng nhẹ,Khó nuốt,Nổi hạch cổ to (cổ bạnh ra - Bull neck),Giả mạc hầu họng: đám màng trắng xám ở amidan,họng,bám chắc,khi bóc chảy máu,Biến chứng: Viêm cơ tim,Viêm dây thần kinh (liệt khẩu cái,mất điều hòa,liệt vận nhãn,liệt ngoại vi)",
+        "causes": "Trực khuẩn Corynebacterium diphtheriae (Gram dương),Lây qua đường hô hấp (giọt bắn),Không tiêm vắc xin hoặc tiêm không đủ liều,Điều kiện sống đông đúc,vệ sinh kém"
+    },
+    {
+        "name": "Quai bị",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm virus cấp (Paramyxovirus) gây sưng đau tuyến mang tai và các tuyến nước bọt, thường gặp trẻ em",
+        "symptoms": "Sốt vừa- cao,Sưng đau tuyến mang tai một hoặc hai bên,Đau khi nhai hoặc nuốt,Đau họng,Đau đầu,mệt mỏi,chán ăn,Sưng dưới hàm (tuyến dưới hàm),Viêm tinh hoàn (nam trưởng thành): đau,sưng tinh hoàn 1 bên,Viêm buồng trứng (nữ trưởng thành)",
+        "causes": "Virus quai bị (Paramyxovirus - Rubulavirus),Lây qua đường hô hấp (giọt bắn) và nước bọt,Rất dễ lây ở trẻ em tuổi học đường,Mùa xuân-đông"
+    },
+    {
+        "name": "Rubella",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "low",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm virus Rubella cấp tính lành tính ở trẻ em, nhưng rất nguy hiểm với phụ nữ mang thai (hội chứng rubella bẩm sinh)",
+        "symptoms": "Sốt nhẹ (37-38°C),Nổi hạch sau tai,gáy (dấu hiệu sớm),Phát ban dát sẩn nhỏ (đỏ,mờ),bắt đầu ở mặt,lan xuống chân nhanh (trong 24h),Ban tồn tại 3 ngày (ban 3 ngày),Đau khớp (phụ nữ trưởng thành)",
+        "causes": "Virus Rubella (Togaviridae),Lây qua đường hô hấp (giọt bắn),Hội chứng Rubella bẩm sinh (CRS) cho thai: Tim bẩm sinh,Đục thủy tinh thể,Điếc bẩm sinh,chậm phát triển tâm thần"
+    },
+    {
+        "name": "Tiêu chảy cấp",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "💩",
+        "description": "Đi ngoài phân lỏng/nước >=3 lần/ngày trong <14 ngày do nhiễm trùng đường ruột cấp",
+        "symptoms": "Tiêu chảy nhiều lần/ngày phân lỏng/nước,Đầy bụng,sôi bụng,Buồn nôn,nôn,Sốt nhẹ- cao,Đau quặn bụng,Mất nước (khát,da mắt trũng) đến nặng (li bì,khô miệng,mạch nhanh,tiểu ít),Phân nhầy máu (kiết lỵ)",
+        "causes": "Virus (Rotavirus,Norovirus,Adenovirus,Enterovirus),Vi khuẩn (E.coli,Salmonella,Shigella,Vibrio cholerae,Campylobacter),Ký sinh trùng (Giardia,Amip),Độc tố thực phẩm,Thực phẩm/nước uống nhiễm khuẩn,Vệ sinh kém,Du lịch"
+    },
+    {
+        "name": "Viêm gan A",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Viêm gan cấp do virus HAV lây qua đường tiêu hóa (thức ăn,nước uống nhiễm), thường tự hồi phục",
+        "symptoms": "Sốt nhẹ,Mệt mỏi,Chán ăn,Buồn nôn,đau bụng,Nước tiểu vàng sẫm,Phân bạc màu,Vàng da,mắt,Ngứa,Gan to,ấn đau hạ sườn phải",
+        "causes": "Virus HAV (Picornaviridae),Lây qua đường phân-miệng (thức ăn,nước uống nhiễm),Vệ sinh kém,Ăn sò ốc sống,nấu chưa chín,Du lịch đến vùng dịch tễ"
+    },
+    {
+        "name": "Viêm não Nhật Bản",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦟",
+        "description": "Viêm não cấp do Flavivirus lây qua muỗi Culex, gây tử vong cao hoặc di chứng thần kinh vĩnh viễn",
+        "symptoms": "Sốt cao 40-41°C,Đau đầu dữ dội,Nôn,Rối loạn ý thức (li bì,lú lẫn,hôn mê),Co giật,Cứng gáy (dấu màng não),Liệt các dạng (liệt mặt trung ương,liệt nửa người),Tử vong (30%),di chứng thần kinh nặng (giảm trí tuệ,động kinh,liệt) ở 50% người sống sót",
+        "causes": "Virus Viêm não Nhật Bản (Flavivirus),Lây qua muỗi Culex (chủ yếu Culex tritaeniorhynchus),Ổ chứa: lợn,chim dại,Trẻ em dễ mắc, vùng nông thôn châu Á có ruộng lúa,chuồng lợn"
+    },
+    {
+        "name": "Dại",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Viêm não tủy cấp do virus Rhabdovirus (Lyssavirus) từ nước bọt chó/mèo/muông thú bệnh dại, hầu như luôn gây tử vong sau khi lên cơn dại",
+        "symptoms": "Giai đoạn báo trước: Sốt nhẹ,mệt mỏi,đau nhức vết cắn,giật cơ quanh vết cắn,Sợ nước (hydrophobia): co thắt họng,kích động không kiểm soát khi thấy nước,Sợ gió (aerophobia),Co thắt họng thanh quản khi nuốt,Tăng tiết nước bọt,Mê sảng,ảo giác,kích động,Liệt toàn thân,Hôn mê,Tử vong do suy hô hấp sau 3-7 ngày từ cơn dại điển hình"
+    },
+    {
+        "name": "HIV/AIDS",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Hội chứng suy giảm miễn dịch mắc phải do nhiễm virus HIV, phá hủy tế bào T CD4, gây giảm miễn dịch trầm trọng",
+        "symptoms": "Giai đoạn cấp (2-4 tuần sau phơi nhiễm): Sốt,đau họng,đau cơ,sưng hạch,phát ban,loét miệng,Giai đoạn tiềm ẩn (không triệu chứng kéo dài 8-10 năm),Giai đoạn AIDS: CD4 <200, nhiễm trùng cơ hội: Lao,Viêm phổi PCP,Nấm Cryptococcus,Toxoplasma não,U lympho non-Hodgkin,Sarcoma Kaposi,Sốt,sụt cân,tiêu chảy mạn"
+    },
+    {
+        "name": "Lao hạch",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Nhiễm trực khuẩn lao Mycobacterium tuberculosis ở hạch ngoại vi, thường gặp hạch cổ (hạch scrofula)",
+        "symptoms": "Sưng hạch cổ (vùng dưới hàm,sau cổ) một bên hoặc nhiều hạch,Hạch sưng dần (không đau lúc đầu),Mềm hóa (dao động),Dò mủ ra da (scrofula - lỗ rò kinh niên),Sốt nhẹ về chiều,Ra mồ hôi đêm,Sụt cân",
+        "causes": "Trực khuẩn Mycobacterium tuberculosis,Lây qua đường hô hấp vào phổi -> theo bạch huyết đến hạch cổ,Phản ứng vi mãn tính,Suy giảm miễn dịch"
+    },
+    {
+        "name": "Phong",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Bệnh nhiễm trùng mạn tính do trực khuẩn Mycobacterium leprae gây tổn thương da và thần kinh ngoại vi",
+        "symptoms": "Ban da (đổi màu hoặc mất màu),Da tê bì (mất cảm giác đau,nhiệt độ) tại vùng tổn thương,Dày dây thần kinh ngoại biên (củ dây trụ,dây chày sau),Yếu,võng ngón tay chân (biến dạng bàn tay vuốt,bàn chân rơi),Teo cơ,gãy xương,tổn thương mũi"
+    },
+    {
+        "name": "Giang mai",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "high",
+        "icon": "🦠",
+        "description": "Nhiễm trùng lây qua đường tình dục do xoắn khuẩn Treponema pallidum, diễn tiến từ loét sinh dục đến tổn thương đa cơ quan và thần kinh",
+        "symptoms": "Giai đoạn 1: Săng giang mai = loét tròn đáy sạch,không đau tại cơ quan sinh dục,Giai đoạn 2 (4-10 tuần): Ban đỏ hồng đối xứng toàn thân (lòng bàn tay chân),Sốt,mệt,sưng hạch,Rụng tóc mảng,Sẩn niêm mạc sinh dục (condyloma lata),Giai đoạn 3 (nhiều năm sau): Tổn thương tim mạch (giãn động mạch chủ),Thần kinh (tabes dorsalis,liệt đũa quàng)"
+    },
+    {
+        "name": "Lậu",
+        "group_name": "Truyền nhiễm",
+        "risk_level": "medium",
+        "icon": "🦠",
+        "description": "Nhiễm trùng lây qua đường tình dục do song cầu Neisseria gonorrhoeae gây viêm niệu đạo mủ và có thể biến chứng toàn thân",
+        "symptoms": "Nam: Tiểu buốt,rát dữ dội,Chảy mủ vàng xanh từ niệu đạo,Sưng đau lỗ sào (viêm mào tinh hoàn),Nữ: Thường không triệu chứng (50-70%),Tiết dịch âm đạo lạ,đau bụng dưới,Biến chứng: Viêm vùng chậu (PID) gây vô sinh,thai ngoài tử cung ở nữ"
+    },
+    {
+        "name": "Viêm tai giữa",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "low",
+        "icon": "👂",
+        "description": "Viêm tai giữa cấp hoặc mạn tính do nhiễm trùng hoặc tắc vòi nhĩ, thường gặp ở trẻ em",
+        "symptoms": "Đau tai (ót tai trẻ kéo day),Sốt vừa-cao,Giảm thính lực tạm thời,Cảm giác đầy tai,Chảy mủ/máu từ tai (thủng màng nhĩ),Mất thăng bằng chóng mặt (hiếm)",
+        "causes": "Vi khuẩn (Streptococcus pneumoniae,Haemophilus influenzae,Moraxella catarrhalis),Virus (RSV,cúm),Tắc vòi nhĩ (do cảm lạnh,viêm mũi họng),Trẻ em <3t (vòi nhĩ ngắn và nằm ngang),Bú bình nằm,Ô nhiễm khói thuốc"
+    },
+    {
+        "name": "Viêm mũi dị ứng",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "low",
+        "icon": "😤",
+        "description": "Viêm niêm mạc mũi do dị ứng với các tác nhân môi trường như phấn hoa, mạt bụi, lông thú, nấm mốc",
+        "symptoms": "Hắt hơi nhiều (chùm 5-10 cái liên tục),Chảy nước mũi trong,Nghẹt mũi,Ngứa mũi,ngứa mắt,ngứa vòm họng,Chảy nước mắt,ngứa mắt,Ho khạc (do chảy mũi sau),Mệt mỏi uể oải"
+    },
+    {
+        "name": "Ù tai",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "low",
+        "icon": "👂",
+        "description": "Cảm nhận âm thanh bất thường (ong ve,rền rĩ,tiếng thổi...) ở một hoặc cả hai tai khi không có nguồn âm thanh bên ngoài",
+        "symptoms": "Nghe tiếng ong ve,rền,tiếng gió,tiếng rít trong tai hoặc trong đầu,Ù tai nghe liên tục hoặc từng lúc,Ù tai làm mất tập trung,gây khó ngủ,lo lắng,trầm cảm,Ù tai mạch đập (theo nhịp mạch đập)"
+    },
+    {
+        "name": "Viêm họng hạt",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "low",
+        "icon": "👄",
+        "description": "Viêm họng mạn tính tăng sản lympho thành sau họng tạo các hạt đỏ gây vướng và viêm tái phát",
+        "symptoms": "Cảm giác khô,có đờm vướng ở họng (chủ yếu),Ho khan từng tiếng do chảy mũi sau,Nuốt vướng nhưng không đau,Khàn tiếng nhẹ,Thường xuyên e hèm để làm sạch họng,Đờm nhớt quánh trắng trong"
+    },
+    {
+        "name": "Điếc đột ngột",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "high",
+        "icon": "👂",
+        "description": "Mất thính lực thần kinh giác quan cấp (≥30 dB trên 3 tần số liên tiếp) trong <72h, cần cấp cứu tai mũi họng",
+        "symptoms": "Nghe kém/mất thính lực một bên tai đột ngột,Ù tai (80-90%),Chóng mặt(30-40%) - cảm giác quay tròn,Buồn nôn,nôn (nếu kèm viêm mê đạo),Cảm giác choáng váng đầu,Cảm giác đầy tắc tai"
+    },
+    {
+        "name": "Chóng mặt tư thế",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "low",
+        "icon": "😵",
+        "description": "Chóng mặt kịch phát lành tính do sỏi nhỏ ở túi tiền đình di chuyển vào ống bán khuyên",
+        "symptoms": "Chóng mặt quay đột ngột dữ dội kéo dài <60 giây,Xuất hiện khi thay đổi tư thế đầu (ngả đầu,ngồi dậy từ nằm,nghiêng đầu),Buồn nôn,nôn khi chóng mặt,Không ù tai,không nghe kém,Giữa cơn: bình thường"
+    },
+    {
+        "name": "Ménière",
+        "group_name": "Tai Mũi Họng",
+        "risk_level": "medium",
+        "icon": "👂",
+        "description": "Rối loạn tai trong gây chóng mặt tái phát, ù tai, nghe kém nặng dần và cảm giác đầy tức tai",
+        "symptoms": "Chóng mặt quay tròn dữ dội từng cơn (20 phút - 12 giờ),Ù tai một bên tăng nặng trước và trong cơn,Giảm thính lực thần kinh giác quan một bên,Cảm giác đầy,tức tai bên bệnh,Buồn nôn và nôn nhiều khi chóng mặt,Rung giật nhãn cầu"
+    },
+    {
+        "name": "Trầm cảm",
+        "group_name": "Tâm thần",
+        "risk_level": "high",
+        "icon": "😔",
+        "description": "Rối loạn tâm thần phổ biến với khí sắc trầm,mất quan tâm thích thú và suy giảm chức năng kéo dài",
+        "symptoms": "Khí sắc trầm kéo dài (đa số cả ngày,gần như mỗi ngày trong 2 tuần),Mất hứng thú,không vui vẻ,Thay đổi cảm giác ngon miệng (giảm cân/tăng cân),Rối loạn giấc ngủ (mất ngủ/ngủ nhiều),Chậm chạp hoặc kích động tâm thần vận động,Mệt mỏi mất năng lượng,Cảm giác vô dụng,tội lỗi,Giảm tập trung,trí nhớ,Suy nghĩ về cái chết,tự tử"
+    },
+    {
+        "name": "Rối loạn lưỡng cực",
+        "group_name": "Tâm thần",
+        "risk_level": "high",
+        "icon": "😃",
+        "description": "Rối loạn tâm thần mạn tính với các đợt hưng cảm và trầm cảm xen kẽ",
+        "symptoms": "Tăng năng lượng,hoạt động tràn trề,Giảm nhu cầu ngủ (ngủ 3h vẫn thấy tràn đầy năng lượng),Nói nhiều (nói nhanh chuyền đề tài),Tăng ham muốn tình dục,Niềm tin tự cao (tưởng mình có khả năng đặc biệt),Mua sắm nhiều/Đầu tư mạo hiểm,Sao nhãng"
+    },
+    {
+        "name": "Rối loạn hoảng sợ",
+        "group_name": "Tâm thần",
+        "risk_level": "medium",
+        "icon": "😱",
+        "description": "Rối loạn lo âu đặc trưng bởi các cơn hoảng sợ đột ngột tái phát kèm nỗi sợ hãi cơn hoảng sợ sẽ đến một lần nữa",
+        "symptoms": "Tim đập nhanh không kiểm soát,Đổ mồ hôi,Run rẩy toàn thân,Cảm giác khó thở,nghẹt thở,Đau ngực (cảm giác như sắp lên cơn đau tim),Buồn nôn,Chóng mặt,Cảm thấy gần như ngất xỉu,Sợ chết,Tê bì,Rùng mình,Nỗi sợ dai dẳng về cơn hoảng sợ sẽ tái phát"
+    },
+    {
+        "name": "Ám ảnh sợ xã hội",
+        "group_name": "Tâm thần",
+        "risk_level": "medium",
+        "icon": "😰",
+        "description": "Rối loạn lo âu với nỗi sợ hãi và né tránh các tình huống xã hội hoặc hiệu suất vì sợ bị đánh giá tiêu cực",
+        "symptoms": "Sợ hãi dữ dội khi phải nói trước đám đông,giao tiếp với người lạ,Tránh tình huống xã hội,Triệu chứng thực thể: đỏ mặt,ra mồ hôi,run,mạch tim đập nhanh,buồn nôn,khó nói,Nỗi sợ không hợp lý về bị từ chối,xấu hổ,Sự tránh né ảnh hưởng rõ rệt đến học tập,công việc"
+    },
+    {
+        "name": "Rối loạn ám ảnh cưỡng chế (OCD)",
+        "group_name": "Tâm thần",
+        "risk_level": "medium",
+        "icon": "🧠",
+        "description": "Rối loạn tâm thần mãn tính với các ám ảnh xảy ra nhiều lần gây lo lắng và hành vi cưỡng chế để giảm lo âu",
+        "symptoms": "Ám ảnh: Suy nghĩ,thôi thúc,hình ảnh lặp đi lặp lại gây khó chịu (sợ nhiễm trùng,lo lắng mất kiểm soát,mong muốn mọi thứ đối xứng),Cưỡng chế: Hành vi lặp đi lặp lại để giảm lo âu (rửa tay,kiểm tra,đếm,sắp xếp),Mất ít nhất 1 giờ/ngày cho các ám ảnh"
+    },
+    {
+        "name": "Rối loạn stress sau sang chấn (PTSD)",
+        "group_name": "Tâm thần",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Rối loạn tâm thần phát triển sau trải qua sự kiện sang chấn nghiêm trọng",
+        "symptoms": "Tái trải nghiệm sang chấn (flashback),Ác mộng về sang chấn tái diễn,Né tránh dai dẳng kích hoạt liên quan đến sang chấn,Rối loạn nhận thức và tâm trạng tiêu cực,Tăng kích động quá mức (dễ cáu gắt,giật mình quá mức,khó ngủ)"
+    },
+    {
+        "name": "Rối loạn nhân cách",
+        "group_name": "Tâm thần",
+        "risk_level": "medium",
+        "icon": "🧠",
+        "description": "Rối loạn nhân cách dai dẳng không linh hoạt,không thích ứng gây suy giảm chức năng và đau khổ kéo dài",
+        "symptoms": "Các kiểu hành vi ổn định không linh hoạt và lan tỏa,Rối loạn nhận dạng cá nhân (RLC ranh giới),Bất ổn cảm xúc nhanh,lo sợ bị bỏ rơi cực độ,Xem thường quyền của người khác (chống đối xã hội),Tránh né quan hệ sợ bị từ chối,Nghi ngờ vô căn cứ (hoang tưởng)"
+    },
+    {
+        "name": "Rối loạn ăn uống (chán ăn tâm thần)",
+        "group_name": "Tâm thần",
+        "risk_level": "high",
+        "icon": "🧑",
+        "description": "Rối loạn ăn uống với hạn chế năng lượng cực đoan,dẫn đến cân nặng rất thấp và sợ tăng cân mạnh mẽ",
+        "symptoms": "Hạn chế nghiêm trọng năng lượng -> Cân nặng thấp (BMI <18.5),Sợ tăng cân mạnh mẽ,Rối loạn hình ảnh cơ thể,Mất kinh (nữ),Loãng xương,teo cơ,mệt mỏi,chậm nhịp tim,Hành vi bù trừ (nôn ói,thuốc nhuận tràng)"
+    },
+    {
+        "name": "Tâm thần phân liệt",
+        "group_name": "Tâm thần",
+        "risk_level": "high",
+        "icon": "🧠",
+        "description": "Rối loạn tâm thần nặng mạn tính với các triệu chứng loạn thần,suy giảm nhận thức,cảm xúc và hành vi bất thường",
+        "symptoms": "Ảo giác (thính giác: nghe tiếng nói trong đầu),Hoang tưởng (bị hại,tự cao,ghen tuông),Rối loạn tư duy (nói lộn xộn),Rối loạn vận động (căng trương lực),Cảm xúc phẳng lặng,thu hẹp xã hội,thờ ơ mất động lực,Suy giảm nhận thức"
+    },
+    {
+        "name": "Rối loạn phân ly",
+        "group_name": "Tâm thần",
+        "risk_level": "medium",
+        "icon": "🧠",
+        "description": "Rối loạn tâm thần với sự gián đoạn hoặc phân cách của ý thức,trí nhớ,nhận thức và hành vi",
+        "symptoms": "Mất trí nhớ phân ly (không giải thích được) về một giai đoạn hoặc toàn bộ quá khứ,Quên thông tin cá nhân quan trọng,Rối loạn nhận dạng phân ly (hai hoặc nhiều nhân cách riêng biệt trong một người),Suy giảm chức năng nghề nghiệp,xã hội"
+    },
+    {
+        "name": "Viêm âm đạo",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "low",
+        "icon": "👩",
+        "description": "Viêm niêm mạc âm đạo do nhiễm vi khuẩn,nấm hoặc ký sinh trùng gây ngứa và khí hư bất thường",
+        "symptoms": "Khí hư bất thường (tăng,màu/mùi thay đổi),Ngứa âm hộ,đốt rát,Nóng rát đau khi đi tiểu hoặc giao hợp,Đỏ,sưng âm hộ",
+        "causes": "Vi khuẩn (Gardnerella vaginalis - viêm âm đạo do vi khuẩn),Nấm Candida albicans,Ký sinh trùng Trichomonas vaginalis,Thụt rửa âm đạo quá mức,Thuốc kháng sinh gây mất cân bằng hệ vi khuẩn,Thay đổi nội tiết (thai kỳ,mãn kinh),Vệ sinh kém"
+    },
+    {
+        "name": "Viêm cổ tử cung",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "medium",
+        "icon": "👩",
+        "description": "Viêm lớp tế bào biểu mô cổ tử cung do nhiễm trùng,có thể không triệu chứng hoặc ra khí hư và chảy máu bất thường",
+        "symptoms": "Khí hư mủ,nhầy bất thường (xanh,vàng tăng lên),Chảy máu âm đạo bất thường (giữa chu kỳ hoặc sau quan hệ),Đau khi giao hợp,Đau bụng dưới nhẹ,Kích ứng ngứa rát âm hộ",
+        "causes": "Chlamydia trachomatis (thường gặp),Neisseria gonorrhoeae (lậu),Trichomonas vaginalis,Herpes simplex (HSV),Mycoplasma genitalium,Dị ứng (latex,chất diệt tinh trùng)"
+    },
+    {
+        "name": "U xơ tử cung",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "medium",
+        "icon": "👩",
+        "description": "Khối u lành tính cơ tử cung rất phổ biến,thường không triệu chứng,có thể gây chảy máu bất thường hoặc chèn ép",
+        "symptoms": "Kinh nguyệt nhiều hoặc kéo dài (rong kinh,rong huyết),Đau/chèn ép vùng chậu (đau bụng dưới,đau thắt lưng),Căng tức vùng chậu,Táo bón,đi tiểu nhiều lần (chèn ép),Khó mang thai hoặc sảy thai,Vô sinh (nếu u xơ biến dạng buồng tử cung)"
+    },
+    {
+        "name": "Lạc nội mạc tử cung",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "medium",
+        "icon": "👩",
+        "description": "Mô nội mạc tử cung phát triển bên ngoài tử cung (buồng trứng,ống dẫn trứng,phúc mạc) gây đau và vô sinh",
+        "symptoms": "Đau bụng kinh nặng (đau bụng dữ dội trước và trong kỳ kinh),Đau trong và sau khi giao hợp,Đau vùng chậu mạn tính,Đau khi tiêu đi tiêu (đặc biệt trong kỳ kinh),Mệt mỏi,Vô sinh (khoảng 30-50%)"
+    },
+    {
+        "name": "U nang buồng trứng",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "low",
+        "icon": "👩",
+        "description": "Túi chứa dịch hoặc bán rắn phát triển trong hoặc trên buồng trứng, thường lành tính",
+        "symptoms": "Thường không có triệu chứng (phát hiện tình cờ trên siêu âm),Đau âm ỉ vùng chậu,Đầy bụng,căng tức vùng chậu,Đau đột ngột dữ dội và nôn ói (xoắn u nang hoặc vỡ),Rối loạn kinh nguyệt"
+    },
+    {
+        "name": "Ung thư cổ tử cung",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "high",
+        "icon": "👩",
+        "description": "Ung thư biểu mô tế bào vảy hoặc tuyến tại cổ tử cung, phòng ngừa bằng xét nghiệm PAP và vắc xin HPV",
+        "symptoms": "Chảy máu âm đạo bất thường: giữa chu kỳ,sau giao hợp,sau mãn kinh,Khí hư bất thường (tăng,mùi,loãng hoặc lẫn máu),Đau khi giao hợp,Đau vùng chậu,tiểu rắt,gấp (giai đoạn muộn)"
+    },
+    {
+        "name": "Ung thư vú",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "high",
+        "icon": "👩",
+        "description": "Ung thư biểu mô tuyến vú, phổ biến nhất ở phụ nữ, chẩn đoán sớm bằng nhũ ảnh và khám vú",
+        "symptoms": "Khối u ở vú hoặc nách cứng,bờ không đều,không đau,Thay đổi hình dạng vú (to/nhỏ lệch,phù da),Núm vú tụt vào trong,chảy máu/dịch vàng,Da vú nhăn như vỏ cam (peau d'orange),Đau vú,tấy đỏ"
+    },
+    {
+        "name": "Rối loạn kinh nguyệt",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "low",
+        "icon": "👩",
+        "description": "Bất kỳ thay đổi bất thường về chu kỳ kinh nguyệt (độ dài chu kỳ,khoảng cách,thời gian ra máu,lượng máu)",
+        "symptoms": "Kinh thưa (chu kỳ >35 ngày) hoặc vô kinh (không có kinh >3 tháng),Kinh dày (chu kỳ <21 ngày),Rong kinh (kinh kéo dài >7 ngày),Rong huyết (chảy máu giữa chu kỳ),Đau bụng kinh nặng,Thiếu máu do mất máu nhiều"
+    },
+    {
+        "name": "Hội chứng tiền kinh nguyệt",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "low",
+        "icon": "👩",
+        "description": "Các triệu chứng thể chất, tâm thần và hành vi lặp đi lặp lại trước kỳ kinh 1-2 tuần và giảm sau khi có kinh",
+        "symptoms": "Thay đổi tâm trạng: Cáu gắt,dễ tức giận,lo lắng,căng thẳng,khóc nhiều;Mệt mỏi;Trướng bụng,đầy hơi;Đau ngực,căng tức đầu vú;Mụn trứng cá;Thèm ăn;Khó ngủ;Giảm tập trung"
+    },
+    {
+        "name": "Mãn kinh",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "low",
+        "icon": "👩",
+        "description": "Ngừng vĩnh viễn kinh nguyệt sau 12 tháng không có kinh, thường xảy ra tuổi 45-55, do suy giảm estrogen",
+        "symptoms": "Bốc hỏa (hot flushes) đột ngột,Đổ mồ hôi đêm,Rối loạn giấc ngủ,Rối loạn tâm trạng (lo âu,trầm cảm),Khô âm đạo,gây đau giao hợp,Suy giảm trí nhớ,Giảm ham muốn tình dục,Rụng tóc,da khô,Loãng xương,tăng cân"
+    },
+    {
+        "name": "Vô sinh nữ",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "medium",
+        "icon": "👩",
+        "description": "Không có thai sau 12 tháng (nếu <35 tuổi) hoặc 6 tháng (nếu ≥35 tuổi) quan hệ tình dục đều đặn không bảo vệ",
+        "symptoms": "Không thể có thai dù quan hệ đều không bảo vệ,Rối loạn kinh nguyệt (vô kinh,kinh thưa),Đau bụng/chậu mạn tính,Triệu chứng liên quan nguyên nhân (rậm lông,mụn - PCOS;đau vùng chậu - PID)"
+    },
+    {
+        "name": "Thai ngoài tử cung",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "high",
+        "icon": "🤰",
+        "description": "Trứng thụ tinh làm tổ bên ngoài buồng tử cung (thường ống dẫn trứng 98%), cấp cứu sản khoa nguy hiểm",
+        "symptoms": "Đau bụng dưới đột ngột dữ dội (đau một bên),Chậm kinh vài tuần,Chảy máu âm đạo ít bất thường (màu nâu sẫm),Buồn nôn,nôn,Đau vai (do kích thích thần kinh hoành),Choáng váng,ngất,sốc mất máu (vỡ thai ngoài tử cung)"
+    },
+    {
+        "name": "Tiền sản giật",
+        "group_name": "Sản - Phụ khoa",
+        "risk_level": "high",
+        "icon": "🤰",
+        "description": "Rối loạn đa cơ quan xảy ra sau 20 tuần thai, đặc trưng bởi tăng huyết áp và protein niệu",
+        "symptoms": "Cao huyết áp mới khởi phát (≥140/90 mmHg),Phù tăng nhanh (mí mắt,tay,chân),Tăng cân nhanh,Đau đầu không đáp ứng thuốc,Nhìn mờ,chớp sáng,Đau vùng thượng vị/hạ sườn phải,Khó thở,Thiểu niệu"
+    },
+    {
+        "name": "Suy dinh dưỡng trẻ em",
+        "group_name": "Nhi khoa",
+        "risk_level": "high",
+        "icon": "👶",
+        "description": "Tình trạng thiếu hụt dinh dưỡng gây nhẹ cân,thấp còi hoặc gầy mòn ở trẻ em",
+        "symptoms": "Chậm tăng cân hoặc sụt cân,Chậm phát triển chiều cao,Teo cơ,mất mỡ dưới da (gầy gò),Phù (thể phù - Kwashiorkor),Mệt mỏi,quấy khóc,chán ăn,Dễ bệnh nhiễm trùng tái phát,Rụng tóc,móng giòn"
+    },
+    {
+        "name": "Còi xương",
+        "group_name": "Nhi khoa",
+        "risk_level": "medium",
+        "icon": "👶",
+        "description": "Rối loạn khoáng hóa xương ở trẻ em do thiếu vitamin D, canxi hoặc phosphate",
+        "symptoms": "Đổ mồ hôi trộm (đổ mồ hôi đầu nhiều khi ngủ),Ngủ không yên,quấy khóc,Chậm phát triển vận động,Đầu bẹt méo,có bướu trán,Chuỗi hạt sườn (rachitic rosary),Chân vòng kiềng (chữ O) hoặc chữ X,Đau nhức xương,Co giật (hạ canxi máu)"
+    },
+    {
+        "name": "Thiếu máu thiếu sắt",
+        "group_name": "Nhi khoa",
+        "risk_level": "medium",
+        "icon": "🩸",
+        "description": "Thiếu máu do thiếu sắt - tình trạng thiếu máu phổ biến nhất thế giới (đặc biệt trẻ em,phụ nữ)",
+        "symptoms": "Mệt mỏi,yếu đuối,Da xanh xao (niêm mạc nhợt nhạt),Khó thở khi gắng sức,Chóng mặt,đau đầu,Tay chân lạnh,Móng tay khòn dễ gãy,móng lòng muỗng,Hội chứng pica (thèm ăn đất,đá,băng),Chậm phát triển nhận thức (trẻ em)"
+    },
+    {
+        "name": "Tăng động giảm chú ý (ADHD)",
+        "group_name": "Nhi khoa",
+        "risk_level": "medium",
+        "icon": "🧒",
+        "description": "Rối loạn phát triển tâm thần thường khởi phát trước 12 tuổi với tăng động,thiếu chú ý và xung động",
+        "symptoms": "Thiếu chú ý: Khó duy trì chú ý,không nghe lời trực tiếp,Không hoàn thành nhiệm vụ,Tổ chức kém,Dễ bị phân tâm,Quên;Tăng động - Xung động: Bồn chồn,Không thể ở yên,Chạy nhảy leo trèo quá mức,Nói nhiều,Ngắt lời,Không thể đợi đến lượt"
+    },
+    {
+        "name": "Tự kỷ",
+        "group_name": "Nhi khoa",
+        "risk_level": "high",
+        "icon": "🧒",
+        "description": "Rối loạn phát triển thần kinh đa dạng phức tạp khởi phát sớm (thường <3 tuổi)",
+        "symptoms": "Suy giảm tương tác xã hội: Không giao tiếp mắt,không phản ứng với tên gọi,không biết chơi giả vờ;Chậm nói (có thể không nói),sử dụng ngôn ngữ bất thường;Hành vi lặp đi lặp lại: Sắp xếp đồ,lắc lư,xoay người;Khó khăn thích ứng với thay đổi"
+    },
+    {
+        "name": "Bại não",
+        "group_name": "Nhi khoa",
+        "risk_level": "high",
+        "icon": "🧒",
+        "description": "Rối loạn vận động và tư thế vĩnh viễn do tổn thương não không tiến triển trong giai đoạn bào thai hoặc trẻ nhỏ",
+        "symptoms": "Chậm phát triển vận động (chậm lẫm,bò,đi),Tăng trương lực cơ (co cứng) hoặc giảm trương lực cơ,Rối loạn vận động không tự chủ,Đi không vững;Kèm: chậm phát triển tâm thần,động kinh,khó khăn ăn nói"
+    },
+    {
+        "name": "Ung thư phổi",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Ung thư phổi nguyên phát thường từ biểu mô phế quản, là nguyên nhân gây tử vong hàng đầu do ung thư",
+        "symptoms": "Ho mạn tính kéo dài (không khỏi 3-8 tuần),Ho ra máu (vệt máu đỏ tươi),Đau ngực (âm ỉ,liên tục),Khó thở,Sụt cân không giải thích,Mệt mỏi,Viêm phổi tái phát,Khàn tiếng,Sưng mặt cổ (hội chứng tĩnh mạch chủ trên)"
+    },
+    {
+        "name": "Ung thư dạ dày",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🤢",
+        "description": "Ung thư biểu mô tuyến dạ dày, thường chẩn đoán ở giai đoạn muộn do triệu chứng không đặc hiệu sớm",
+        "symptoms": "Đau thượng vị mơ hồ (đầy tức,no nhanh),Chán ăn,sụt cân,Nuốt nghẹn (u ở tâm vị),Buồn nôn,nôn (u gây hẹp môn vị),Nôn ra máu (cafe ground),Phân đen,Mệt mỏi,thiếu máu"
+    },
+    {
+        "name": "Ung thư gan",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🫁",
+        "description": "Ung thư biểu mô tế bào gan nguyên phát (HCC), thường phát triển trên nền xơ gan hay viêm gan B/C mạn",
+        "symptoms": "Đau hạ sườn phải (đau tăng về đêm),Sụt cân nhanh,chán ăn,Mệt mỏi,Vàng da,mắt,Ngứa,Phân bạc màu,Sờ thấy gan to,cứng,Cổ trướng,Xuất huyết tiêu hóa,Suy gan"
+    },
+    {
+        "name": "Ung thư tuyến tiền liệt",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🧍‍♂️",
+        "description": "Ung thư biểu mô tuyến tiền liệt, ung thư phổ biến nhất ở nam giới, thường tiến triển chậm",
+        "symptoms": "Giai đoạn sớm: Không triệu chứng,PSA tăng cao;Tiểu khó (rặn,ngắt quãng,tia yếu),Tiểu nhiều lần nhất là đêm,Tiểu rắt,Có máu trong nước tiểu hoặc tinh dịch;Đau xương (di căn giai đoạn muộn),Sụt cân"
+    },
+    {
+        "name": "Ung thư tụy",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🥩",
+        "description": "Ung thư biểu mô tuyến tụy, tiên lượng rất xấu do chẩn đoán muộn và khả năng di căn sớm",
+        "symptoms": "Vàng da tắc mật (vàng da mắt,nước tiểu vàng sẫm,phân bạc màu),Đau thượng vị lan ra sau lưng,Sụt cân nhanh,Buồn nôn,nôn,tiêu chảy,Tiểu đường khởi phát mới,Mệt mỏi"
+    },
+    {
+        "name": "Ung thư thực quản",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🔥",
+        "description": "Ung thư biểu mô vảy hoặc tuyến thực quản, thường chẩn đoán muộn do khó nuốt tiến triển",
+        "symptoms": "Nuốt nghẹn tiến triển (đặc trước,lỏng sau),Nuốt đau,Sụt cân nhanh,Nôn trào ngược,Ợ nóng,Có máu trong nôn hoặc phân đen,Đau ngực,vai,lưng,Khàn tiếng,ho"
+    },
+    {
+        "name": "Ung thư buồng trứng",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "👩",
+        "description": "Ung thư biểu mô buồng trứng ác tính, khó phát hiện sớm vì triệu chứng mơ hồ",
+        "symptoms": "Sờ thấy khối vùng chậu,Đầy bụng,bụng trướng (cổ trướng),Đau bụng vùng chậu,Khó tiêu,buồn nôn,táo bón,Tiểu nhiều lần (chèn ép),Mệt mỏi,sụt cân"
+    },
+    {
+        "name": "Ung thư máu (bạch cầu cấp)",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Ung thư tế bào máu ở tủy xương, tăng sinh ồ ạt non blast, phá hủy tủy xương và chức năng dòng máu",
+        "symptoms": "Thiếu máu (mệt,da xanh),Dễ chảy máu (bầm tím,chảy máu chân răng),Nhiễm trùng tái phát,Sốt không rõ nguyên nhân,Đau xương khớp,Sưng hạch (lách,gan),Điểm xuất huyết dưới da"
+    },
+    {
+        "name": "U lympho Hodgkin",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Ung thư hạch tế bào B ác tính có tế bào Reed-Sternberg, thường gặp ở người trẻ",
+        "symptoms": "Sưng hạch không đau (cổ,nách,bẹn) >1 tháng,Sốt không rõ nguyên nhân (38-40°C),Đổ mồ hôi đêm ướt áo,Sụt cân nhanh (>10% trong 6 tháng),Ngứa toàn thân,Mệt mỏi,Gan to,lách to"
+    },
+    {
+        "name": "U lympho không Hodgkin",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🩸",
+        "description": "Nhóm ung thư hạch ác tính không có tế bào Reed-Sternberg, thường gặp ở người lớn tuổi",
+        "symptoms": "Sưng hạch không đau 1 hoặc nhiều vùng,Sốt,Sụt cân,Ra mồ hôi đêm,Mệt mỏi,Gan/lách to,Ngứa da dữ dội,Chèn ép trung thất (khó thở,ho),Tắc ruột (hạch ổ bụng to)"
+    },
+    {
+        "name": "Ung thư da hắc tố",
+        "group_name": "Ung thư",
+        "risk_level": "high",
+        "icon": "🧴",
+        "description": "Khối u ác tính của tế bào hắc tố melanocyte, nguy hiểm nhất trong ung thư da do di căn sớm",
+        "symptoms": "Nốt ruồi mới hoặc thay đổi: Bất đối xứng,Bờ không đều (lởm chởm),Màu sắc không đều (nâu,đen,xanh,đỏ,trắng),Đường kính >6mm,Tiến triển thay đổi theo thời gian,Ngứa,chảy máu loét nốt ruồi cũ"
     }
 ]

@@ -131,7 +131,15 @@ const DrugDetailPage = () => {
             <div className="flex-1">
               <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
                 <div>
-                  <h1 className="text-2xl font-bold text-slate-900">{drug.name}</h1>
+                  <div className="flex items-center gap-2">
+                    <h1 className="text-2xl font-bold text-slate-900">{drug.name}</h1>
+                    {drug.data_source === 'local' && (
+                      <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700">CSDL</span>
+                    )}
+                    {drug.data_source === 'openfda' && (
+                      <span className="px-2 py-0.5 rounded-full text-xs font-medium bg-amber-50 text-amber-700">openFDA</span>
+                    )}
+                  </div>
                   <p className="text-slate-500 mt-1">{drug.manufacturer} · Mã: {drug.code}</p>
                 </div>
                 <div className="flex gap-2">

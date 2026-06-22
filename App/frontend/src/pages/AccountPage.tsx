@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { format } from 'date-fns';
 import { vi } from 'date-fns/locale';
-import { User, Mail, Shield, Calendar, LogOut, Save, Loader2, Bookmark, Trash2 } from 'lucide-react';
+import { User, Mail, Shield, Calendar, LogOut, Save, Loader2, Bookmark, Trash2, Star, Pill } from 'lucide-react';
 import { useAuth } from '@/contexts/AuthContext';
 import { api } from '@/lib/client';
 import Header from '@/components/Header';
@@ -47,10 +47,10 @@ const AccountPage = () => {
     fetchSavedDrugs();
   }, []);
 
-  const handleUnsave = async (drugId: number) => {
+  const handleUnsave = async (drugName: string) => {
     try {
-      await api.delete(`/api/v1/user/saved-drugs/${drugId}`);
-      setSavedDrugs((prev) => prev.filter((item) => item.drug_id !== drugId));
+      await api.delete(`/api/v1/user/saved-drugs/${encodeURIComponent(drugName)}`);
+      setSavedDrugs((prev) => prev.filter((item) => item.drug_name !== drugName));
     } catch {
       console.error('Failed to unsave drug');
     }
@@ -175,27 +175,89 @@ const AccountPage = () => {
               <CardTitle className="text-base flex items-center gap-2">
                 <Bookmark className="h-4 w-4 text-blue-600" />
                 Thuốc đã lưu
+                <span className="text-xs font-normal text-slate-400 ml-1">({savedDrugs.length})</span>
               </CardTitle>
             </CardHeader>
             <CardContent>
               {savedDrugs.length === 0 ? (
-                <p className="text-sm text-slate-500">Chưa có thuốc nào được lưu</p>
+                <div className="text-center py-8">
+                  <Bookmark className="h-10 w-10 text-slate-300 mx-auto mb-3" />
+                  <p className="text-sm text-slate-500">Chưa có thuốc nào được lưu</p>
+                  <Link
+                    to="/drugs"
+                    className="inline-block mt-3 text-sm text-blue-600 hover:underline font-medium"
+                  >
+                    Khám phá thuốc ngay
+                  </Link>
+                </div>
               ) : (
-                <div className="space-y-2">
+                <div className="space-y-3">
                   {savedDrugs.map((item) => (
-                    <div key={item.id} className="flex items-center justify-between py-2 border-b border-slate-100 last:border-0">
-                      <Link
-                        to={`/drug/${item.drug_id}`}
-                        className="text-sm font-medium text-blue-600 hover:underline"
-                      >
-                        {item.drug_name || `Thuốc #${item.drug_id}`}
-                      </Link>
-                      <button
-                        onClick={() => handleUnsave(item.drug_id)}
-                        className="text-slate-400 hover:text-red-500 transition-colors"
-                      >
-                        <Trash2 className="h-4 w-4" />
-                      </button>
+                    <div key={item.id} className="bg-white border border-slate-200 rounded-xl p-4 hover:border-blue-200 hover:shadow-sm transition-all">
+                      <div className="flex items-start gap-3">
+                        <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center text-lg flex-shrink-0 mt-0.5">
+                          <Pill className="h-5 w-5 text-blue-600" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-start justify-between gap-2">
+                            <div>
+                              <Link
+                                to={`/drug/${item.drug_id ?? encodeURIComponent(item.drug_name)}`}
+                                className="text-sm font-semibold text-slate-900 hover:text-blue-600 hover:underline"
+                              >
+                                {item.drug_name}
+                              </Link>
+                              {item.manufacturer && (
+                                <p className="text-xs text-slate-500 mt-0.5">{item.manufacturer}</p>
+                              )}
+                            </div>
+                            <div className="flex items-center gap-1.5 flex-shrink-0">
+                              {item.group_name && (
+                                <Badge variant="outline" className="text-xs bg-blue-50 text-blue-700 border-blue-200 font-medium">
+                                  {item.group_name}
+                                </Badge>
+                              )}
+                              {item.data_source === 'openfda' && (
+                                <Badge variant="outline" className="text-xs bg-amber-50 text-amber-700 border-amber-200">
+                                  FDA
+                                </Badge>
+                              )}
+                            </div>
+                          </div>
+
+                          {item.usage_info && (
+                            <p className="text-xs text-slate-600 mt-2 line-clamp-2">{item.usage_info}</p>
+                          )}
+
+                          <div className="flex items-center justify-between mt-2">
+                            <div className="flex items-center gap-1">
+                              {item.rating ? (
+                                <>
+                                  {Array.from({ length: 5 }).map((_, i) => (
+                                    <Star
+                                      key={i}
+                                      className={`h-3 w-3 ${i < Math.floor(item.rating) ? 'text-amber-400 fill-amber-400' : 'text-slate-200 fill-slate-200'}`}
+                                    />
+                                  ))}
+                                  <span className="text-xs text-slate-500 ml-1">{Number(item.rating).toFixed(1)}</span>
+                                </>
+                              ) : (
+                                <span className="text-xs text-slate-400">Chưa có đánh giá</span>
+                              )}
+                            </div>
+                            {item.price && (
+                              <span className="text-sm font-semibold text-blue-600">{item.price}</span>
+                            )}
+                          </div>
+                        </div>
+                        <button
+                          onClick={() => handleUnsave(item.drug_name)}
+                          className="p-1.5 rounded-lg text-slate-300 hover:text-red-500 hover:bg-red-50 transition-colors flex-shrink-0 self-start"
+                          title="Bỏ lưu"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                        </button>
+                      </div>
                     </div>
                   ))}
                 </div>

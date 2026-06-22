@@ -6,6 +6,16 @@ import Footer from '@/components/Footer';
 import client from '@/lib/client';
 import { api } from '@/lib/client';
 
+const hashString = (str: string) => {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  return Math.abs(hash);
+};
+
 const DiseaseDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -20,7 +30,7 @@ const DiseaseDetailPage = () => {
         const diseaseRes = await client.entities.diseases.get({ id: id! });
         setDisease(diseaseRes.data);
 
-        // Fetch mapped drugs
+        // Fetch mapped drugs (via drug_name from mappings)
         const mappingsRes = await client.entities.disease_drug_mappings.query({
           query: { disease_id: Number(id) },
           sort: 'priority',
@@ -29,8 +39,14 @@ const DiseaseDetailPage = () => {
 
         const drugPromises = mappings.map(async (m: any) => {
           try {
-            const drugRes = await client.entities.drugs.get({ id: String(m.drug_id) });
-            return { ...drugRes.data, match_score: m.match_score };
+            const searchRes = await api.get('/api/v1/entities/drugs/search', {
+              params: { query: m.drug_name, limit: 1 },
+            });
+            const items = searchRes.data?.items || [];
+            if (items.length > 0) {
+              return { ...items[0], match_score: m.match_score };
+            }
+            return { name: m.drug_name, generic_name: m.drug_name, data_source: 'openfda', match_score: m.match_score, id: hashString(m.drug_name) };
           } catch { return null; }
         });
         const drugResults = (await Promise.all(drugPromises)).filter(Boolean);
@@ -41,7 +57,7 @@ const DiseaseDetailPage = () => {
           if (!drug) continue;
           try {
             const res = await api.get('/api/v1/openfda/enrich', {
-              params: { brand_name: drug.name, generic_name: drug.component || '' },
+              params: { brand_name: drug.name, generic_name: drug.generic_name || '' },
               timeout: 10000,
             });
             if (res.data?.label || res.data?.adverse_events) {
@@ -192,7 +208,11 @@ const DiseaseDetailPage = () => {
                     >
                       <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center text-lg border border-slate-200">💊</div>
                       <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium text-slate-900 truncate">{d.name}</p>
+                        <div className="flex items-center gap-1.5">
+                          <p className="text-sm font-medium text-slate-900 truncate">{d.name}</p>
+                          {d.data_source === 'local' && <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-medium">CSDL</span>}
+                          {d.data_source === 'openfda' && <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-amber-50 text-amber-700 font-medium">openFDA</span>}
+                        </div>
                         <p className="text-xs text-slate-500">{d.price} · {d.match_score}% phù hợp</p>
                       </div>
                       <ChevronRight className="h-4 w-4 text-slate-400" />

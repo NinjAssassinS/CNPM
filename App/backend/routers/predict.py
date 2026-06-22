@@ -50,8 +50,18 @@ async def predict_disease(
     mappings_service = Disease_drug_mappingsService(db)
 
     # Get all diseases for matching
-    diseases_result = diseases_service.get_list(skip=0, limit=100)
+    diseases_result = diseases_service.get_list(skip=0, limit=1000)
     diseases = diseases_result.get("items", [])
+
+    if not diseases:
+        logger.warning("Diseases table is empty, attempting to reload mock data...")
+        try:
+            from services.mock_data import initialize_mock_data
+            initialize_mock_data()
+            diseases_result = diseases_service.get_list(skip=0, limit=1000)
+            diseases = diseases_result.get("items", [])
+        except Exception as reload_err:
+            logger.error(f"Failed to reload mock data: {reload_err}")
 
     if not diseases:
         raise HTTPException(status_code=404, detail="No diseases found in database")
@@ -150,7 +160,7 @@ CHỈ trả về JSON, không có text khác."""
         matched_disease = diseases[0]
         matched_disease_id = matched_disease.id
 
-    # Get suggested drugs via mappings
+    # Get suggested drugs via mappings (using drug_name)
     mappings_result = mappings_service.get_list(
         skip=0, limit=10,
         query_dict={"disease_id": matched_disease_id},
@@ -160,20 +170,40 @@ CHỈ trả về JSON, không có text khác."""
 
     suggested_drugs = []
     for mapping in mappings:
-        drug = drugs_service.get_by_id(mapping.drug_id)
-        if drug:
+        try:
+            drug = await drugs_service.get_by_generic_name(mapping.drug_name)
+            if drug:
+                suggested_drugs.append({
+                    "id": drug.get("id", hash(mapping.drug_name)),
+                    "name": drug.get("name", mapping.drug_name),
+                    "generic_name": drug.get("generic_name", mapping.drug_name),
+                    "code": drug.get("code", ""),
+                    "group_name": drug.get("group_name", "FDA"),
+                    "manufacturer": drug.get("manufacturer", "FDA"),
+                    "price": drug.get("price", ""),
+                    "rating": drug.get("rating", 0),
+                    "usage_info": drug.get("usage_info", ""),
+                    "dosage": drug.get("dosage", ""),
+                    "match_score": mapping.match_score,
+                    "priority": mapping.priority,
+                    "data_source": drug.get("data_source", "openfda"),
+                })
+        except Exception as e:
+            logger.warning(f"Failed to fetch drug {mapping.drug_name}: {str(e)}")
             suggested_drugs.append({
-                "id": drug.id,
-                "name": drug.name,
-                "code": drug.code,
-                "group_name": drug.group_name,
-                "manufacturer": drug.manufacturer,
-                "price": drug.price,
-                "rating": drug.rating,
-                "usage_info": drug.usage_info,
-                "dosage": drug.dosage,
+                "id": hash(mapping.drug_name),
+                "name": mapping.drug_name,
+                "generic_name": mapping.drug_name,
+                "code": "",
+                "group_name": "FDA",
+                "manufacturer": "FDA",
+                "price": "",
+                "rating": 0,
+                "usage_info": "",
+                "dosage": "",
                 "match_score": mapping.match_score,
                 "priority": mapping.priority,
+                "data_source": "openfda",
             })
 
     return PredictResponse(

@@ -1,74 +1,3890 @@
 [
     {
-        "disease_id": 1,
-        "drug_id": 1,
-        "priority": 1,
-        "match_score": 95
+        "priority":  1,
+        "disease_id":  1,
+        "match_score":  95,
+        "drug_name":  "Paracetamol"
     },
     {
-        "disease_id": 1,
-        "drug_id": 6,
-        "priority": 2,
-        "match_score": 88
+        "priority":  2,
+        "disease_id":  1,
+        "match_score":  91,
+        "drug_name":  "Vitamin C"
     },
     {
-        "disease_id": 1,
-        "drug_id": 2,
-        "priority": 3,
-        "match_score": 72
+        "priority":  3,
+        "disease_id":  1,
+        "match_score":  78,
+        "drug_name":  "Oseltamivir"
     },
     {
-        "disease_id": 2,
-        "drug_id": 3,
-        "priority": 1,
-        "match_score": 96
+        "priority":  1,
+        "disease_id":  2,
+        "match_score":  95,
+        "drug_name":  "Metformin"
     },
     {
-        "disease_id": 3,
-        "drug_id": 4,
-        "priority": 1,
-        "match_score": 94
+        "priority":  2,
+        "disease_id":  2,
+        "match_score":  91,
+        "drug_name":  "Insulin glargine"
     },
     {
-        "disease_id": 3,
-        "drug_id": 7,
-        "priority": 2,
-        "match_score": 90
+        "priority":  3,
+        "disease_id":  2,
+        "match_score":  78,
+        "drug_name":  "Gliclazide"
     },
     {
-        "disease_id": 4,
-        "drug_id": 5,
-        "priority": 1,
-        "match_score": 93
+        "priority":  1,
+        "disease_id":  3,
+        "match_score":  95,
+        "drug_name":  "Amlodipine"
     },
     {
-        "disease_id": 5,
-        "drug_id": 6,
-        "priority": 1,
-        "match_score": 85
+        "priority":  2,
+        "disease_id":  3,
+        "match_score":  91,
+        "drug_name":  "Losartan"
     },
     {
-        "disease_id": 5,
-        "drug_id": 1,
-        "priority": 2,
-        "match_score": 70
+        "priority":  3,
+        "disease_id":  3,
+        "match_score":  78,
+        "drug_name":  "Hydrochlorothiazide"
     },
     {
-        "disease_id": 6,
-        "drug_id": 2,
-        "priority": 1,
-        "match_score": 92
+        "priority":  1,
+        "disease_id":  4,
+        "match_score":  95,
+        "drug_name":  "Salbutamol"
     },
     {
-        "disease_id": 6,
-        "drug_id": 8,
-        "priority": 2,
-        "match_score": 88
+        "priority":  2,
+        "disease_id":  4,
+        "match_score":  91,
+        "drug_name":  "Budesonide"
     },
     {
-        "disease_id": 6,
-        "drug_id": 1,
-        "priority": 3,
-        "match_score": 75
+        "priority":  3,
+        "disease_id":  4,
+        "match_score":  78,
+        "drug_name":  "Montelukast"
+    },
+    {
+        "priority":  1,
+        "disease_id":  5,
+        "match_score":  95,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  5,
+        "match_score":  91,
+        "drug_name":  "Oseltamivir"
+    },
+    {
+        "priority":  3,
+        "disease_id":  5,
+        "match_score":  78,
+        "drug_name":  "Dexamethasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  6,
+        "match_score":  95,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  6,
+        "match_score":  91,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  6,
+        "match_score":  78,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  1,
+        "disease_id":  138,
+        "match_score":  92,
+        "drug_name":  "Vitamin C"
+    },
+    {
+        "priority":  2,
+        "disease_id":  138,
+        "match_score":  82,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  138,
+        "match_score":  85,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  139,
+        "match_score":  74,
+        "drug_name":  "Cetirizine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  139,
+        "match_score":  89,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  139,
+        "match_score":  76,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  140,
+        "match_score":  85,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  140,
+        "match_score":  94,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  3,
+        "disease_id":  140,
+        "match_score":  72,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  141,
+        "match_score":  93,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  141,
+        "match_score":  84,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  141,
+        "match_score":  75,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  142,
+        "match_score":  73,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  142,
+        "match_score":  92,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  142,
+        "match_score":  93,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  143,
+        "match_score":  73,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  2,
+        "disease_id":  143,
+        "match_score":  89,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  143,
+        "match_score":  87,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  144,
+        "match_score":  82,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  144,
+        "match_score":  83,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  3,
+        "disease_id":  144,
+        "match_score":  83,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  145,
+        "match_score":  92,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  2,
+        "disease_id":  145,
+        "match_score":  73,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  145,
+        "match_score":  78,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  146,
+        "match_score":  70,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  2,
+        "disease_id":  146,
+        "match_score":  71,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  146,
+        "match_score":  95,
+        "drug_name":  "Vitamin C"
+    },
+    {
+        "priority":  1,
+        "disease_id":  147,
+        "match_score":  83,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  147,
+        "match_score":  72,
+        "drug_name":  "Vitamin C"
+    },
+    {
+        "priority":  3,
+        "disease_id":  147,
+        "match_score":  80,
+        "drug_name":  "Vitamin A"
+    },
+    {
+        "priority":  1,
+        "disease_id":  148,
+        "match_score":  92,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  148,
+        "match_score":  91,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  148,
+        "match_score":  77,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  149,
+        "match_score":  85,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  149,
+        "match_score":  79,
+        "drug_name":  "Cetirizine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  149,
+        "match_score":  85,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  150,
+        "match_score":  73,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  150,
+        "match_score":  96,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  150,
+        "match_score":  70,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  65,
+        "match_score":  96,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  65,
+        "match_score":  81,
+        "drug_name":  "Fluoxetine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  65,
+        "match_score":  93,
+        "drug_name":  "Valproic acid"
+    },
+    {
+        "priority":  1,
+        "disease_id":  66,
+        "match_score":  72,
+        "drug_name":  "Sertraline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  66,
+        "match_score":  93,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  66,
+        "match_score":  88,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  67,
+        "match_score":  78,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  67,
+        "match_score":  93,
+        "drug_name":  "Donepezil"
+    },
+    {
+        "priority":  3,
+        "disease_id":  67,
+        "match_score":  88,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  1,
+        "disease_id":  68,
+        "match_score":  85,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  2,
+        "disease_id":  68,
+        "match_score":  92,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  68,
+        "match_score":  77,
+        "drug_name":  "Lamotrigine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  69,
+        "match_score":  90,
+        "drug_name":  "Donepezil"
+    },
+    {
+        "priority":  2,
+        "disease_id":  69,
+        "match_score":  80,
+        "drug_name":  "Sertraline"
+    },
+    {
+        "priority":  3,
+        "disease_id":  69,
+        "match_score":  84,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  70,
+        "match_score":  79,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  70,
+        "match_score":  79,
+        "drug_name":  "Memantine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  70,
+        "match_score":  72,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  71,
+        "match_score":  96,
+        "drug_name":  "Clonazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  71,
+        "match_score":  81,
+        "drug_name":  "Diazepam"
+    },
+    {
+        "priority":  3,
+        "disease_id":  71,
+        "match_score":  83,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  72,
+        "match_score":  82,
+        "drug_name":  "Clonazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  72,
+        "match_score":  77,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  72,
+        "match_score":  76,
+        "drug_name":  "Rivastigmine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  73,
+        "match_score":  91,
+        "drug_name":  "Clonazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  73,
+        "match_score":  92,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  73,
+        "match_score":  94,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  74,
+        "match_score":  92,
+        "drug_name":  "Diazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  74,
+        "match_score":  75,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  3,
+        "disease_id":  74,
+        "match_score":  90,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  75,
+        "match_score":  79,
+        "drug_name":  "Rivastigmine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  75,
+        "match_score":  94,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  75,
+        "match_score":  82,
+        "drug_name":  "Lamotrigine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  76,
+        "match_score":  77,
+        "drug_name":  "Diazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  76,
+        "match_score":  80,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  76,
+        "match_score":  98,
+        "drug_name":  "Rivastigmine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  77,
+        "match_score":  74,
+        "drug_name":  "Memantine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  77,
+        "match_score":  87,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  77,
+        "match_score":  95,
+        "drug_name":  "Sertraline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  78,
+        "match_score":  90,
+        "drug_name":  "Donepezil"
+    },
+    {
+        "priority":  2,
+        "disease_id":  78,
+        "match_score":  89,
+        "drug_name":  "Fluoxetine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  78,
+        "match_score":  81,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  79,
+        "match_score":  81,
+        "drug_name":  "Levetiracetam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  79,
+        "match_score":  90,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  3,
+        "disease_id":  79,
+        "match_score":  75,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  80,
+        "match_score":  84,
+        "drug_name":  "Lamotrigine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  80,
+        "match_score":  71,
+        "drug_name":  "Clonazepam"
+    },
+    {
+        "priority":  3,
+        "disease_id":  80,
+        "match_score":  88,
+        "drug_name":  "Memantine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  81,
+        "match_score":  73,
+        "drug_name":  "Rivastigmine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  81,
+        "match_score":  91,
+        "drug_name":  "Topiramate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  81,
+        "match_score":  81,
+        "drug_name":  "Donepezil"
+    },
+    {
+        "priority":  1,
+        "disease_id":  82,
+        "match_score":  75,
+        "drug_name":  "Fluoxetine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  82,
+        "match_score":  94,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  82,
+        "match_score":  90,
+        "drug_name":  "Donepezil"
+    },
+    {
+        "priority":  1,
+        "disease_id":  43,
+        "match_score":  77,
+        "drug_name":  "Ursodeoxycholic acid"
+    },
+    {
+        "priority":  2,
+        "disease_id":  43,
+        "match_score":  81,
+        "drug_name":  "Pantoprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  43,
+        "match_score":  83,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  44,
+        "match_score":  88,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  44,
+        "match_score":  92,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  3,
+        "disease_id":  44,
+        "match_score":  76,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  45,
+        "match_score":  89,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  45,
+        "match_score":  71,
+        "drug_name":  "Loperamide"
+    },
+    {
+        "priority":  3,
+        "disease_id":  45,
+        "match_score":  78,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  46,
+        "match_score":  85,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  46,
+        "match_score":  73,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  46,
+        "match_score":  89,
+        "drug_name":  "Trimebutine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  47,
+        "match_score":  86,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  47,
+        "match_score":  91,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  47,
+        "match_score":  79,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  48,
+        "match_score":  91,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  48,
+        "match_score":  90,
+        "drug_name":  "Trimebutine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  48,
+        "match_score":  76,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  49,
+        "match_score":  76,
+        "drug_name":  "Pantoprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  49,
+        "match_score":  79,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  49,
+        "match_score":  95,
+        "drug_name":  "Mesalamine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  50,
+        "match_score":  87,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  2,
+        "disease_id":  50,
+        "match_score":  94,
+        "drug_name":  "Pantoprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  50,
+        "match_score":  74,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  51,
+        "match_score":  76,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  2,
+        "disease_id":  51,
+        "match_score":  78,
+        "drug_name":  "Pantoprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  51,
+        "match_score":  89,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  52,
+        "match_score":  90,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  52,
+        "match_score":  81,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  52,
+        "match_score":  97,
+        "drug_name":  "Mesalamine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  53,
+        "match_score":  77,
+        "drug_name":  "Ursodeoxycholic acid"
+    },
+    {
+        "priority":  2,
+        "disease_id":  53,
+        "match_score":  83,
+        "drug_name":  "Loperamide"
+    },
+    {
+        "priority":  3,
+        "disease_id":  53,
+        "match_score":  77,
+        "drug_name":  "Pantoprazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  54,
+        "match_score":  74,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  54,
+        "match_score":  96,
+        "drug_name":  "Mesalamine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  54,
+        "match_score":  80,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  55,
+        "match_score":  70,
+        "drug_name":  "Ursodeoxycholic acid"
+    },
+    {
+        "priority":  2,
+        "disease_id":  55,
+        "match_score":  97,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  55,
+        "match_score":  75,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  56,
+        "match_score":  94,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  56,
+        "match_score":  91,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  56,
+        "match_score":  94,
+        "drug_name":  "Ursodeoxycholic acid"
+    },
+    {
+        "priority":  1,
+        "disease_id":  57,
+        "match_score":  93,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  57,
+        "match_score":  92,
+        "drug_name":  "Mesalamine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  57,
+        "match_score":  94,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  58,
+        "match_score":  76,
+        "drug_name":  "Loperamide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  58,
+        "match_score":  96,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  58,
+        "match_score":  93,
+        "drug_name":  "Trimebutine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  59,
+        "match_score":  91,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  59,
+        "match_score":  90,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  59,
+        "match_score":  92,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  60,
+        "match_score":  82,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  60,
+        "match_score":  97,
+        "drug_name":  "Ursodeoxycholic acid"
+    },
+    {
+        "priority":  3,
+        "disease_id":  60,
+        "match_score":  97,
+        "drug_name":  "Trimebutine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  61,
+        "match_score":  79,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  61,
+        "match_score":  86,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  61,
+        "match_score":  73,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  62,
+        "match_score":  73,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  62,
+        "match_score":  76,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  62,
+        "match_score":  89,
+        "drug_name":  "Esomeprazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  63,
+        "match_score":  73,
+        "drug_name":  "Trimebutine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  63,
+        "match_score":  97,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  63,
+        "match_score":  78,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  64,
+        "match_score":  80,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  64,
+        "match_score":  79,
+        "drug_name":  "Domperidone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  64,
+        "match_score":  81,
+        "drug_name":  "Ranitidine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  187,
+        "match_score":  98,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  2,
+        "disease_id":  187,
+        "match_score":  71,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  187,
+        "match_score":  86,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  188,
+        "match_score":  70,
+        "drug_name":  "Estradiol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  188,
+        "match_score":  91,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  188,
+        "match_score":  94,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  1,
+        "disease_id":  189,
+        "match_score":  98,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  189,
+        "match_score":  82,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  189,
+        "match_score":  98,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  1,
+        "disease_id":  190,
+        "match_score":  75,
+        "drug_name":  "Iron sulfate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  190,
+        "match_score":  93,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  190,
+        "match_score":  91,
+        "drug_name":  "Folic acid"
+    },
+    {
+        "priority":  1,
+        "disease_id":  191,
+        "match_score":  89,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  191,
+        "match_score":  95,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  191,
+        "match_score":  86,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  192,
+        "match_score":  92,
+        "drug_name":  "Tramadol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  192,
+        "match_score":  90,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  3,
+        "disease_id":  192,
+        "match_score":  74,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  193,
+        "match_score":  90,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  2,
+        "disease_id":  193,
+        "match_score":  70,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  3,
+        "disease_id":  193,
+        "match_score":  79,
+        "drug_name":  "Estradiol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  194,
+        "match_score":  91,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  2,
+        "disease_id":  194,
+        "match_score":  89,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  194,
+        "match_score":  98,
+        "drug_name":  "Folic acid"
+    },
+    {
+        "priority":  1,
+        "disease_id":  195,
+        "match_score":  88,
+        "drug_name":  "Folic acid"
+    },
+    {
+        "priority":  2,
+        "disease_id":  195,
+        "match_score":  74,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  195,
+        "match_score":  84,
+        "drug_name":  "Estradiol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  196,
+        "match_score":  98,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  196,
+        "match_score":  75,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  196,
+        "match_score":  83,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  197,
+        "match_score":  87,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  197,
+        "match_score":  89,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  3,
+        "disease_id":  197,
+        "match_score":  87,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  198,
+        "match_score":  85,
+        "drug_name":  "Tramadol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  198,
+        "match_score":  84,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  198,
+        "match_score":  70,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  199,
+        "match_score":  91,
+        "drug_name":  "Estradiol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  199,
+        "match_score":  71,
+        "drug_name":  "Iron sulfate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  199,
+        "match_score":  86,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  1,
+        "disease_id":  170,
+        "match_score":  77,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  170,
+        "match_score":  78,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  170,
+        "match_score":  94,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  171,
+        "match_score":  76,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  171,
+        "match_score":  84,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  171,
+        "match_score":  76,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  172,
+        "match_score":  79,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  172,
+        "match_score":  92,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  172,
+        "match_score":  97,
+        "drug_name":  "Ambroxol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  173,
+        "match_score":  98,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  173,
+        "match_score":  96,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  173,
+        "match_score":  76,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  174,
+        "match_score":  93,
+        "drug_name":  "Ambroxol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  174,
+        "match_score":  74,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  3,
+        "disease_id":  174,
+        "match_score":  78,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  175,
+        "match_score":  73,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  2,
+        "disease_id":  175,
+        "match_score":  75,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  175,
+        "match_score":  80,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  176,
+        "match_score":  79,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  176,
+        "match_score":  77,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  176,
+        "match_score":  77,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  128,
+        "match_score":  97,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  128,
+        "match_score":  71,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  128,
+        "match_score":  71,
+        "drug_name":  "Sodium bicarbonate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  129,
+        "match_score":  79,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  129,
+        "match_score":  74,
+        "drug_name":  "Sodium bicarbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  129,
+        "match_score":  96,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  1,
+        "disease_id":  130,
+        "match_score":  82,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  130,
+        "match_score":  73,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  130,
+        "match_score":  80,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  1,
+        "disease_id":  131,
+        "match_score":  90,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  131,
+        "match_score":  87,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  131,
+        "match_score":  91,
+        "drug_name":  "Sodium bicarbonate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  132,
+        "match_score":  86,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  132,
+        "match_score":  70,
+        "drug_name":  "Finasteride"
+    },
+    {
+        "priority":  3,
+        "disease_id":  132,
+        "match_score":  72,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  1,
+        "disease_id":  133,
+        "match_score":  87,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  133,
+        "match_score":  97,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  133,
+        "match_score":  85,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  134,
+        "match_score":  76,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  134,
+        "match_score":  92,
+        "drug_name":  "Tamsulosin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  134,
+        "match_score":  78,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  135,
+        "match_score":  78,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  135,
+        "match_score":  87,
+        "drug_name":  "Finasteride"
+    },
+    {
+        "priority":  3,
+        "disease_id":  135,
+        "match_score":  81,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  136,
+        "match_score":  84,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  136,
+        "match_score":  98,
+        "drug_name":  "Sodium bicarbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  136,
+        "match_score":  88,
+        "drug_name":  "Finasteride"
+    },
+    {
+        "priority":  1,
+        "disease_id":  137,
+        "match_score":  82,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  137,
+        "match_score":  76,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  137,
+        "match_score":  93,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  1,
+        "disease_id":  112,
+        "match_score":  72,
+        "drug_name":  "Fexofenadine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  112,
+        "match_score":  82,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  112,
+        "match_score":  93,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  113,
+        "match_score":  73,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  113,
+        "match_score":  88,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  3,
+        "disease_id":  113,
+        "match_score":  82,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  114,
+        "match_score":  76,
+        "drug_name":  "Ketoconazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  114,
+        "match_score":  98,
+        "drug_name":  "Cetirizine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  114,
+        "match_score":  90,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  115,
+        "match_score":  98,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  115,
+        "match_score":  92,
+        "drug_name":  "Fexofenadine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  115,
+        "match_score":  70,
+        "drug_name":  "Isotretinoin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  116,
+        "match_score":  90,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  116,
+        "match_score":  73,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  116,
+        "match_score":  81,
+        "drug_name":  "Terbinafine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  117,
+        "match_score":  77,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  117,
+        "match_score":  83,
+        "drug_name":  "Fluconazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  117,
+        "match_score":  75,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  118,
+        "match_score":  75,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  118,
+        "match_score":  94,
+        "drug_name":  "Cetirizine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  118,
+        "match_score":  94,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  119,
+        "match_score":  81,
+        "drug_name":  "Cetirizine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  119,
+        "match_score":  70,
+        "drug_name":  "Ketoconazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  119,
+        "match_score":  77,
+        "drug_name":  "Terbinafine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  120,
+        "match_score":  79,
+        "drug_name":  "Ketoconazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  120,
+        "match_score":  98,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  120,
+        "match_score":  89,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  121,
+        "match_score":  88,
+        "drug_name":  "Fluconazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  121,
+        "match_score":  84,
+        "drug_name":  "Isotretinoin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  121,
+        "match_score":  82,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  122,
+        "match_score":  85,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  122,
+        "match_score":  80,
+        "drug_name":  "Isotretinoin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  122,
+        "match_score":  74,
+        "drug_name":  "Terbinafine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  123,
+        "match_score":  74,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  123,
+        "match_score":  77,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  123,
+        "match_score":  74,
+        "drug_name":  "Fexofenadine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  124,
+        "match_score":  86,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  124,
+        "match_score":  88,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  124,
+        "match_score":  83,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  125,
+        "match_score":  74,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  125,
+        "match_score":  81,
+        "drug_name":  "Loratadine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  125,
+        "match_score":  74,
+        "drug_name":  "Ketoconazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  126,
+        "match_score":  94,
+        "drug_name":  "Clotrimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  126,
+        "match_score":  86,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  126,
+        "match_score":  84,
+        "drug_name":  "Diphenhydramine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  127,
+        "match_score":  81,
+        "drug_name":  "Fluconazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  127,
+        "match_score":  73,
+        "drug_name":  "Betamethasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  127,
+        "match_score":  72,
+        "drug_name":  "Fexofenadine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  98,
+        "match_score":  87,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  98,
+        "match_score":  71,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  98,
+        "match_score":  70,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  99,
+        "match_score":  79,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  99,
+        "match_score":  90,
+        "drug_name":  "Prednisolone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  99,
+        "match_score":  76,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  100,
+        "match_score":  78,
+        "drug_name":  "Allopurinol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  100,
+        "match_score":  75,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  100,
+        "match_score":  77,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  101,
+        "match_score":  92,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  101,
+        "match_score":  97,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  3,
+        "disease_id":  101,
+        "match_score":  88,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  102,
+        "match_score":  90,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  102,
+        "match_score":  97,
+        "drug_name":  "Hydroxychloroquine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  102,
+        "match_score":  84,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  103,
+        "match_score":  91,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  103,
+        "match_score":  88,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  103,
+        "match_score":  89,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  1,
+        "disease_id":  104,
+        "match_score":  94,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  104,
+        "match_score":  70,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  104,
+        "match_score":  91,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  105,
+        "match_score":  87,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  105,
+        "match_score":  93,
+        "drug_name":  "Hydroxychloroquine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  105,
+        "match_score":  72,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  106,
+        "match_score":  82,
+        "drug_name":  "Sulfasalazine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  106,
+        "match_score":  78,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  106,
+        "match_score":  92,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  107,
+        "match_score":  72,
+        "drug_name":  "Sulfasalazine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  107,
+        "match_score":  86,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  107,
+        "match_score":  77,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  108,
+        "match_score":  71,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  108,
+        "match_score":  80,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  108,
+        "match_score":  84,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  109,
+        "match_score":  86,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  109,
+        "match_score":  81,
+        "drug_name":  "Tramadol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  109,
+        "match_score":  83,
+        "drug_name":  "Ibuprofen"
+    },
+    {
+        "priority":  1,
+        "disease_id":  110,
+        "match_score":  78,
+        "drug_name":  "Hydroxychloroquine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  110,
+        "match_score":  71,
+        "drug_name":  "Tramadol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  110,
+        "match_score":  75,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  111,
+        "match_score":  87,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  111,
+        "match_score":  88,
+        "drug_name":  "Hydroxychloroquine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  111,
+        "match_score":  92,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  151,
+        "match_score":  98,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  151,
+        "match_score":  90,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  151,
+        "match_score":  89,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  152,
+        "match_score":  95,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  152,
+        "match_score":  91,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  152,
+        "match_score":  70,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  153,
+        "match_score":  95,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  153,
+        "match_score":  91,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  153,
+        "match_score":  93,
+        "drug_name":  "Vancomycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  154,
+        "match_score":  81,
+        "drug_name":  "Acyclovir"
+    },
+    {
+        "priority":  2,
+        "disease_id":  154,
+        "match_score":  95,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  154,
+        "match_score":  84,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  155,
+        "match_score":  80,
+        "drug_name":  "Clindamycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  155,
+        "match_score":  73,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  155,
+        "match_score":  76,
+        "drug_name":  "Oseltamivir"
+    },
+    {
+        "priority":  1,
+        "disease_id":  156,
+        "match_score":  89,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  156,
+        "match_score":  84,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  156,
+        "match_score":  95,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  157,
+        "match_score":  93,
+        "drug_name":  "Acyclovir"
+    },
+    {
+        "priority":  2,
+        "disease_id":  157,
+        "match_score":  79,
+        "drug_name":  "Ceftriaxone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  157,
+        "match_score":  71,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  158,
+        "match_score":  96,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  158,
+        "match_score":  92,
+        "drug_name":  "Ceftriaxone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  158,
+        "match_score":  97,
+        "drug_name":  "Vancomycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  159,
+        "match_score":  74,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  159,
+        "match_score":  91,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  159,
+        "match_score":  78,
+        "drug_name":  "Clarithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  160,
+        "match_score":  77,
+        "drug_name":  "Acyclovir"
+    },
+    {
+        "priority":  2,
+        "disease_id":  160,
+        "match_score":  96,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  160,
+        "match_score":  88,
+        "drug_name":  "Gentamicin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  161,
+        "match_score":  83,
+        "drug_name":  "Clindamycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  161,
+        "match_score":  96,
+        "drug_name":  "Ceftriaxone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  161,
+        "match_score":  71,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  162,
+        "match_score":  97,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  162,
+        "match_score":  98,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  162,
+        "match_score":  75,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  163,
+        "match_score":  91,
+        "drug_name":  "Vancomycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  163,
+        "match_score":  92,
+        "drug_name":  "Clindamycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  163,
+        "match_score":  79,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  164,
+        "match_score":  70,
+        "drug_name":  "Ciprofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  164,
+        "match_score":  72,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  164,
+        "match_score":  83,
+        "drug_name":  "Metronidazole"
+    },
+    {
+        "priority":  1,
+        "disease_id":  165,
+        "match_score":  84,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  165,
+        "match_score":  98,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  165,
+        "match_score":  78,
+        "drug_name":  "Ceftriaxone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  166,
+        "match_score":  74,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  166,
+        "match_score":  90,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  3,
+        "disease_id":  166,
+        "match_score":  88,
+        "drug_name":  "Vancomycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  167,
+        "match_score":  90,
+        "drug_name":  "Acyclovir"
+    },
+    {
+        "priority":  2,
+        "disease_id":  167,
+        "match_score":  76,
+        "drug_name":  "Clindamycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  167,
+        "match_score":  95,
+        "drug_name":  "Oseltamivir"
+    },
+    {
+        "priority":  1,
+        "disease_id":  168,
+        "match_score":  72,
+        "drug_name":  "Vancomycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  168,
+        "match_score":  77,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  168,
+        "match_score":  84,
+        "drug_name":  "Ceftriaxone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  169,
+        "match_score":  79,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  169,
+        "match_score":  75,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  169,
+        "match_score":  75,
+        "drug_name":  "Clindamycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  200,
+        "match_score":  98,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  200,
+        "match_score":  92,
+        "drug_name":  "Folic acid"
+    },
+    {
+        "priority":  3,
+        "disease_id":  200,
+        "match_score":  88,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  201,
+        "match_score":  85,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  2,
+        "disease_id":  201,
+        "match_score":  76,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  201,
+        "match_score":  72,
+        "drug_name":  "Iron sulfate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  202,
+        "match_score":  91,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  202,
+        "match_score":  84,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  3,
+        "disease_id":  202,
+        "match_score":  83,
+        "drug_name":  "Vitamin C"
+    },
+    {
+        "priority":  1,
+        "disease_id":  203,
+        "match_score":  75,
+        "drug_name":  "Montelukast"
+    },
+    {
+        "priority":  2,
+        "disease_id":  203,
+        "match_score":  86,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  203,
+        "match_score":  81,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  1,
+        "disease_id":  204,
+        "match_score":  91,
+        "drug_name":  "Iron sulfate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  204,
+        "match_score":  78,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  204,
+        "match_score":  85,
+        "drug_name":  "Zinc sulfate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  205,
+        "match_score":  77,
+        "drug_name":  "Vitamin C"
+    },
+    {
+        "priority":  2,
+        "disease_id":  205,
+        "match_score":  83,
+        "drug_name":  "Paracetamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  205,
+        "match_score":  96,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  1,
+        "disease_id":  83,
+        "match_score":  82,
+        "drug_name":  "Metformin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  83,
+        "match_score":  89,
+        "drug_name":  "Methimazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  83,
+        "match_score":  77,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  84,
+        "match_score":  82,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  84,
+        "match_score":  73,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  84,
+        "match_score":  93,
+        "drug_name":  "Gliclazide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  85,
+        "match_score":  96,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  85,
+        "match_score":  76,
+        "drug_name":  "Gliclazide"
+    },
+    {
+        "priority":  3,
+        "disease_id":  85,
+        "match_score":  77,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  1,
+        "disease_id":  86,
+        "match_score":  89,
+        "drug_name":  "Allopurinol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  86,
+        "match_score":  78,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  86,
+        "match_score":  97,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  87,
+        "match_score":  86,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  2,
+        "disease_id":  87,
+        "match_score":  71,
+        "drug_name":  "Sitagliptin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  87,
+        "match_score":  78,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  88,
+        "match_score":  84,
+        "drug_name":  "Methimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  88,
+        "match_score":  85,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  88,
+        "match_score":  76,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  89,
+        "match_score":  96,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  2,
+        "disease_id":  89,
+        "match_score":  97,
+        "drug_name":  "Metformin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  89,
+        "match_score":  76,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  90,
+        "match_score":  79,
+        "drug_name":  "Vitamin D3"
+    },
+    {
+        "priority":  2,
+        "disease_id":  90,
+        "match_score":  88,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  90,
+        "match_score":  75,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  91,
+        "match_score":  71,
+        "drug_name":  "Methimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  91,
+        "match_score":  95,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  91,
+        "match_score":  72,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  92,
+        "match_score":  87,
+        "drug_name":  "Methimazole"
+    },
+    {
+        "priority":  2,
+        "disease_id":  92,
+        "match_score":  94,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  92,
+        "match_score":  98,
+        "drug_name":  "Levothyroxine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  93,
+        "match_score":  77,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  93,
+        "match_score":  85,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  93,
+        "match_score":  83,
+        "drug_name":  "Sitagliptin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  94,
+        "match_score":  75,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  94,
+        "match_score":  79,
+        "drug_name":  "Methimazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  94,
+        "match_score":  77,
+        "drug_name":  "Calcium carbonate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  95,
+        "match_score":  88,
+        "drug_name":  "Gliclazide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  95,
+        "match_score":  91,
+        "drug_name":  "Alendronate"
+    },
+    {
+        "priority":  3,
+        "disease_id":  95,
+        "match_score":  96,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  96,
+        "match_score":  81,
+        "drug_name":  "Insulin glargine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  96,
+        "match_score":  81,
+        "drug_name":  "Colchicine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  96,
+        "match_score":  90,
+        "drug_name":  "Allopurinol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  97,
+        "match_score":  81,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  97,
+        "match_score":  72,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  97,
+        "match_score":  84,
+        "drug_name":  "Gliclazide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  7,
+        "match_score":  84,
+        "drug_name":  "Fluticasone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  7,
+        "match_score":  78,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  7,
+        "match_score":  79,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  8,
+        "match_score":  78,
+        "drug_name":  "Montelukast"
+    },
+    {
+        "priority":  2,
+        "disease_id":  8,
+        "match_score":  83,
+        "drug_name":  "Salmeterol/Fluticasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  8,
+        "match_score":  84,
+        "drug_name":  "Theophylline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  9,
+        "match_score":  85,
+        "drug_name":  "Tiotropium"
+    },
+    {
+        "priority":  2,
+        "disease_id":  9,
+        "match_score":  71,
+        "drug_name":  "Fluticasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  9,
+        "match_score":  77,
+        "drug_name":  "Ipratropium"
+    },
+    {
+        "priority":  1,
+        "disease_id":  10,
+        "match_score":  84,
+        "drug_name":  "Salmeterol/Fluticasone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  10,
+        "match_score":  96,
+        "drug_name":  "Budesonide"
+    },
+    {
+        "priority":  3,
+        "disease_id":  10,
+        "match_score":  88,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  11,
+        "match_score":  75,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  11,
+        "match_score":  79,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  11,
+        "match_score":  82,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  12,
+        "match_score":  76,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  12,
+        "match_score":  75,
+        "drug_name":  "Amoxicillin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  12,
+        "match_score":  98,
+        "drug_name":  "Montelukast"
+    },
+    {
+        "priority":  1,
+        "disease_id":  13,
+        "match_score":  70,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  13,
+        "match_score":  81,
+        "drug_name":  "Salmeterol/Fluticasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  13,
+        "match_score":  98,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  14,
+        "match_score":  92,
+        "drug_name":  "Salbutamol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  14,
+        "match_score":  79,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  14,
+        "match_score":  78,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  15,
+        "match_score":  79,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  15,
+        "match_score":  97,
+        "drug_name":  "Levofloxacin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  15,
+        "match_score":  81,
+        "drug_name":  "Salbutamol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  16,
+        "match_score":  86,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  16,
+        "match_score":  81,
+        "drug_name":  "Ambroxol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  16,
+        "match_score":  84,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  17,
+        "match_score":  75,
+        "drug_name":  "Cephalexin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  17,
+        "match_score":  87,
+        "drug_name":  "Azithromycin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  17,
+        "match_score":  85,
+        "drug_name":  "Salmeterol/Fluticasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  18,
+        "match_score":  77,
+        "drug_name":  "Theophylline"
+    },
+    {
+        "priority":  2,
+        "disease_id":  18,
+        "match_score":  91,
+        "drug_name":  "Tiotropium"
+    },
+    {
+        "priority":  3,
+        "disease_id":  18,
+        "match_score":  71,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  19,
+        "match_score":  97,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  19,
+        "match_score":  94,
+        "drug_name":  "Salmeterol/Fluticasone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  19,
+        "match_score":  78,
+        "drug_name":  "Doxycycline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  20,
+        "match_score":  87,
+        "drug_name":  "Budesonide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  20,
+        "match_score":  93,
+        "drug_name":  "Salbutamol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  20,
+        "match_score":  96,
+        "drug_name":  "Montelukast"
+    },
+    {
+        "priority":  1,
+        "disease_id":  21,
+        "match_score":  87,
+        "drug_name":  "Acetylcysteine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  21,
+        "match_score":  93,
+        "drug_name":  "Theophylline"
+    },
+    {
+        "priority":  3,
+        "disease_id":  21,
+        "match_score":  71,
+        "drug_name":  "Ambroxol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  206,
+        "match_score":  94,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  206,
+        "match_score":  73,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  206,
+        "match_score":  82,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  207,
+        "match_score":  79,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  207,
+        "match_score":  92,
+        "drug_name":  "Morphine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  207,
+        "match_score":  78,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  208,
+        "match_score":  83,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  2,
+        "disease_id":  208,
+        "match_score":  76,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  208,
+        "match_score":  92,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  209,
+        "match_score":  89,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  209,
+        "match_score":  78,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  3,
+        "disease_id":  209,
+        "match_score":  88,
+        "drug_name":  "Morphine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  210,
+        "match_score":  71,
+        "drug_name":  "Morphine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  210,
+        "match_score":  95,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  210,
+        "match_score":  91,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  211,
+        "match_score":  89,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  2,
+        "disease_id":  211,
+        "match_score":  93,
+        "drug_name":  "Codeine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  211,
+        "match_score":  83,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  212,
+        "match_score":  76,
+        "drug_name":  "Dexamethasone"
+    },
+    {
+        "priority":  2,
+        "disease_id":  212,
+        "match_score":  86,
+        "drug_name":  "Codeine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  212,
+        "match_score":  93,
+        "drug_name":  "Methotrexate"
+    },
+    {
+        "priority":  1,
+        "disease_id":  213,
+        "match_score":  84,
+        "drug_name":  "Tramadol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  213,
+        "match_score":  86,
+        "drug_name":  "Codeine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  213,
+        "match_score":  96,
+        "drug_name":  "Prednisone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  214,
+        "match_score":  81,
+        "drug_name":  "Ondansetron"
+    },
+    {
+        "priority":  2,
+        "disease_id":  214,
+        "match_score":  88,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  214,
+        "match_score":  98,
+        "drug_name":  "Dexamethasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  215,
+        "match_score":  74,
+        "drug_name":  "Potassium chloride"
+    },
+    {
+        "priority":  2,
+        "disease_id":  215,
+        "match_score":  97,
+        "drug_name":  "Codeine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  215,
+        "match_score":  89,
+        "drug_name":  "Dexamethasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  216,
+        "match_score":  87,
+        "drug_name":  "Codeine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  216,
+        "match_score":  92,
+        "drug_name":  "Omeprazole"
+    },
+    {
+        "priority":  3,
+        "disease_id":  216,
+        "match_score":  73,
+        "drug_name":  "Dexamethasone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  22,
+        "match_score":  87,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  22,
+        "match_score":  79,
+        "drug_name":  "Aspirin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  22,
+        "match_score":  95,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  23,
+        "match_score":  81,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  23,
+        "match_score":  89,
+        "drug_name":  "Bisoprolol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  23,
+        "match_score":  80,
+        "drug_name":  "Digoxin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  24,
+        "match_score":  70,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  24,
+        "match_score":  72,
+        "drug_name":  "Carvedilol"
+    },
+    {
+        "priority":  3,
+        "disease_id":  24,
+        "match_score":  95,
+        "drug_name":  "Clopidogrel"
+    },
+    {
+        "priority":  1,
+        "disease_id":  25,
+        "match_score":  83,
+        "drug_name":  "Digoxin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  25,
+        "match_score":  96,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  25,
+        "match_score":  84,
+        "drug_name":  "Enalapril"
+    },
+    {
+        "priority":  1,
+        "disease_id":  26,
+        "match_score":  89,
+        "drug_name":  "Enalapril"
+    },
+    {
+        "priority":  2,
+        "disease_id":  26,
+        "match_score":  86,
+        "drug_name":  "Nitroglycerin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  26,
+        "match_score":  94,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  27,
+        "match_score":  95,
+        "drug_name":  "Clopidogrel"
+    },
+    {
+        "priority":  2,
+        "disease_id":  27,
+        "match_score":  75,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  27,
+        "match_score":  91,
+        "drug_name":  "Bisoprolol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  28,
+        "match_score":  77,
+        "drug_name":  "Carvedilol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  28,
+        "match_score":  92,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  3,
+        "disease_id":  28,
+        "match_score":  89,
+        "drug_name":  "Enalapril"
+    },
+    {
+        "priority":  1,
+        "disease_id":  29,
+        "match_score":  93,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  29,
+        "match_score":  72,
+        "drug_name":  "Losartan"
+    },
+    {
+        "priority":  3,
+        "disease_id":  29,
+        "match_score":  74,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  30,
+        "match_score":  81,
+        "drug_name":  "Amlodipine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  30,
+        "match_score":  79,
+        "drug_name":  "Rivaroxaban"
+    },
+    {
+        "priority":  3,
+        "disease_id":  30,
+        "match_score":  97,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  31,
+        "match_score":  71,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  31,
+        "match_score":  96,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  31,
+        "match_score":  85,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  1,
+        "disease_id":  32,
+        "match_score":  82,
+        "drug_name":  "Nitroglycerin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  32,
+        "match_score":  77,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  32,
+        "match_score":  90,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  33,
+        "match_score":  76,
+        "drug_name":  "Warfarin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  33,
+        "match_score":  73,
+        "drug_name":  "Rivaroxaban"
+    },
+    {
+        "priority":  3,
+        "disease_id":  33,
+        "match_score":  77,
+        "drug_name":  "Enalapril"
+    },
+    {
+        "priority":  1,
+        "disease_id":  34,
+        "match_score":  96,
+        "drug_name":  "Nitroglycerin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  34,
+        "match_score":  97,
+        "drug_name":  "Atorvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  34,
+        "match_score":  78,
+        "drug_name":  "Amlodipine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  35,
+        "match_score":  76,
+        "drug_name":  "Clopidogrel"
+    },
+    {
+        "priority":  2,
+        "disease_id":  35,
+        "match_score":  89,
+        "drug_name":  "Losartan"
+    },
+    {
+        "priority":  3,
+        "disease_id":  35,
+        "match_score":  87,
+        "drug_name":  "Carvedilol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  36,
+        "match_score":  94,
+        "drug_name":  "Rivaroxaban"
+    },
+    {
+        "priority":  2,
+        "disease_id":  36,
+        "match_score":  76,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  36,
+        "match_score":  87,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  37,
+        "match_score":  86,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  37,
+        "match_score":  93,
+        "drug_name":  "Nitroglycerin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  37,
+        "match_score":  79,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  38,
+        "match_score":  78,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  38,
+        "match_score":  77,
+        "drug_name":  "Nitroglycerin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  38,
+        "match_score":  97,
+        "drug_name":  "Digoxin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  39,
+        "match_score":  88,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  39,
+        "match_score":  85,
+        "drug_name":  "Aspirin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  39,
+        "match_score":  93,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  1,
+        "disease_id":  40,
+        "match_score":  77,
+        "drug_name":  "Furosemide"
+    },
+    {
+        "priority":  2,
+        "disease_id":  40,
+        "match_score":  76,
+        "drug_name":  "Spironolactone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  40,
+        "match_score":  90,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  41,
+        "match_score":  71,
+        "drug_name":  "Carvedilol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  41,
+        "match_score":  96,
+        "drug_name":  "Digoxin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  41,
+        "match_score":  71,
+        "drug_name":  "Metoprolol"
+    },
+    {
+        "priority":  1,
+        "disease_id":  42,
+        "match_score":  70,
+        "drug_name":  "Simvastatin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  42,
+        "match_score":  88,
+        "drug_name":  "Aspirin"
+    },
+    {
+        "priority":  3,
+        "disease_id":  42,
+        "match_score":  84,
+        "drug_name":  "Amlodipine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  177,
+        "match_score":  80,
+        "drug_name":  "Diazepam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  177,
+        "match_score":  74,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  3,
+        "disease_id":  177,
+        "match_score":  79,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  1,
+        "disease_id":  178,
+        "match_score":  72,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  178,
+        "match_score":  70,
+        "drug_name":  "Olanzapine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  178,
+        "match_score":  71,
+        "drug_name":  "Diazepam"
+    },
+    {
+        "priority":  1,
+        "disease_id":  179,
+        "match_score":  71,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  179,
+        "match_score":  70,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  3,
+        "disease_id":  179,
+        "match_score":  80,
+        "drug_name":  "Valproic acid"
+    },
+    {
+        "priority":  1,
+        "disease_id":  180,
+        "match_score":  95,
+        "drug_name":  "Alprazolam"
+    },
+    {
+        "priority":  2,
+        "disease_id":  180,
+        "match_score":  77,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  3,
+        "disease_id":  180,
+        "match_score":  96,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  181,
+        "match_score":  84,
+        "drug_name":  "Haloperidol"
+    },
+    {
+        "priority":  2,
+        "disease_id":  181,
+        "match_score":  94,
+        "drug_name":  "Olanzapine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  181,
+        "match_score":  87,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  182,
+        "match_score":  88,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  2,
+        "disease_id":  182,
+        "match_score":  74,
+        "drug_name":  "Olanzapine"
+    },
+    {
+        "priority":  3,
+        "disease_id":  182,
+        "match_score":  97,
+        "drug_name":  "Sertraline"
+    },
+    {
+        "priority":  1,
+        "disease_id":  183,
+        "match_score":  70,
+        "drug_name":  "Gabapentin"
+    },
+    {
+        "priority":  2,
+        "disease_id":  183,
+        "match_score":  80,
+        "drug_name":  "Alprazolam"
+    },
+    {
+        "priority":  3,
+        "disease_id":  183,
+        "match_score":  83,
+        "drug_name":  "Citalopram"
+    },
+    {
+        "priority":  1,
+        "disease_id":  184,
+        "match_score":  81,
+        "drug_name":  "Olanzapine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  184,
+        "match_score":  89,
+        "drug_name":  "Alprazolam"
+    },
+    {
+        "priority":  3,
+        "disease_id":  184,
+        "match_score":  86,
+        "drug_name":  "Pregabalin"
+    },
+    {
+        "priority":  1,
+        "disease_id":  185,
+        "match_score":  84,
+        "drug_name":  "Carbamazepine"
+    },
+    {
+        "priority":  2,
+        "disease_id":  185,
+        "match_score":  95,
+        "drug_name":  "Sertraline"
+    },
+    {
+        "priority":  3,
+        "disease_id":  185,
+        "match_score":  71,
+        "drug_name":  "Alprazolam"
+    },
+    {
+        "priority":  1,
+        "disease_id":  186,
+        "match_score":  78,
+        "drug_name":  "Valproic acid"
+    },
+    {
+        "priority":  2,
+        "disease_id":  186,
+        "match_score":  84,
+        "drug_name":  "Risperidone"
+    },
+    {
+        "priority":  3,
+        "disease_id":  186,
+        "match_score":  71,
+        "drug_name":  "Pregabalin"
     }
 ]

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Pill, Users, Brain, ChevronLeft, AlertTriangle, CheckCircle, TrendingUp } from 'lucide-react';
-import client from '@/lib/client';
+import { Activity, Pill, Users, Brain, ChevronLeft, AlertTriangle, CheckCircle, TrendingUp, ExternalLink } from 'lucide-react';
+import client, { api } from '@/lib/client';
 
 const AdminDashboard = () => {
   const [diseases, setDiseases] = useState<any[]>([]);
@@ -13,13 +13,11 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [diseasesRes, drugsRes, mappingsRes] = await Promise.all([
+        const [diseasesRes, mappingsRes] = await Promise.all([
           client.entities.diseases.query({ limit: 100 }),
-          client.entities.drugs.query({ limit: 100 }),
           client.entities.disease_drug_mappings.query({ limit: 100 }),
         ]);
         setDiseases(diseasesRes.data?.items || []);
-        setDrugs(drugsRes.data?.items || []);
         setMappings(mappingsRes.data?.items || []);
       } catch (err) {
         console.error('Failed to fetch admin data:', err);
@@ -85,10 +83,10 @@ const AdminDashboard = () => {
           <div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
               {[
-                { icon: <Pill className="h-6 w-6 text-blue-600" />, label: 'Tổng số thuốc', value: String(drugs.length), color: 'bg-blue-50' },
+                { icon: <Pill className="h-6 w-6 text-blue-600" />, label: 'Tổng số thuốc (OpenFDA)', value: 'API', color: 'bg-blue-50' },
                 { icon: <Activity className="h-6 w-6 text-emerald-600" />, label: 'Tổng số bệnh', value: String(diseases.length), color: 'bg-emerald-50' },
                 { icon: <Users className="h-6 w-6 text-amber-600" />, label: 'Mapping', value: String(mappings.length), color: 'bg-amber-50' },
-                { icon: <Brain className="h-6 w-6 text-purple-600" />, label: 'Nhóm thuốc', value: String(new Set(drugs.map(d => d.group_name)).size), color: 'bg-purple-50' },
+                { icon: <Brain className="h-6 w-6 text-purple-600" />, label: 'Nhóm bệnh', value: String(new Set(diseases.map(d => d.group_name)).size), color: 'bg-purple-50' },
               ].map((stat) => (
                 <div key={stat.label} className="bg-white rounded-2xl p-6 border border-slate-200">
                   <div className="flex items-start justify-between">
@@ -127,41 +125,18 @@ const AdminDashboard = () => {
 
         {/* Drugs Management */}
         {activeTab === 'drugs' && (
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
-            <div className="p-4 border-b border-slate-200 flex items-center justify-between">
-              <h3 className="font-semibold text-slate-900">Danh sách thuốc ({drugs.length})</h3>
-            </div>
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead>
-                  <tr className="border-b border-slate-200 bg-slate-50">
-                    {['Mã', 'Tên thuốc', 'Nhóm', 'Nhà SX', 'Trạng thái', 'Giá'].map((h) => (
-                      <th key={h} className="px-4 py-3 text-left text-xs font-semibold text-slate-500 uppercase">{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {drugs.map((drug) => (
-                    <tr key={drug.id} className="border-b border-slate-100 hover:bg-slate-50">
-                      <td className="px-4 py-3 text-sm font-mono text-slate-500">{drug.code}</td>
-                      <td className="px-4 py-3">
-                        <p className="text-sm font-medium text-slate-900">{drug.name}</p>
-                      </td>
-                      <td className="px-4 py-3">
-                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700">{drug.group_name}</span>
-                      </td>
-                      <td className="px-4 py-3 text-sm text-slate-600">{drug.manufacturer}</td>
-                      <td className="px-4 py-3">
-                        <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${drug.status === 'active' ? 'bg-emerald-50 text-emerald-700' : 'bg-red-50 text-red-600'}`}>
-                          {drug.status === 'active' ? 'Hoạt động' : 'Ngừng'}
-                        </span>
-                      </td>
-                      <td className="px-4 py-3 text-sm text-slate-600">{drug.price}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <h3 className="font-semibold text-slate-900 mb-2">Quản lý thuốc (OpenFDA)</h3>
+            <p className="text-sm text-slate-500 mb-4">
+              Dữ liệu thuốc được lấy trực tiếp từ <a href="https://open.fda.gov" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">OpenFDA</a>.
+              Không có dữ liệu thuốc cục bộ.
+            </p>
+            <Link
+              to="/drugs"
+              className="inline-flex items-center gap-2 text-sm text-blue-600 hover:underline"
+            >
+              <ExternalLink className="h-4 w-4" /> Tra cứu thuốc
+            </Link>
           </div>
         )}
 
@@ -222,11 +197,14 @@ const AdminDashboard = () => {
                 <tbody>
                   {mappings.map((mapping) => {
                     const disease = diseases.find(d => d.id === mapping.disease_id);
-                    const drug = drugs.find(d => d.id === mapping.drug_id);
                     return (
                       <tr key={mapping.id} className="border-b border-slate-100 hover:bg-slate-50">
                         <td className="px-4 py-3 text-sm text-slate-900">{disease?.name || `ID: ${mapping.disease_id}`}</td>
-                        <td className="px-4 py-3 text-sm text-slate-900">{drug?.name || `ID: ${mapping.drug_id}`}</td>
+                        <td className="px-4 py-3 text-sm text-slate-900">
+                          <Link to={`/drug/${encodeURIComponent(mapping.drug_name)}`} className="text-blue-600 hover:underline inline-flex items-center gap-1">
+                            {mapping.drug_name} <ExternalLink className="h-3 w-3" />
+                          </Link>
+                        </td>
                         <td className="px-4 py-3 text-sm text-slate-600">#{mapping.priority}</td>
                         <td className="px-4 py-3">
                           <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700">

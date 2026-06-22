@@ -16,7 +16,7 @@ const SearchPage = () => {
   useEffect(() => {
     const fetchDiseases = async () => {
       try {
-        const response = await client.entities.diseases.query({});
+        const response = await client.entities.diseases.query({ limit: 1000 });
         setDiseases(response.data?.items || []);
       } catch (err) {
         console.error('Failed to fetch diseases:', err);

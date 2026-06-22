@@ -18,6 +18,39 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/v1/entities/drugs", tags=["drugs"])
 
 
+@router.get("/search")
+async def search_drugs_fast(
+    query: str = Query("", description="Search query for drug name"),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=100),
+    db: Session = Depends(get_db),
+):
+    """Search drugs - local DB first, then OpenFDA fallback."""
+    service = DrugsService(db=db)
+    try:
+        return await service.search_by_name(query, limit=limit, skip=skip)
+    except Exception as e:
+        logger.error(f"Error searching drugs: {str(e)}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+
+@router.get("/local")
+def search_drugs_local(
+    query: str = Query("", description="Search query"),
+    skip: int = Query(0, ge=0),
+    limit: int = Query(20, ge=1, le=200),
+    db: Session = Depends(get_db),
+):
+    """Search drugs in local database only."""
+    from services.local_drugs import LocalDrugsService
+    service = LocalDrugsService(db)
+    try:
+        return service.search_by_name(query, skip=skip, limit=limit)
+    except Exception as e:
+        logger.error(f"Error querying local drugs: {str(e)}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+
 # ---------- Pydantic Schemas ----------
 class DrugsData(BaseModel):
     """Entity data schema (for create/update)"""

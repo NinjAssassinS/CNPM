@@ -9,7 +9,6 @@ from models.disease_drug_mappings import Disease_drug_mappings
 logger = logging.getLogger(__name__)
 
 
-# ------------------ Service Layer ------------------
 class Disease_drug_mappingsService:
     """Service layer for Disease_drug_mappings operations"""
 
@@ -17,7 +16,6 @@ class Disease_drug_mappingsService:
         self.db = db
 
     def create(self, data: Dict[str, Any]) -> Optional[Disease_drug_mappings]:
-        """Create a new disease_drug_mappings"""
         try:
             obj = Disease_drug_mappings(**data)
             self.db.add(obj)
@@ -31,7 +29,6 @@ class Disease_drug_mappingsService:
             raise
 
     def get_by_id(self, obj_id: int) -> Optional[Disease_drug_mappings]:
-        """Get disease_drug_mappings by ID"""
         try:
             query = select(Disease_drug_mappings).where(Disease_drug_mappings.id == obj_id)
             result = self.db.execute(query)
@@ -47,7 +44,6 @@ class Disease_drug_mappingsService:
         query_dict: Optional[Dict[str, Any]] = None,
         sort: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """Get paginated list of disease_drug_mappingss"""
         try:
             query = select(Disease_drug_mappings)
             count_query = select(func.count(Disease_drug_mappings.id))
@@ -86,7 +82,6 @@ class Disease_drug_mappingsService:
             raise
 
     def update(self, obj_id: int, update_data: Dict[str, Any]) -> Optional[Disease_drug_mappings]:
-        """Update disease_drug_mappings"""
         try:
             obj = self.get_by_id(obj_id)
             if not obj:
@@ -106,7 +101,6 @@ class Disease_drug_mappingsService:
             raise
 
     def delete(self, obj_id: int) -> bool:
-        """Delete disease_drug_mappings"""
         try:
             obj = self.get_by_id(obj_id)
             if not obj:
@@ -122,7 +116,6 @@ class Disease_drug_mappingsService:
             raise
 
     def get_by_field(self, field_name: str, field_value: Any) -> Optional[Disease_drug_mappings]:
-        """Get disease_drug_mappings by any field"""
         try:
             if not hasattr(Disease_drug_mappings, field_name):
                 raise ValueError(f"Field {field_name} does not exist on Disease_drug_mappings")
@@ -137,7 +130,6 @@ class Disease_drug_mappingsService:
     def list_by_field(
         self, field_name: str, field_value: Any, skip: int = 0, limit: int = 20
     ) -> List[Disease_drug_mappings]:
-        """Get list of disease_drug_mappingss filtered by field"""
         try:
             if not hasattr(Disease_drug_mappings, field_name):
                 raise ValueError(f"Field {field_name} does not exist on Disease_drug_mappings")

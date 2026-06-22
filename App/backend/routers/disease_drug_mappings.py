@@ -21,7 +21,7 @@ router = APIRouter(prefix="/api/v1/entities/disease_drug_mappings", tags=["disea
 class Disease_drug_mappingsData(BaseModel):
     """Entity data schema (for create/update)"""
     disease_id: int
-    drug_id: int
+    drug_name: str
     priority: int
     match_score: int = None
 
@@ -29,7 +29,7 @@ class Disease_drug_mappingsData(BaseModel):
 class Disease_drug_mappingsUpdateData(BaseModel):
     """Update entity data (partial updates allowed)"""
     disease_id: Optional[int] = None
-    drug_id: Optional[int] = None
+    drug_name: Optional[str] = None
     priority: Optional[int] = None
     match_score: Optional[int] = None
 
@@ -38,7 +38,7 @@ class Disease_drug_mappingsResponse(BaseModel):
     """Entity response schema"""
     id: int
     disease_id: int
-    drug_id: int
+    drug_name: str
     priority: int
     match_score: Optional[int] = None
     created_at: Optional[datetime] = None
@@ -92,7 +92,6 @@ def query_disease_drug_mappingss(
     
     service = Disease_drug_mappingsService(db)
     try:
-        # Parse query JSON if provided
         query_dict = None
         if query:
             try:
@@ -124,12 +123,10 @@ def query_disease_drug_mappingss_all(
     fields: str = Query(None, description="Comma-separated list of fields to return"),
     db: Session = Depends(get_db),
 ):
-    # Query disease_drug_mappingss with filtering, sorting, and pagination without user limitation
     logger.debug(f"Querying disease_drug_mappingss: query={query}, sort={sort}, skip={skip}, limit={limit}, fields={fields}")
 
     service = Disease_drug_mappingsService(db)
     try:
-        # Parse query JSON if provided
         query_dict = None
         if query:
             try:
@@ -238,7 +235,6 @@ def update_disease_drug_mappingss_batch(
     
     try:
         for item in request.items:
-            # Only include non-None values for partial updates
             update_dict = {k: v for k, v in item.updates.model_dump().items() if v is not None}
             result = service.update(item.id, update_dict)
             if result:
@@ -263,7 +259,6 @@ def update_disease_drug_mappings(
 
     service = Disease_drug_mappingsService(db)
     try:
-        # Only include non-None values for partial updates
         update_dict = {k: v for k, v in data.model_dump().items() if v is not None}
         result = service.update(id, update_dict)
         if not result:

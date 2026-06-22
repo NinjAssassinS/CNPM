@@ -1,6 +1,6 @@
 from core.database import Base
 from datetime import datetime
-from sqlalchemy import Column, DateTime, Integer
+from sqlalchemy import Column, DateTime, Integer, Unicode
 
 
 class Disease_drug_mappings(Base):
@@ -9,7 +9,7 @@ class Disease_drug_mappings(Base):
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True, nullable=False)
     disease_id = Column(Integer, nullable=False)
-    drug_id = Column(Integer, nullable=False)
+    drug_name = Column(Unicode(500), nullable=False)
     priority = Column(Integer, nullable=False)
     match_score = Column(Integer, nullable=True)
     created_at = Column(DateTime, default=datetime.now)

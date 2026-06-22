@@ -1,65 +1,57 @@
 import logging
-from typing import Optional, Dict, Any, List
+from typing import Any, Dict, List, Optional
 
 from sqlalchemy import select, func
 from sqlalchemy.orm import Session
 
 from models.drugs import Drugs
+from services.openfda import OpenFDAService
 
 logger = logging.getLogger(__name__)
 
 
-# ------------------ Service Layer ------------------
 class DrugsService:
-    """Service layer for Drugs operations"""
+    """Service layer for Drugs - checks local DB first, then falls back to OpenFDA API."""
 
-    def __init__(self, db: Session):
+    def __init__(self, db: Optional[Session] = None):
         self.db = db
+        self.fda = OpenFDAService()
 
-    def create(self, data: Dict[str, Any]) -> Optional[Drugs]:
-        """Create a new drugs"""
-        try:
-            obj = Drugs(**data)
-            self.db.add(obj)
-            self.db.commit()
-            self.db.refresh(obj)
-            logger.info(f"Created drugs with id: {obj.id}")
-            return obj
-        except Exception as e:
-            self.db.rollback()
-            logger.error(f"Error creating drugs: {str(e)}")
-            raise
+    def _get_local(self):
+        if not self.db:
+            return None
+        from services.local_drugs import LocalDrugsService
+        return LocalDrugsService(self.db)
 
     def get_by_id(self, obj_id: int) -> Optional[Drugs]:
-        """Get drugs by ID"""
+        """Get drug by ID from local database."""
         try:
             query = select(Drugs).where(Drugs.id == obj_id)
             result = self.db.execute(query)
             return result.scalar_one_or_none()
         except Exception as e:
-            logger.error(f"Error fetching drugs {obj_id}: {str(e)}")
+            logger.error(f"Error fetching drug {obj_id}: {str(e)}")
             raise
 
     def get_list(
-        self, 
-        skip: int = 0, 
-        limit: int = 20, 
+        self,
+        skip: int = 0,
+        limit: int = 20,
         query_dict: Optional[Dict[str, Any]] = None,
         sort: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """Get paginated list of drugss"""
+        """Get paginated list of drugs from local database."""
         try:
             query = select(Drugs)
             count_query = select(func.count(Drugs.id))
-            
+
             if query_dict:
                 for field, value in query_dict.items():
                     if hasattr(Drugs, field):
                         query = query.where(getattr(Drugs, field) == value)
                         count_query = count_query.where(getattr(Drugs, field) == value)
-            
-            count_result = self.db.execute(count_query)
-            total = count_result.scalar()
+
+            total = self.db.execute(count_query).scalar()
 
             if sort:
                 if sort.startswith('-'):
@@ -85,70 +77,72 @@ class DrugsService:
             logger.error(f"Error fetching drugs list: {str(e)}")
             raise
 
-    def update(self, obj_id: int, update_data: Dict[str, Any]) -> Optional[Drugs]:
-        """Update drugs"""
+    async def search_by_name(self, query: str = "", limit: int = 20, skip: int = 0) -> Dict[str, Any]:
+        local = self._get_local()
+        if local:
+            result = local.search_by_name(query, skip=skip, limit=limit)
+            if result.get("items"):
+                return result
+
         try:
-            obj = self.get_by_id(obj_id)
-            if not obj:
-                logger.warning(f"Drugs {obj_id} not found for update")
+            result = await self.fda.search_drug_label(
+                search=f"openfda.brand_name:{query} OR openfda.generic_name:{query}",
+                limit=limit, skip=skip,
+            )
+            if result.get("error"):
+                return {"items": [], "total": 0, "skip": skip, "limit": limit}
+            items = [self._format_fda(r) for r in result.get("results", [])]
+            return {
+                "items": items,
+                "total": result.get("meta", {}).get("results", {}).get("total", len(items)),
+                "skip": skip, "limit": limit,
+            }
+        except Exception as e:
+            logger.error(f"Error searching drugs from FDA: {str(e)}")
+            return {"items": [], "total": 0, "skip": skip, "limit": limit}
+
+    async def get_by_generic_name(self, generic_name: str) -> Optional[Dict[str, Any]]:
+        local = self._get_local()
+        if local:
+            drug = local.get_by_generic_name(generic_name)
+            if drug:
+                return drug
+
+        try:
+            result = await self.fda.get_drug_label_by_generic(generic_name, limit=1)
+            if result.get("error") or not result.get("results"):
                 return None
-            for key, value in update_data.items():
-                if hasattr(obj, key):
-                    setattr(obj, key, value)
-
-            self.db.commit()
-            self.db.refresh(obj)
-            logger.info(f"Updated drugs {obj_id}")
-            return obj
+            return self._format_fda(result["results"][0])
         except Exception as e:
-            self.db.rollback()
-            logger.error(f"Error updating drugs {obj_id}: {str(e)}")
-            raise
+            logger.error(f"Error fetching drug {generic_name}: {str(e)}")
+            return None
 
-    def delete(self, obj_id: int) -> bool:
-        """Delete drugs"""
-        try:
-            obj = self.get_by_id(obj_id)
-            if not obj:
-                logger.warning(f"Drugs {obj_id} not found for deletion")
-                return False
-            self.db.delete(obj)
-            self.db.commit()
-            logger.info(f"Deleted drugs {obj_id}")
-            return True
-        except Exception as e:
-            self.db.rollback()
-            logger.error(f"Error deleting drugs {obj_id}: {str(e)}")
-            raise
+    async def get_enriched(self, brand_name: str = "", generic_name: str = "") -> Dict[str, Any]:
+        return await self.fda.enrich_drug_info(brand_name=brand_name, generic_name=generic_name)
 
-    def get_by_field(self, field_name: str, field_value: Any) -> Optional[Drugs]:
-        """Get drugs by any field"""
-        try:
-            if not hasattr(Drugs, field_name):
-                raise ValueError(f"Field {field_name} does not exist on Drugs")
-            result = self.db.execute(
-                select(Drugs).where(getattr(Drugs, field_name) == field_value)
-            )
-            return result.scalar_one_or_none()
-        except Exception as e:
-            logger.error(f"Error fetching drugs by {field_name}: {str(e)}")
-            raise
+    def _format_fda(self, raw: Dict[str, Any]) -> Dict[str, Any]:
+        openfda = raw.get("openfda") or {}
+        brand = (openfda.get("brand_name") or [None])[0]
+        generic = (openfda.get("generic_name") or [None])[0]
+        mfr = (openfda.get("manufacturer_name") or [None])[0]
 
-    def list_by_field(
-        self, field_name: str, field_value: Any, skip: int = 0, limit: int = 20
-    ) -> List[Drugs]:
-        """Get list of drugss filtered by field"""
-        try:
-            if not hasattr(Drugs, field_name):
-                raise ValueError(f"Field {field_name} does not exist on Drugs")
-            result = self.db.execute(
-                select(Drugs)
-                .where(getattr(Drugs, field_name) == field_value)
-                .offset(skip)
-                .limit(limit)
-                .order_by(Drugs.id.desc())
-            )
-            return result.scalars().all()
-        except Exception as e:
-            logger.error(f"Error fetching drugss by {field_name}: {str(e)}")
-            raise
+        return {
+            "id": (openfda.get("spl_id") or [None])[0] or hash(brand or generic or ""),
+            "code": (openfda.get("product_ndc") or [None])[0] or "",
+            "name": brand or generic or "Unknown",
+            "generic_name": generic or "",
+            "group_name": "FDA",
+            "manufacturer": mfr or "FDA",
+            "status": "active",
+            "rating": 0,
+            "price": "",
+            "component": generic or "",
+            "usage_info": (raw.get("indications_and_usage") or [""])[0] or (raw.get("purpose") or [""])[0] or "",
+            "dosage": (raw.get("dosage_and_administration") or [""])[0] or "",
+            "side_effects": (raw.get("adverse_reactions") or [""])[0] or "",
+            "contraindications": (raw.get("contraindications") or [""])[0] or "",
+            "data_source": "openfda",
+            "fda_data": {
+                "label": self.fda._extract_label_summary(raw) if hasattr(self.fda, '_extract_label_summary') else {},
+            },
+        }

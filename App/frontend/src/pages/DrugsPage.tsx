@@ -19,7 +19,7 @@ const DrugsPage = () => {
   useEffect(() => {
     const fetchDrugs = async () => {
       try {
-        const response = await client.entities.drugs.query({ limit: 100 });
+        const response = await client.entities.drugs.query({ limit: 1000 });
         setDrugs(response.data?.items || []);
       } catch (err) {
         console.error('Failed to fetch drugs:', err);

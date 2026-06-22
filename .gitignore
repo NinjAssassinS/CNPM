@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+.pnpm-store/
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+
+# Project specific
+App/.mgx/
+App/frontend/.mgx/
+.atoms/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3

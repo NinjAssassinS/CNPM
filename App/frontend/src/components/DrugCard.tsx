@@ -11,6 +11,7 @@ interface Drug {
   usage_info: string;
   code?: string;
   match_score?: number;
+  data_source?: string;
 }
 
 interface DrugCardProps {
@@ -35,9 +36,21 @@ const DrugCard = ({ drug, isSaved, onSaveToggle }: DrugCardProps) => {
               <h4 className="font-semibold text-slate-900 text-sm">{drug.name}</h4>
               <p className="text-xs text-slate-500 mt-0.5">{drug.manufacturer}</p>
             </div>
-            <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 whitespace-nowrap">
-              {drug.group_name}
-            </span>
+            <div className="flex gap-1.5">
+              <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 whitespace-nowrap">
+                {drug.group_name}
+              </span>
+              {drug.data_source === 'local' && (
+                <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-50 text-emerald-700 whitespace-nowrap">
+                  CSDL
+                </span>
+              )}
+              {drug.data_source === 'openfda' && (
+                <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-amber-50 text-amber-700 whitespace-nowrap">
+                  openFDA
+                </span>
+              )}
+            </div>
           </div>
 
           {drug.usage_info && (
